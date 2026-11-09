@@ -20,7 +20,7 @@ All hooks are optional. The engine runs them in this order.
 |---|---|---|
 | `questions` | `Question[]` | Ask the parent something. Answers arrive in `ctx.answers[question.id]`. |
 | `filter` | `(recipe, ctx) => boolean \| string` | Hide a recipe. Return `false`, or a string that says why. |
-| `score` | `(recipe, ctx) => number \| { score, reason }` | Add points. The engine multiplies by `weight` and sums all skills. A `reason` is shown on the card ("Freezes well"). |
+| `score` | `(recipe, ctx) => number \| { score, reason, match }` | Add points. The engine multiplies by `weight` and sums all skills. A `reason` is shown on the card ("Freezes well"). `match: false` means "not what the parent asked for": the recipe goes under "Something different". |
 | `adapt` | `(prepared, ctx) => prepared` | Change the recipe before cooking: add tips, rewrite steps. Return a new object; do not mutate. |
 
 `ctx` holds `answers` (all onboarding answers), `history` (recipe ids cooked before, newest

@@ -31,6 +31,12 @@ export function cuisineLabel(c: string): string {
   return c.split("-").map((w) => w[0].toUpperCase() + w.slice(1)).join(" ");
 }
 
+/** "Indian", "Indian or Thai", "Indian, Thai or Korean" for the parent's chosen cuisines. */
+export function cuisineNames(chosen: string | string[] | undefined): string {
+  const names = (Array.isArray(chosen) ? chosen : chosen ? [chosen] : []).map(cuisineLabel);
+  return names.length > 1 ? `${names.slice(0, -1).join(", ")} or ${names.at(-1)}` : (names[0] ?? "");
+}
+
 export function totalMinutes(r: Recipe): number {
   return r.prepMinutes + r.cookMinutes;
 }

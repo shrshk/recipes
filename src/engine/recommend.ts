@@ -20,6 +20,7 @@ export function activeSkills(skills: Skill[], toggles: SkillToggles = {}): Skill
 /**
  * Rank recipes. Each skill may hide a recipe (`filter`) or add points (`score` x `weight`).
  * Reasons from the top-scoring skills are kept, so the UI can say why a recipe was picked.
+ * Recipes a skill marks as not matching the parent's choice (`match: false`) come last.
  */
 export function recommend(
   recipes: Recipe[],
@@ -33,20 +34,22 @@ export function recommend(
   for (const recipe of recipes) {
     if (on.some((s) => s.filter && isRejected(s.filter(recipe, ctx)))) continue;
     let score = 0;
+    let offTarget = false;
     const reasons: { text: string; points: number }[] = [];
     for (const s of on) {
       if (!s.score) continue;
       const raw = s.score(recipe, ctx);
-      const { score: points, reason } = typeof raw === "number" ? { score: raw, reason: undefined } : raw;
+      const { score: points, reason, match } = typeof raw === "number" ? { score: raw, reason: undefined, match: undefined } : raw;
+      if (match === false) offTarget = true;
       const weighted = points * (s.weight ?? 1);
       score += weighted;
       if (reason && weighted > 0) reasons.push({ text: reason, points: weighted });
     }
     reasons.sort((a, b) => b.points - a.points);
-    ranked.push({ recipe, score, reasons: reasons.slice(0, 3).map((r) => r.text) });
+    ranked.push({ recipe, score, reasons: reasons.slice(0, 3).map((r) => r.text), offTarget });
   }
 
-  ranked.sort((a, b) => b.score - a.score || a.recipe.title.localeCompare(b.recipe.title));
+  ranked.sort((a, b) => Number(a.offTarget) - Number(b.offTarget) || b.score - a.score || a.recipe.title.localeCompare(b.recipe.title));
   return ranked.slice(0, limit);
 }
 

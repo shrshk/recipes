@@ -120,6 +120,7 @@ p { margin: 0; }
 .bottom-bar > div { max-width: 720px; margin: 0 auto; display: flex; gap: 10px; }
 
 /* Cards */
+.section-title { font-size: 20px; margin: 34px 0 14px; }
 .cards { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
 .card {
   padding: 0;

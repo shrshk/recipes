@@ -38,6 +38,12 @@ export interface SkillContext {
 export interface Scored {
   score: number;
   reason?: string;
+  /**
+   * Whether the recipe fits something the parent explicitly asked for (e.g. a cuisine).
+   * `false` puts it below every recipe that fits and marks it `offTarget`. Leave it out when
+   * the parent asked for nothing.
+   */
+  match?: boolean;
 }
 
 /**
@@ -69,6 +75,8 @@ export interface Recommendation {
   recipe: Recipe;
   score: number;
   reasons: string[];
+  /** A skill said this recipe is not what the parent asked for. It ranks after those that are. */
+  offTarget: boolean;
 }
 
 /** A parent's changes to one recipe before cooking. */

@@ -30,6 +30,17 @@ describe("recommend with the built-in skills", () => {
     expect(top.reasons).toContain("Chinese favourite");
   });
 
+  it("keeps other cuisines below the chosen one, marked as off target", () => {
+    // Your own, very popular taco recipe would outscore congee on points alone.
+    const tacos = makeRecipe({ id: "my-tacos", title: "My Tacos", cuisine: "mexican", allergens: [], popularity: 1, basedOn: "tacos" });
+    const ranked = recommend([tacos, congee], skills, ctx({ cuisines: ["chinese"] }));
+    expect(ranked.map((r) => [r.recipe.id, r.offTarget])).toEqual([["congee", false], ["my-tacos", true]]);
+  });
+
+  it("marks nothing off target without a cuisine choice", () => {
+    expect(recommend([pancakes, congee], skills, ctx({})).some((r) => r.offTarget)).toBe(false);
+  });
+
   it("pushes down a recipe cooked yesterday", () => {
     const [top] = recommend([pancakes, congee], skills, ctx({}, ["congee"]));
     expect(top.recipe.id).toBe("test-pancakes");

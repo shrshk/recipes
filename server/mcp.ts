@@ -69,7 +69,7 @@ export function createMcpServer(kb: Recipe[], store: CustomStore): McpServer {
         limit: limit ?? 10,
         toggles: meal ? {} : { meal: false },
       });
-      return text(ranked.map((p) => ({ ...summary(p.recipe, customIds.has(p.recipe.id)), why: p.reasons })));
+      return text(ranked.map((p) => ({ ...summary(p.recipe, customIds.has(p.recipe.id)), why: p.reasons, ...(p.offTarget ? { otherCuisine: true } : {}) })));
     },
   );
 

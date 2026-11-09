@@ -14,7 +14,7 @@ const label = Object.fromEntries(CUISINES.map(([v, l]) => [v, l]));
 export default defineSkill({
   id: "cuisine",
   name: "Favourite cuisines",
-  description: "Puts the cuisines your toddler loves first. Others still show, lower down.",
+  description: "Puts the cuisines your toddler loves first. Others show below, under Something different.",
   weight: 3,
   questions: [
     {
@@ -29,6 +29,8 @@ export default defineSkill({
   score(recipe, { answers }) {
     const liked = many(answers, "cuisines");
     if (!liked.length || liked.includes("global")) return 0;
-    return liked.includes(recipe.cuisine) ? { score: 1, reason: `${label[recipe.cuisine]} favourite` } : 0;
+    return liked.includes(recipe.cuisine)
+      ? { score: 1, reason: `${label[recipe.cuisine]} favourite`, match: true }
+      : { score: 0, match: false };
   },
 });
