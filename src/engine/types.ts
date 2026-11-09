@@ -1,6 +1,6 @@
 import type { Recipe } from "../kb/schema";
 
-/** One choice in an onboarding question. */
+/** One choice in a home-screen question. */
 export interface Choice {
   value: string;
   label: string;
@@ -8,7 +8,7 @@ export interface Choice {
 }
 
 /**
- * A question shown in the onboarding flow. Core questions and skill questions use the same
+ * A question shown on the home screen. Core questions and skill questions use the same
  * shape, so a skill can ask the parent anything it needs (see docs/SKILLS.md).
  */
 export interface Question {

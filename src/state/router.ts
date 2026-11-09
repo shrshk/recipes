@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 
 export type Route =
   | { name: "home" }
-  | { name: "ask"; step: number }
   | { name: "picks" }
   | { name: "recipe"; id: string }
   | { name: "cook"; id: string }
@@ -12,7 +11,6 @@ export type Route =
 export function parseRoute(hash: string): Route {
   const [name, arg] = hash.replace(/^#\/?/, "").split("/");
   switch (name) {
-    case "ask": return { name: "ask", step: Number(arg) || 0 };
     case "picks": return { name: "picks" };
     case "recipe": return arg ? { name: "recipe", id: arg } : { name: "picks" };
     case "cook": return arg ? { name: "cook", id: arg } : { name: "picks" };
@@ -25,7 +23,6 @@ export function parseRoute(hash: string): Route {
 export function href(route: Route): string {
   switch (route.name) {
     case "home": return "#/";
-    case "ask": return `#/ask/${route.step}`;
     case "picks": case "settings": return `#/${route.name}`;
     default: return `#/${route.name}/${route.id}`;
   }

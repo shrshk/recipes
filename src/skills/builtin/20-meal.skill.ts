@@ -18,7 +18,7 @@ export default defineSkill({
       id: "meal",
       title: "Which meal are we making?",
       kind: "single",
-      order: 20,
+      order: 0,
       choices: [
         { value: "breakfast", label: "Breakfast", emoji: "🌅" },
         { value: "lunch", label: "Lunch", emoji: "☀️" },

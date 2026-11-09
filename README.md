@@ -42,7 +42,7 @@ src/skills/
   builtin/*.skill.ts       cuisine, meal, time, allergens, age, picky, popular, variety, safety
   community/*.skill.ts     your skills go here (example: batch-cook-sunday)
 src/ui/actions/scenes/     one animated scene per cooking action
-src/ui/screens/            Home -> Ask -> Picks -> Recipe -> Cook -> Done, plus Settings
+src/ui/screens/            Home (meal + preferences) -> Picks -> Recipe -> Cook -> Done, plus Settings
 server/                    one Node process: the app, /api/custom-recipes, /mcp (or --stdio)
 ```
 

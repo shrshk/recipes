@@ -8,7 +8,6 @@ import { useRoute, go } from "./state/router";
 import { useHistory, usePersisted } from "./state/store";
 import { useCustomRecipes } from "./state/custom";
 import { Home } from "./ui/screens/Home";
-import { Ask } from "./ui/screens/Ask";
 import { Picks } from "./ui/screens/Picks";
 import { RecipeScreen } from "./ui/screens/RecipeScreen";
 import { Cook } from "./ui/screens/Cook";
@@ -36,10 +35,7 @@ export function App() {
   let screen;
   switch (route.name) {
     case "home":
-      screen = <Home hasAnswers={Object.keys(answers).length > 0} />;
-      break;
-    case "ask":
-      screen = <Ask step={route.step} answers={answers} setAnswers={setAnswers} toggles={toggles} />;
+      screen = <Home answers={answers} setAnswers={setAnswers} toggles={toggles} />;
       break;
     case "picks":
       screen = <Picks recipes={recipes} customIds={customIds} ctx={ctx} toggles={toggles} setAnswers={setAnswers} />;
@@ -64,7 +60,7 @@ export function App() {
       }
   }
 
-  const key = "id" in route ? `${route.name}/${route.id}` : route.name === "ask" ? `ask/${route.step}` : route.name;
+  const key = "id" in route ? `${route.name}/${route.id}` : route.name;
   return (
     <MotionConfig reducedMotion="user">
       <AnimatePresence mode="wait" initial={false}>

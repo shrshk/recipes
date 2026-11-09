@@ -20,7 +20,7 @@ export function Picks({ recipes, customIds, ctx, toggles, setAnswers }: {
   return (
     <Page>
       <TopBar back={{ name: "home" }}>
-        <button className="btn ghost" onClick={() => go({ name: "ask", step: 0 })}>Change answers</button>
+        <button className="btn ghost" onClick={() => go({ name: "home" })}>Change</button>
       </TopBar>
       <h2>{greeting ? `Ideas for ${greeting}` : "Picked for your little one"}</h2>
       <p className="muted" style={{ margin: "6px 0 20px" }}>

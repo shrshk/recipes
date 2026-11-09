@@ -80,16 +80,30 @@ p { margin: 0; }
 .brand { font-family: var(--display); font-weight: 700; font-size: 20px; display: flex; gap: 8px; align-items: center; }
 
 /* Home */
-.hero { min-height: 72dvh; display: grid; align-content: center; gap: 22px; position: relative; }
-.hero-food { position: absolute; font-size: 44px; pointer-events: none; user-select: none; z-index: 0; }
-.hero > :not(.hero-food) { position: relative; z-index: 1; }
-.hero h1 em { font-style: italic; color: var(--accent); }
+.home-head { position: relative; padding: 52px 0 22px; }
+.home-head h1 { position: relative; z-index: 1; max-width: 16ch; }
+.home-head h1 em { font-style: italic; color: var(--accent); }
+.hero-food { position: absolute; font-size: 30px; opacity: 0.8; pointer-events: none; user-select: none; z-index: 0; }
+.meal-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+@media (min-width: 600px) { .meal-grid { grid-template-columns: repeat(4, 1fr); } }
+.meal-tile {
+  display: grid; justify-items: center; gap: 6px; padding: 18px 8px; border-radius: var(--radius);
+  background: var(--surface); box-shadow: var(--shadow); font-weight: 800; font-size: 17px;
+  border: 3px solid transparent;
+}
+.meal-tile.on { border-color: var(--accent); color: var(--accent); background: color-mix(in srgb, var(--accent) 8%, var(--surface)); }
+.meal-emoji { font-size: 44px; line-height: 1; }
+.prefs { margin: 30px 0 110px; display: grid; gap: 14px; }
+.prefs-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.prefs-head h2 { font-size: 22px; }
+.pref { display: grid; gap: 8px; padding-bottom: 6px; }
+.pref h3 { font-size: 17px; }
+.pref .muted { font-size: 14px; margin-top: -4px; }
+.prefs-summary { display: flex; flex-wrap: wrap; gap: 6px; text-align: left; padding: 14px; border-radius: var(--radius); background: var(--surface); box-shadow: var(--shadow); }
+
 .lede { font-size: 19px; color: var(--muted); max-width: 30ch; }
 
-/* Questions */
-.progress-dots { display: flex; gap: 6px; }
-.progress-dots span { height: 6px; border-radius: 3px; background: var(--line); flex: 1; }
-.progress-dots span.on { background: var(--accent); }
+/* Chips */
 .chips { display: flex; flex-wrap: wrap; gap: 10px; }
 .chip {
   display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 0 18px;

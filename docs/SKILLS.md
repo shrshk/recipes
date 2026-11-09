@@ -8,7 +8,7 @@ own without touching the engine.
 
 1. Copy `src/skills/community/batch-cook-sunday.skill.ts` to `src/skills/community/<your-id>.skill.ts`.
 2. Change the `id`, `name` and `description`, and the hooks.
-3. Run `pnpm dev`. The skill shows in Settings and its questions show in the onboarding flow.
+3. Run `pnpm dev`. The skill shows in Settings and its questions show on the home screen.
 
 Any `*.skill.ts` file under `src/skills/` is found at build time. There is no list to edit.
 
