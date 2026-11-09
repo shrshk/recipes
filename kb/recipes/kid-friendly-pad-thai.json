@@ -1,0 +1,112 @@
+{
+  "id": "kid-friendly-pad-thai",
+  "title": "Kid-Friendly Chicken Pad Thai",
+  "summary": "Mild pad thai with short noodles and chicken, no chilli.",
+  "cuisine": "thai",
+  "meals": [
+    "dinner"
+  ],
+  "minAgeMonths": 18,
+  "prepMinutes": 15,
+  "cookMinutes": 15,
+  "yield": 4,
+  "difficulty": "medium",
+  "tags": [
+    "family-meal",
+    "protein-packed"
+  ],
+  "allergens": [
+    "egg",
+    "soy",
+    "peanut",
+    "fish",
+    "gluten",
+    "wheat"
+  ],
+  "ingredients": [
+    {
+      "id": "noodles",
+      "name": "flat rice noodles",
+      "qty": 60,
+      "unit": "g"
+    },
+    {
+      "id": "chicken",
+      "name": "chicken breast",
+      "qty": 60,
+      "unit": "g",
+      "note": "finely diced"
+    },
+    {
+      "id": "egg",
+      "name": "egg",
+      "qty": 1,
+      "unit": ""
+    },
+    {
+      "id": "veg",
+      "name": "bean sprouts and carrot",
+      "qty": 0.5,
+      "unit": "cup",
+      "note": "chopped small"
+    },
+    {
+      "id": "sauce",
+      "name": "pad thai sauce",
+      "qty": 3,
+      "unit": "tbsp"
+    },
+    {
+      "id": "oil",
+      "name": "oil",
+      "qty": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "peanut",
+      "name": "crushed peanuts",
+      "qty": 1,
+      "unit": "tbsp",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Soak {noodles} in hot water until soft."
+    },
+    {
+      "text": "Cut the noodles short."
+    },
+    {
+      "text": "Cook {chicken} in {oil}.",
+      "minutes": 6
+    },
+    {
+      "text": "Add {veg} and soft noodles. Stir in {sauce}."
+    },
+    {
+      "text": "Push aside, scramble {egg}, then mix in.",
+      "minutes": 3
+    },
+    {
+      "text": "Top with {peanut}.",
+      "requires": [
+        "peanut"
+      ]
+    }
+  ],
+  "toddlerTips": [
+    "Peanuts must be finely ground, not whole.",
+    "Cut noodles short.",
+    "Choose a low-salt sauce."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://venisonfordinner.com/real-food-kid-friendly-phad-thai/",
+      "title": "Real Food Kid Friendly Phad Thai",
+      "author": "Venison for Dinner"
+    }
+  ],
+  "popularity": 0.55
+}

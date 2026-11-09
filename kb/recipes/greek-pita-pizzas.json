@@ -1,0 +1,98 @@
+{
+  "id": "greek-pita-pizzas",
+  "title": "Greek Pita Pizzas",
+  "summary": "Mini pitas with tomato, mild cheese and soft veg.",
+  "cuisine": "greek",
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 8,
+  "difficulty": "easy",
+  "tags": [
+    "finger-food",
+    "quick",
+    "family-meal"
+  ],
+  "allergens": [
+    "dairy",
+    "gluten",
+    "wheat"
+  ],
+  "ingredients": [
+    {
+      "id": "pita",
+      "name": "mini pitas",
+      "qty": 4,
+      "unit": ""
+    },
+    {
+      "id": "sauce",
+      "name": "tomato sauce",
+      "qty": 0.25,
+      "unit": "cup"
+    },
+    {
+      "id": "cheese",
+      "name": "mozzarella or feta",
+      "qty": 0.5,
+      "unit": "cup",
+      "substitutes": [
+        {
+          "name": "dairy-free cheese"
+        }
+      ]
+    },
+    {
+      "id": "olives",
+      "name": "pitted olives",
+      "qty": 4,
+      "unit": "",
+      "note": "finely chopped",
+      "optional": true
+    },
+    {
+      "id": "cucumber",
+      "name": "cucumber",
+      "qty": 0.25,
+      "unit": "",
+      "note": "thin slices",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat the oven to 200C/400F."
+    },
+    {
+      "text": "Spread {sauce} on each of the {pita}."
+    },
+    {
+      "text": "Add {cheese} and {olives}."
+    },
+    {
+      "text": "Bake until the cheese melts.",
+      "minutes": 8
+    },
+    {
+      "text": "Top with {cucumber}, then cool and cut in strips.",
+      "tip": "Chop olives small."
+    }
+  ],
+  "toddlerTips": [
+    "Olives and feta are salty; keep portions small.",
+    "Cut into strips."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.yummytoddlerfood.com/greek-pita-pizzas/",
+      "title": "Greek Pita Pizzas",
+      "author": "Yummy Toddler Food"
+    }
+  ],
+  "popularity": 0.5,
+  "yield": 4
+}

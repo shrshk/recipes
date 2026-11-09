@@ -1,0 +1,97 @@
+{
+  "id": "toddler-pho-noodle-soup",
+  "title": "Toddler Pho-style Noodle Soup",
+  "summary": "Mild spiced noodle soup with chicken and soft veg.",
+  "cuisine": "vietnamese",
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 25,
+  "yield": 4,
+  "difficulty": "easy",
+  "tags": [
+    "one-pot",
+    "family-meal"
+  ],
+  "allergens": [],
+  "ingredients": [
+    {
+      "id": "broth",
+      "name": "reduced-sodium chicken broth",
+      "qty": 3,
+      "unit": "cups"
+    },
+    {
+      "id": "noodles",
+      "name": "rice noodles",
+      "qty": 60,
+      "unit": "g",
+      "note": "broken short"
+    },
+    {
+      "id": "chicken",
+      "name": "chicken",
+      "qty": 100,
+      "unit": "g",
+      "note": "thin slices"
+    },
+    {
+      "id": "ginger",
+      "name": "ginger",
+      "qty": 2,
+      "unit": "slices",
+      "optional": true
+    },
+    {
+      "id": "star",
+      "name": "star anise",
+      "qty": 1,
+      "unit": "",
+      "optional": true
+    },
+    {
+      "id": "greens",
+      "name": "bok choy",
+      "qty": 0.5,
+      "unit": "cup",
+      "note": "chopped small"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Simmer {broth}, {ginger} and {star}.",
+      "minutes": 10
+    },
+    {
+      "text": "Remove spices."
+    },
+    {
+      "text": "Add {chicken}. Cook through.",
+      "minutes": 5
+    },
+    {
+      "text": "Add {greens} and {noodles}.",
+      "minutes": 4
+    },
+    {
+      "text": "Cool until warm."
+    }
+  ],
+  "toddlerTips": [
+    "Cut noodles short.",
+    "Cool the broth.",
+    "Skip fish sauce."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.pbs.org/parents/recipes/make-three-kid-friendly-noodle-soup-dishes-pho",
+      "title": "Make Three Kid-Friendly Noodle Soup Dishes: Pho",
+      "author": "PBS KIDS for Parents"
+    }
+  ],
+  "popularity": 0.7
+}

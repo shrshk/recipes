@@ -1,0 +1,203 @@
+:root {
+  --bg: #fff7ee;
+  --bg-2: #ffeedd;
+  --surface: #ffffff;
+  --ink: #2a2420;
+  --muted: #85796f;
+  --line: #f0e2d3;
+  --accent: #ff6b4a;
+  --accent-2: #ff9f43;
+  --accent-ink: #ffffff;
+  --sage: #6fae7a;
+  --butter: #ffd36e;
+  --bubble: #ffd9a8;
+  --sizzle: #ffb347;
+  --shadow: 0 1px 2px rgb(80 40 10 / 6%), 0 8px 28px rgb(120 60 20 / 10%);
+  --radius: 26px;
+  --display: "Fraunces Variable", Georgia, serif;
+  --body: "Nunito Variable", system-ui, sans-serif;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1c1714;
+    --bg-2: #241d19;
+    --surface: #2a221d;
+    --ink: #f8eee5;
+    --muted: #b6a99d;
+    --line: #3b3029;
+    --bubble: #8a5a35;
+    --shadow: 0 1px 2px rgb(0 0 0 / 30%), 0 8px 28px rgb(0 0 0 / 35%);
+    color-scheme: dark;
+  }
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background: radial-gradient(1200px 600px at 10% -10%, var(--bg-2), transparent 60%), var(--bg);
+  background-attachment: fixed;
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 17px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100dvh;
+}
+button { font: inherit; color: inherit; cursor: pointer; border: 0; background: none; }
+input { font: inherit; color: inherit; }
+h1, h2, h3 { font-family: var(--display); font-weight: 620; letter-spacing: -0.02em; line-height: 1.1; margin: 0; }
+h1 { font-size: clamp(34px, 8vw, 52px); }
+h2 { font-size: clamp(26px, 5.5vw, 34px); }
+h3 { font-size: 20px; }
+p { margin: 0; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 12px; }
+
+.page { max-width: 720px; margin: 0 auto; padding: max(16px, env(safe-area-inset-top)) 16px 120px; }
+.muted { color: var(--muted); }
+.row { display: flex; align-items: center; gap: 10px; }
+.spacer { flex: 1; }
+.stack { display: grid; gap: 14px; }
+
+/* Buttons */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+  min-height: 54px; padding: 0 26px; border-radius: 999px;
+  background: var(--accent); color: var(--accent-ink); font-weight: 800; font-size: 17px;
+  box-shadow: 0 6px 20px rgb(255 107 74 / 35%);
+}
+.btn.secondary { background: var(--surface); color: var(--ink); box-shadow: var(--shadow); }
+.btn.ghost { background: transparent; box-shadow: none; color: var(--muted); padding: 0 14px; }
+.btn.block { width: 100%; }
+.icon-btn {
+  width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center;
+  background: var(--surface); box-shadow: var(--shadow); font-size: 20px;
+}
+
+/* Top bar */
+.topbar { display: flex; align-items: center; gap: 12px; padding: 8px 0 18px; }
+.brand { font-family: var(--display); font-weight: 700; font-size: 20px; display: flex; gap: 8px; align-items: center; }
+
+/* Home */
+.hero { min-height: 72dvh; display: grid; align-content: center; gap: 22px; position: relative; }
+.hero-food { position: absolute; font-size: 44px; pointer-events: none; user-select: none; z-index: 0; }
+.hero > :not(.hero-food) { position: relative; z-index: 1; }
+.hero h1 em { font-style: italic; color: var(--accent); }
+.lede { font-size: 19px; color: var(--muted); max-width: 30ch; }
+
+/* Questions */
+.progress-dots { display: flex; gap: 6px; }
+.progress-dots span { height: 6px; border-radius: 3px; background: var(--line); flex: 1; }
+.progress-dots span.on { background: var(--accent); }
+.chips { display: flex; flex-wrap: wrap; gap: 10px; }
+.chip {
+  display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 0 18px;
+  border-radius: 999px; background: var(--surface); box-shadow: var(--shadow); font-weight: 700;
+  border: 2px solid transparent; position: relative;
+}
+.chip.on { border-color: var(--accent); color: var(--accent); }
+.chip .emoji { font-size: 22px; }
+.chip.small { min-height: 34px; padding: 0 12px; font-size: 14px; }
+.bottom-bar {
+  position: fixed; left: 0; right: 0; bottom: 0; padding: 14px 16px max(14px, env(safe-area-inset-bottom));
+  background: linear-gradient(to top, var(--bg) 60%, transparent); z-index: 5;
+}
+.bottom-bar > div { max-width: 720px; margin: 0 auto; display: flex; gap: 10px; }
+
+/* Cards */
+.cards { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+.card {
+  padding: 0;
+  background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden;
+  text-align: left; display: flex; flex-direction: column; width: 100%;
+}
+.card-art { height: 150px; display: grid; place-items: center; font-size: 76px; position: relative; }
+.card-body { padding: 16px 18px 18px; display: grid; gap: 8px; }
+.meta { display: flex; flex-wrap: wrap; gap: 6px 14px; color: var(--muted); font-size: 14px; font-weight: 700; }
+.reasons { display: flex; flex-wrap: wrap; gap: 6px; }
+.reason { font-size: 13px; font-weight: 800; padding: 4px 10px; border-radius: 999px; background: color-mix(in srgb, var(--sage) 18%, transparent); color: color-mix(in srgb, var(--sage) 70%, var(--ink)); }
+.badge { font-size: 12px; font-weight: 800; padding: 3px 9px; border-radius: 999px; background: color-mix(in srgb, var(--butter) 40%, transparent); }
+
+/* Recipe */
+.recipe-art { height: 220px; border-radius: var(--radius); display: grid; place-items: center; font-size: 120px; box-shadow: var(--shadow); }
+.panel { background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow); padding: 18px; }
+.ing { display: flex; align-items: center; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--line); }
+.ing:last-child { border-bottom: 0; }
+.ing-emoji { font-size: 26px; width: 36px; text-align: center; }
+.ing-name { font-weight: 800; }
+.ing-amount { color: var(--muted); font-size: 14px; }
+.ing.removed .ing-name, .ing.removed .ing-amount { text-decoration: line-through; opacity: 0.45; }
+.ing-actions { display: flex; gap: 6px; }
+.mini-btn { min-height: 36px; padding: 0 12px; border-radius: 999px; background: var(--bg-2); font-weight: 800; font-size: 14px; }
+.mini-btn.on { background: var(--accent); color: var(--accent-ink); }
+.stepper { display: inline-flex; align-items: center; gap: 4px; background: var(--bg-2); border-radius: 999px; padding: 4px; }
+.stepper button { width: 36px; height: 36px; border-radius: 50%; background: var(--surface); font-weight: 900; }
+.stepper span { min-width: 64px; text-align: center; font-weight: 800; }
+.text-input { flex: 1; min-width: 0; min-height: 46px; border-radius: 999px; border: 2px solid var(--line); background: var(--bg); padding: 0 18px; }
+.tip { display: flex; gap: 10px; padding: 12px 14px; border-radius: 18px; background: color-mix(in srgb, var(--butter) 28%, var(--surface)); font-size: 15px; }
+.sources a { color: var(--muted); }
+.section-title { display: flex; align-items: baseline; gap: 10px; margin-bottom: 6px; }
+
+/* Cook mode */
+.cook { position: fixed; inset: 0; display: grid; grid-template-rows: auto 1fr auto; background: var(--bg); overflow: hidden; }
+.cook-top { display: flex; align-items: center; gap: 12px; padding: max(14px, env(safe-area-inset-top)) 16px 8px; max-width: 760px; width: 100%; margin: 0 auto; }
+.cook-bar { flex: 1; height: 8px; border-radius: 4px; background: var(--line); overflow: hidden; }
+.cook-bar > div { height: 100%; background: linear-gradient(90deg, var(--accent-2), var(--accent)); border-radius: 4px; transform-origin: left; }
+.cook-stage { position: relative; overflow: hidden; touch-action: pan-y; }
+.cook-step { position: absolute; inset: 0; display: grid; align-content: center; justify-items: center; gap: 18px; padding: 0 20px; text-align: center; max-width: 760px; margin: 0 auto; }
+.cook-step-num { font-family: var(--display); font-weight: 700; color: var(--accent); font-size: 15px; letter-spacing: 0.12em; text-transform: uppercase; }
+.cook-text { font-family: var(--display); font-size: clamp(24px, 5.6vw, 36px); line-height: 1.25; font-weight: 520; max-width: 22ch; }
+.cook-uses { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
+.cook-bottom { display: flex; gap: 10px; padding: 12px 16px max(16px, env(safe-area-inset-bottom)); max-width: 760px; width: 100%; margin: 0 auto; }
+.cook-bottom .btn { flex: 1; }
+.scene-label { font-weight: 800; color: var(--muted); font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; margin-top: -10px; }
+
+/* Timer */
+.timer { display: inline-flex; align-items: center; gap: 12px; padding: 8px 18px 8px 8px; border-radius: 999px; background: var(--surface); box-shadow: var(--shadow); font-weight: 800; }
+.timer svg { display: block; }
+.timer.ring { animation: ring 0.5s ease-in-out infinite alternate; }
+@keyframes ring { from { transform: rotate(-3deg); } to { transform: rotate(3deg); } }
+
+/* Drawer */
+.drawer-backdrop { position: fixed; inset: 0; background: rgb(0 0 0 / 35%); z-index: 20; }
+.drawer { position: fixed; left: 0; right: 0; bottom: 0; max-height: 80dvh; overflow: auto; z-index: 21; background: var(--surface); border-radius: 28px 28px 0 0; padding: 12px 20px max(20px, env(safe-area-inset-bottom)); max-width: 720px; margin: 0 auto; }
+.drawer-handle { width: 44px; height: 5px; border-radius: 3px; background: var(--line); margin: 0 auto 12px; }
+
+/* Done */
+.done { min-height: 90dvh; display: grid; align-content: center; justify-items: center; gap: 20px; text-align: center; position: relative; overflow: hidden; }
+.burst { position: absolute; left: 50%; top: 38%; font-size: 34px; pointer-events: none; }
+
+/* Settings */
+.switch { width: 54px; height: 32px; border-radius: 999px; background: var(--line); position: relative; flex: none; }
+.switch.on { background: var(--sage); }
+.switch span { position: absolute; top: 3px; left: 3px; width: 26px; height: 26px; border-radius: 50%; background: white; box-shadow: 0 2px 6px rgb(0 0 0 / 20%); }
+
+/* Scenes */
+.scene { position: relative; width: 260px; height: 210px; flex: none; }
+/* `translate` (not `transform`) centres the emoji, so motion can own `transform` freely. */
+.scene-emoji { position: absolute; line-height: 1; display: inline-block; translate: -50% -50%; user-select: none; }
+.scene-dot { position: absolute; width: 12px; height: 12px; border-radius: 50%; translate: -50% -50%; }
+.scene-steam { position: absolute; width: 10px; height: 40px; border-radius: 10px; background: linear-gradient(to top, transparent, color-mix(in srgb, var(--muted) 45%, transparent)); translate: -50% -50%; }
+.scene-orbit { position: absolute; left: 50%; top: 62%; width: 0; height: 0; }
+.scene-orbit-item { position: absolute; left: 0; top: 0; font-size: 30px; line-height: 1; translate: -50% -50%; transform-origin: 0 0; }
+.scene-board { position: absolute; left: 14%; right: 14%; top: 64%; height: 40px; border-radius: 12px; background: #d9a066; box-shadow: inset 0 -6px 0 #b97d45; }
+.scene-grater { position: absolute; left: 42%; top: 30%; width: 16%; height: 50%; border-radius: 10px 10px 4px 4px; background: repeating-linear-gradient(0deg, #c9ced6 0 6px, #9aa3ad 6px 8px); box-shadow: var(--shadow); }
+.scene-oven { position: absolute; left: 22%; right: 22%; top: 22%; bottom: 12%; border-radius: 22px; background: #e8e2dc; box-shadow: inset 0 -8px 0 #cfc6be, var(--shadow); }
+.scene-oven-window { position: absolute; left: 14%; right: 14%; top: 26%; bottom: 14%; border-radius: 14px; background: radial-gradient(circle at 50% 70%, #ffcf6e, #ff8c42 70%, #c4502a); overflow: hidden; }
+.scene-oven-knob { position: absolute; top: 8%; left: 34px; width: 12px; height: 12px; border-radius: 50%; background: #8d8178; }
+.scene-heat { position: absolute; top: 14%; width: 6px; height: 22px; border-radius: 6px; background: color-mix(in srgb, var(--accent) 60%, transparent); }
+.scene-jar { position: absolute; left: 34%; right: 34%; top: 16%; bottom: 10%; border-radius: 14px 14px 26px 26px; background: color-mix(in srgb, #bfe3ff 55%, transparent); border: 3px solid color-mix(in srgb, #8fbfe6 80%, transparent); }
+.scene-dough { position: absolute; left: 50%; top: 52%; width: 62px; height: 52px; translate: -50% -50%; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #ffe9c4, #e9b97a); box-shadow: inset -4px -6px 0 rgb(160 100 40 / 18%); }
+.scene-swirl { position: absolute; left: 50%; top: 60%; width: 0; height: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  .timer.ring { animation: none; }
+}
+
+/* Custom recipes */
+.custom-badge { position: absolute; top: 12px; left: 12px; font-size: 13px; background: var(--surface); box-shadow: var(--shadow); }
+.save-panel { display: grid; gap: 10px; }
+.save-panel .row { flex-wrap: wrap; }
+.save-panel .text-input { flex-basis: 100%; }
+.problems { margin: 0; padding-left: 20px; color: var(--accent); font-size: 14px; }

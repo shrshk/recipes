@@ -1,0 +1,99 @@
+{
+  "id": "gyeran-jjim",
+  "title": "Gyeran-jjim Steamed Egg",
+  "summary": "Fluffy, wobbly Korean steamed egg that a toddler can scoop with a spoon.",
+  "cuisine": "korean",
+  "meals": [
+    "breakfast",
+    "lunch",
+    "dinner"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 5,
+  "cookMinutes": 12,
+  "yield": 2,
+  "difficulty": "easy",
+  "tags": [
+    "quick",
+    "protein-packed",
+    "savory"
+  ],
+  "allergens": [
+    "egg",
+    "sesame"
+  ],
+  "ingredients": [
+    {
+      "id": "egg",
+      "name": "eggs",
+      "qty": 2,
+      "unit": ""
+    },
+    {
+      "id": "water",
+      "name": "water or unsalted stock",
+      "qty": 0.25,
+      "unit": "cup"
+    },
+    {
+      "id": "scallion",
+      "name": "scallion",
+      "qty": 1,
+      "unit": "tbsp",
+      "note": "finely chopped",
+      "optional": true
+    },
+    {
+      "id": "sesame",
+      "name": "sesame oil",
+      "qty": 0.5,
+      "unit": "tsp",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Beat {egg} well, then whisk in {water}."
+    },
+    {
+      "text": "Strain into a heatproof bowl for a smooth texture."
+    },
+    {
+      "text": "Stir in {scallion}.",
+      "requires": [
+        "scallion"
+      ]
+    },
+    {
+      "text": "Cover the bowl and steam gently until just set.",
+      "minutes": 12,
+      "tip": "Low heat gives a smooth custard; high heat makes it rubbery."
+    },
+    {
+      "text": "Drizzle {sesame} and let cool slightly.",
+      "requires": [
+        "sesame"
+      ]
+    }
+  ],
+  "toddlerTips": [
+    "Cool until warm; the centre holds heat.",
+    "Skip salt or use a tiny pinch only.",
+    "Cut into small cubes for hands."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.mjandhungryman.com/gyeran-jjim-korean-steamed-egg/",
+      "title": "Gyeran Jjim Korean Steamed Egg",
+      "author": "MJ and Hungryman"
+    },
+    {
+      "platform": "blog",
+      "url": "https://www.koreanbapsang.com/?p=15196",
+      "title": "Korean Steamed Eggs",
+      "author": "Korean Bapsang"
+    }
+  ],
+  "popularity": 0.85
+}

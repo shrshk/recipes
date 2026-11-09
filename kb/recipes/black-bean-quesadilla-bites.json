@@ -1,0 +1,99 @@
+{
+  "id": "black-bean-quesadilla-bites",
+  "title": "Black Bean Quesadilla Bites",
+  "summary": "Cheesy mashed-bean quesadillas cut into small triangles.",
+  "cuisine": "mexican",
+  "meals": [
+    "lunch",
+    "dinner",
+    "snack"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 8,
+  "cookMinutes": 8,
+  "difficulty": "easy",
+  "tags": [
+    "finger-food",
+    "quick",
+    "iron-rich",
+    "lunchbox",
+    "picky-eater"
+  ],
+  "allergens": [
+    "dairy",
+    "gluten",
+    "wheat"
+  ],
+  "ingredients": [
+    {
+      "id": "tortillas",
+      "name": "soft flour tortillas",
+      "qty": 4,
+      "unit": "small"
+    },
+    {
+      "id": "beans",
+      "name": "canned black beans",
+      "qty": 0.75,
+      "unit": "cup",
+      "note": "rinsed well"
+    },
+    {
+      "id": "cheese",
+      "name": "shredded cheddar or Monterey Jack",
+      "qty": 0.5,
+      "unit": "cup",
+      "substitutes": [
+        {
+          "name": "dairy-free shredded cheese"
+        }
+      ]
+    },
+    {
+      "id": "squash",
+      "name": "pumpkin or butternut puree",
+      "qty": 0.25,
+      "unit": "cup",
+      "optional": true
+    },
+    {
+      "id": "oil",
+      "name": "oil",
+      "qty": 1,
+      "unit": "tsp"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Mash {list:beans,squash} with a fork until mostly smooth."
+    },
+    {
+      "text": "Spread the mash on half of each of the {tortillas}."
+    },
+    {
+      "text": "Top with {cheese} and fold in half."
+    },
+    {
+      "text": "Cook in a pan with a little {oil} until golden and melted.",
+      "minutes": 4,
+      "tip": "Medium heat so the cheese melts before the outside browns."
+    },
+    {
+      "text": "Rest a minute, then cut into small triangles."
+    }
+  ],
+  "toddlerTips": [
+    "Rinse canned beans to cut sodium.",
+    "Cut small; let it cool as melted cheese stays hot."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.yummytoddlerfood.com/easy-quesadillas-with-black-beans/",
+      "title": "Easy Quesadillas with Black Beans",
+      "author": "Yummy Toddler Food"
+    }
+  ],
+  "popularity": 0.85,
+  "yield": 4
+}

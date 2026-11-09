@@ -1,0 +1,109 @@
+{
+  "id": "tomato-egg-scramble",
+  "title": "Tomato Egg Scramble",
+  "summary": "Soft Chinese-style eggs in a mild tomato sauce, great spooned over rice.",
+  "cuisine": "chinese",
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 5,
+  "cookMinutes": 5,
+  "yield": 3,
+  "difficulty": "easy",
+  "tags": [
+    "quick",
+    "iron-rich",
+    "savory"
+  ],
+  "allergens": [
+    "egg"
+  ],
+  "ingredients": [
+    {
+      "id": "egg",
+      "name": "egg",
+      "qty": 2,
+      "unit": "",
+      "note": "beaten"
+    },
+    {
+      "id": "tomato",
+      "name": "ripe tomato",
+      "qty": 225,
+      "unit": "g",
+      "note": "peeled, cut into small pieces"
+    },
+    {
+      "id": "oil",
+      "name": "neutral oil",
+      "qty": 1.5,
+      "unit": "tbsp"
+    },
+    {
+      "id": "rice",
+      "name": "cooked rice",
+      "qty": 1.5,
+      "unit": "cups",
+      "note": "to serve",
+      "optional": true
+    },
+    {
+      "id": "scallion",
+      "name": "scallion",
+      "qty": 1,
+      "unit": "",
+      "note": "finely chopped",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat half the {oil} in a pan over medium heat."
+    },
+    {
+      "text": "Pour in {egg} and scramble until just set. Move to a plate."
+    },
+    {
+      "text": "Add the remaining oil and {tomato}. Cook until it turns soft and saucy.",
+      "minutes": 5,
+      "tip": "Mash the tomato pieces so there are no tough skins."
+    },
+    {
+      "text": "Return the eggs and fold gently to coat in the tomato."
+    },
+    {
+      "text": "Stir in {scallion}.",
+      "requires": [
+        "scallion"
+      ]
+    },
+    {
+      "text": "Spoon over {rice} and let cool until warm.",
+      "requires": [
+        "rice"
+      ]
+    }
+  ],
+  "toddlerTips": [
+    "Peel tomatoes so skins do not catch in the throat.",
+    "Skip added sugar and salt; ripe tomatoes are sweet enough.",
+    "Cook the eggs fully through."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://twoplaidaprons.com/tomato-egg-stir-fry/",
+      "title": "Tomato Egg Stir Fry",
+      "author": "Two Plaid Aprons"
+    },
+    {
+      "platform": "blog",
+      "url": "https://thewoksoflife.com/wprm_print/chinese-tomato-egg-stir-fry",
+      "title": "Chinese Tomato Egg Stir Fry",
+      "author": "The Woks of Life"
+    }
+  ],
+  "popularity": 0.7
+}

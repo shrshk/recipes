@@ -1,0 +1,103 @@
+{
+  "id": "simple-toddler-hummus",
+  "title": "Simple Toddler Hummus",
+  "summary": "Creamy low-salt hummus for dipping soft veg or spreading on toast.",
+  "cuisine": "mediterranean",
+  "meals": [
+    "snack",
+    "lunch"
+  ],
+  "minAgeMonths": 9,
+  "prepMinutes": 6,
+  "cookMinutes": 0,
+  "difficulty": "easy",
+  "tags": [
+    "no-cook",
+    "quick",
+    "protein-packed",
+    "iron-rich"
+  ],
+  "allergens": [
+    "sesame"
+  ],
+  "ingredients": [
+    {
+      "id": "chickpeas",
+      "name": "canned chickpeas",
+      "qty": 1,
+      "unit": "can",
+      "note": "drained and rinsed"
+    },
+    {
+      "id": "tahini",
+      "name": "tahini",
+      "qty": 2,
+      "unit": "tbsp",
+      "substitutes": [
+        {
+          "name": "plain yogurt"
+        }
+      ]
+    },
+    {
+      "id": "lemon",
+      "name": "lemon juice",
+      "qty": 3,
+      "unit": "tbsp"
+    },
+    {
+      "id": "oil",
+      "name": "olive oil",
+      "qty": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "water",
+      "name": "water",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "note": "as needed"
+    },
+    {
+      "id": "garlic",
+      "name": "garlic",
+      "qty": 1,
+      "unit": "clove",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Add {list:chickpeas,tahini,lemon,oil,garlic} to a blender."
+    },
+    {
+      "text": "Blend, adding {water} until smooth."
+    },
+    {
+      "text": "Taste and adjust the lemon."
+    },
+    {
+      "text": "Chill and serve."
+    }
+  ],
+  "toddlerTips": [
+    "Spread thinly on toast or soft pita.",
+    "Keep tahini out if sesame allergy is a concern."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://hungryhobby.net/wprm_print/homemade-hummus-for-baby",
+      "title": "Homemade hummus for baby",
+      "author": "Hungry Hobby"
+    },
+    {
+      "platform": "blog",
+      "url": "https://www.sneakyveg.com/?p=333",
+      "title": "Hummus without added salt",
+      "author": "Sneaky Veg"
+    }
+  ],
+  "popularity": 0.65,
+  "yield": 6
+}

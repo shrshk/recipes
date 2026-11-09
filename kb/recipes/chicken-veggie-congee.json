@@ -1,0 +1,113 @@
+{
+  "id": "chicken-veggie-congee",
+  "title": "Chicken and Veggie Congee",
+  "summary": "Silky rice porridge with shredded chicken and soft carrot, a classic Chinese first food.",
+  "cuisine": "chinese",
+  "meals": [
+    "breakfast",
+    "lunch",
+    "dinner"
+  ],
+  "minAgeMonths": 10,
+  "prepMinutes": 10,
+  "cookMinutes": 45,
+  "yield": 4,
+  "difficulty": "easy",
+  "tags": [
+    "one-pot",
+    "freezer-friendly",
+    "batch-cook",
+    "savory"
+  ],
+  "allergens": [],
+  "ingredients": [
+    {
+      "id": "rice",
+      "name": "jasmine rice",
+      "qty": 0.5,
+      "unit": "cup",
+      "note": "rinsed"
+    },
+    {
+      "id": "water",
+      "name": "water or unsalted chicken stock",
+      "qty": 5,
+      "unit": "cups"
+    },
+    {
+      "id": "chicken",
+      "name": "chicken thigh",
+      "qty": 100,
+      "unit": "g",
+      "note": "boneless, skinless"
+    },
+    {
+      "id": "carrot",
+      "name": "carrot",
+      "qty": 1,
+      "unit": "small",
+      "note": "finely diced"
+    },
+    {
+      "id": "ginger",
+      "name": "fresh ginger",
+      "qty": 2,
+      "unit": "slices",
+      "optional": true
+    },
+    {
+      "id": "scallion",
+      "name": "scallion",
+      "qty": 1,
+      "unit": "",
+      "note": "green part, finely sliced",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Add {rice}, {water} and {ginger} to a pot and bring to a boil."
+    },
+    {
+      "text": "Lower the heat and simmer with the lid slightly open, stirring now and then.",
+      "minutes": 30,
+      "tip": "Stir often near the end so the rice does not stick."
+    },
+    {
+      "text": "Add {chicken} and {carrot} and cook until the chicken is done.",
+      "minutes": 12
+    },
+    {
+      "text": "Lift out the {ginger}. Shred the chicken finely with two forks and stir it back in."
+    },
+    {
+      "text": "Stir in {scallion} and cook 1 more minute.",
+      "requires": [
+        "scallion"
+      ]
+    },
+    {
+      "text": "Cool until warm. Serve in a shallow bowl with a spoon.",
+      "tip": "Porridge stays hot inside; stir and test before serving."
+    }
+  ],
+  "toddlerTips": [
+    "Leave out salt; the stock gives enough flavour.",
+    "Shred chicken into tiny strands, not chunks.",
+    "Freeze in muffin trays for single portions."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://jessicatom.com/blog/2021/11/17/baby-bites-chinese-congee",
+      "title": "Baby Bites // Chinese Congee",
+      "author": "Jessica Tom"
+    },
+    {
+      "platform": "blog",
+      "url": "https://www.happyveggiekitchen.com/?p=7927",
+      "title": "Congee for baby-led weaning"
+    }
+  ],
+  "popularity": 0.8
+}

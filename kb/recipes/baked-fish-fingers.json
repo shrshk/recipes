@@ -1,0 +1,132 @@
+{
+  "id": "baked-fish-fingers",
+  "title": "Baked Fish Fingers",
+  "summary": "Crumb-coated white fish fingers baked until crisp, with no added salt.",
+  "cuisine": "british",
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 15,
+  "cookMinutes": 18,
+  "yield": 4,
+  "difficulty": "medium",
+  "tags": [
+    "finger-food",
+    "freezer-friendly",
+    "protein-packed",
+    "picky-eater"
+  ],
+  "allergens": [
+    "fish",
+    "egg",
+    "gluten",
+    "wheat"
+  ],
+  "ingredients": [
+    {
+      "id": "fish",
+      "name": "skinless white fish fillets",
+      "qty": 175,
+      "unit": "g",
+      "note": "pin bones checked",
+      "substitutes": [
+        {
+          "name": "salmon"
+        }
+      ]
+    },
+    {
+      "id": "flour",
+      "name": "plain flour",
+      "qty": 0.25,
+      "unit": "cup",
+      "substitutes": [
+        {
+          "name": "rice flour"
+        }
+      ]
+    },
+    {
+      "id": "egg",
+      "name": "egg",
+      "qty": 1,
+      "unit": "",
+      "substitutes": [
+        {
+          "name": "milk",
+          "qty": 3,
+          "unit": "tbsp"
+        }
+      ]
+    },
+    {
+      "id": "breadcrumbs",
+      "name": "breadcrumbs",
+      "qty": 0.5,
+      "unit": "cup",
+      "substitutes": [
+        {
+          "name": "gluten-free breadcrumbs"
+        }
+      ]
+    },
+    {
+      "id": "paprika",
+      "name": "sweet paprika",
+      "qty": 0.5,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "lemon",
+      "name": "lemon wedge",
+      "qty": 1,
+      "unit": "",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat the oven to 200C / 400F and line a tray."
+    },
+    {
+      "text": "Check the {fish} for bones and cut into finger strips."
+    },
+    {
+      "text": "Mix {breadcrumbs} with {paprika}."
+    },
+    {
+      "text": "Coat each strip in {flour}, then {egg}, then crumbs."
+    },
+    {
+      "text": "Bake, turning once, until crisp and the fish flakes.",
+      "minutes": 16,
+      "tip": "Fish should be opaque all through."
+    },
+    {
+      "text": "Cool and serve with {lemon}."
+    }
+  ],
+  "toddlerTips": [
+    "Feel for small bones in every strip.",
+    "Do not add salt to the crumbs.",
+    "Serve with peas squashed lightly or soft veg."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://hungryhealthyhappy.com/fish-fingers/",
+      "title": "Fish Fingers",
+      "author": "Hungry Healthy Happy"
+    },
+    {
+      "platform": "blog",
+      "url": "https://www.organix.com/recipes/toddler/no-junk-fish-fingers",
+      "title": "No Junk Fish Fingers",
+      "author": "Organix"
+    }
+  ],
+  "popularity": 0.75
+}

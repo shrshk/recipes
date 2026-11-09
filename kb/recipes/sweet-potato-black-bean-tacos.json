@@ -1,0 +1,105 @@
+{
+  "id": "sweet-potato-black-bean-tacos",
+  "title": "Sweet Potato Black Bean Tacos",
+  "summary": "Soft mild tacos with mashed sweet potato, beans and avocado.",
+  "cuisine": "mexican",
+  "meals": [
+    "dinner",
+    "lunch"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "difficulty": "easy",
+  "tags": [
+    "family-meal",
+    "iron-rich",
+    "sheet-pan"
+  ],
+  "allergens": [
+    "gluten",
+    "wheat"
+  ],
+  "ingredients": [
+    {
+      "id": "sweet-potato",
+      "name": "sweet potato",
+      "qty": 1,
+      "unit": "medium",
+      "note": "small cubes"
+    },
+    {
+      "id": "beans",
+      "name": "canned black beans",
+      "qty": 0.5,
+      "unit": "cup",
+      "note": "rinsed"
+    },
+    {
+      "id": "cumin",
+      "name": "ground cumin",
+      "qty": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "id": "oil",
+      "name": "oil",
+      "qty": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "tortillas",
+      "name": "small soft tortillas",
+      "qty": 6,
+      "unit": ""
+    },
+    {
+      "id": "avocado",
+      "name": "avocado",
+      "qty": 0.5,
+      "unit": "",
+      "note": "sliced",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "plain yogurt"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat the oven to 200C/400F."
+    },
+    {
+      "text": "Toss {list:sweet-potato,cumin} with {oil} on a tray."
+    },
+    {
+      "text": "Roast until very soft.",
+      "minutes": 20
+    },
+    {
+      "text": "Warm {beans} in a small pan and mash them lightly."
+    },
+    {
+      "text": "Fill {tortillas} with {list:sweet-potato,beans,avocado}.",
+      "tip": "Mash the sweet potato a little so it stays inside."
+    },
+    {
+      "text": "Cut into strips or let your child pick it up folded."
+    }
+  ],
+  "toddlerTips": [
+    "Keep chili heat out; cumin gives flavour without spice.",
+    "Serve open-faced strips to reduce mess."
+  ],
+  "sources": [
+    {
+      "platform": "family",
+      "url": "",
+      "title": "Common family recipe"
+    }
+  ],
+  "popularity": 0.6,
+  "yield": 4
+}

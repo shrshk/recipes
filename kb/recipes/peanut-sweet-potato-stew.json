@@ -1,0 +1,109 @@
+{
+  "id": "peanut-sweet-potato-stew",
+  "title": "Mild Peanut Sweet Potato Stew",
+  "summary": "West African-style stew of sweet potato in smooth peanut sauce.",
+  "cuisine": "african",
+  "meals": [
+    "dinner",
+    "lunch"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 25,
+  "difficulty": "easy",
+  "tags": [
+    "one-pot",
+    "freezer-friendly",
+    "iron-rich",
+    "family-meal"
+  ],
+  "allergens": [
+    "peanut"
+  ],
+  "ingredients": [
+    {
+      "id": "sweet-potato",
+      "name": "sweet potato",
+      "qty": 2,
+      "unit": "medium",
+      "note": "small cubes"
+    },
+    {
+      "id": "tomatoes",
+      "name": "canned crushed tomatoes",
+      "qty": 1,
+      "unit": "cup"
+    },
+    {
+      "id": "pb",
+      "name": "smooth peanut butter (no sugar)",
+      "qty": 3,
+      "unit": "tbsp",
+      "substitutes": [
+        {
+          "name": "sunflower seed butter"
+        }
+      ]
+    },
+    {
+      "id": "onion",
+      "name": "onion",
+      "qty": 0.5,
+      "unit": "",
+      "note": "diced"
+    },
+    {
+      "id": "ginger",
+      "name": "grated ginger",
+      "qty": 0.5,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "water",
+      "name": "water",
+      "qty": 1.5,
+      "unit": "cups"
+    },
+    {
+      "id": "oil",
+      "name": "oil",
+      "qty": 1,
+      "unit": "tbsp"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Soften {list:onion,ginger} in {oil}.",
+      "minutes": 4
+    },
+    {
+      "text": "Add {list:sweet-potato,tomatoes,water}."
+    },
+    {
+      "text": "Simmer until the sweet potato is tender.",
+      "minutes": 20
+    },
+    {
+      "text": "Stir in {pb} until smooth."
+    },
+    {
+      "text": "Mash lightly and serve over rice or alone.",
+      "tip": "Cool to warm."
+    }
+  ],
+  "toddlerTips": [
+    "Use smooth nut butter only; no whole nuts.",
+    "Introduce peanut with your pediatrician's guidance."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.nationalgeographic.com/travel/article/essential-west-african-dishes-recipes",
+      "title": "Essential West African dishes",
+      "author": "National Geographic"
+    }
+  ],
+  "popularity": 0.45,
+  "yield": 5
+}

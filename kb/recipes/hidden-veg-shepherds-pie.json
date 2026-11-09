@@ -1,0 +1,148 @@
+{
+  "id": "hidden-veg-shepherds-pie",
+  "title": "Hidden Veg Shepherd's Pie",
+  "summary": "Lamb or beef mince with grated veg under a mashed potato top.",
+  "cuisine": "british",
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 20,
+  "cookMinutes": 40,
+  "yield": 6,
+  "difficulty": "medium",
+  "tags": [
+    "hidden-veg",
+    "freezer-friendly",
+    "family-meal",
+    "batch-cook",
+    "iron-rich"
+  ],
+  "allergens": [
+    "dairy"
+  ],
+  "ingredients": [
+    {
+      "id": "oil",
+      "name": "oil",
+      "qty": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "mince",
+      "name": "lamb or beef mince",
+      "qty": 250,
+      "unit": "g"
+    },
+    {
+      "id": "onion",
+      "name": "onion",
+      "qty": 0.5,
+      "unit": "",
+      "note": "finely chopped"
+    },
+    {
+      "id": "carrot",
+      "name": "carrots",
+      "qty": 1,
+      "unit": "",
+      "note": "finely grated"
+    },
+    {
+      "id": "lentils",
+      "name": "red lentils",
+      "qty": 0.25,
+      "unit": "cup",
+      "optional": true
+    },
+    {
+      "id": "stock",
+      "name": "low-salt stock",
+      "qty": 0.5,
+      "unit": "cups"
+    },
+    {
+      "id": "tomatoes",
+      "name": "tinned chopped tomatoes",
+      "qty": 200,
+      "unit": "g"
+    },
+    {
+      "id": "tomato-paste",
+      "name": "tomato puree",
+      "qty": 0.5,
+      "unit": "tbsp"
+    },
+    {
+      "id": "potatoes",
+      "name": "potatoes",
+      "qty": 450,
+      "unit": "g",
+      "note": "peeled, cubed"
+    },
+    {
+      "id": "butter",
+      "name": "butter",
+      "qty": 2,
+      "unit": "tbsp",
+      "substitutes": [
+        {
+          "name": "olive oil"
+        }
+      ]
+    },
+    {
+      "id": "milk",
+      "name": "milk",
+      "qty": 3,
+      "unit": "tbsp",
+      "substitutes": [
+        {
+          "name": "oat milk"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Boil the {potatoes} until soft.",
+      "minutes": 15
+    },
+    {
+      "text": "Brown the {mince} in {oil} and break it up."
+    },
+    {
+      "text": "Add {list:onion,carrot} and cook until soft.",
+      "minutes": 5
+    },
+    {
+      "text": "Stir in {list:lentils,tomatoes,tomato-paste,stock} and simmer.",
+      "minutes": 15
+    },
+    {
+      "text": "Mash the potatoes with {butter} and {milk}."
+    },
+    {
+      "text": "Spoon the mince into a dish and top with the mash."
+    },
+    {
+      "text": "Bake until golden on top.",
+      "minutes": 15
+    }
+  ],
+  "toddlerTips": [
+    "Use low-salt stock only.",
+    "Let it cool and serve soft, not hot.",
+    "Freeze single portions in ramekins."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://themummybubble.co.uk/delicious-shepherds-pie-for-toddlers-and-babies/",
+      "title": "Delicious shepherd's pie for toddlers and babies",
+      "author": "The Mummy Bubble"
+    }
+  ],
+  "popularity": 0.7
+}

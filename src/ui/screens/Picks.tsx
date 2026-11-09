@@ -1,0 +1,71 @@
+import { motion } from "motion/react";
+import { useMemo } from "react";
+import { recommend, type SkillToggles } from "../../engine/recommend";
+import type { Answers, SkillContext } from "../../engine/types";
+import type { Recipe } from "../../kb/schema";
+import { skills } from "../../skills";
+import { go } from "../../state/router";
+import { cuisineLabel, dishEmoji, dishGradient, totalMinutes } from "../look";
+import { Page } from "../components/Page";
+import { TopBar } from "../components/TopBar";
+
+export function Picks({ recipes, customIds, ctx, toggles, setAnswers }: {
+  recipes: Recipe[]; customIds: ReadonlySet<string>; ctx: SkillContext; toggles: SkillToggles; setAnswers: (fn: (a: Answers) => Answers) => void;
+}) {
+  const picks = useMemo(() => recommend(recipes, skills, ctx, { toggles, limit: 18 }), [recipes, ctx, toggles]);
+  const greeting = { breakfast: "breakfast", lunch: "lunch", snack: "snack time", dinner: "dinner" }[
+    String(ctx.answers.meal ?? "")
+  ];
+
+  return (
+    <Page>
+      <TopBar back={{ name: "home" }}>
+        <button className="btn ghost" onClick={() => go({ name: "ask", step: 0 })}>Change answers</button>
+      </TopBar>
+      <h2>{greeting ? `Ideas for ${greeting}` : "Picked for your little one"}</h2>
+      <p className="muted" style={{ margin: "6px 0 20px" }}>
+        {picks.length ? `${picks.length} recipes, best match first.` : "Nothing fits all your answers yet."}
+      </p>
+
+      {picks.length === 0 && (
+        <div className="panel stack" style={{ textAlign: "center", justifyItems: "center" }}>
+          <div style={{ fontSize: 64 }}>🤷</div>
+          <p>Try loosening the time limit or meal. Your allergy choices stay as they are.</p>
+          <button className="btn" onClick={() => setAnswers((a) => ({ ...a, time: "any", meal: undefined, cuisines: [] }))}>
+            Loosen my filters
+          </button>
+        </div>
+      )}
+
+      <motion.div className="cards" initial="hidden" animate="show" variants={{ show: { transition: { staggerChildren: 0.06 } } }}>
+        {picks.map(({ recipe, reasons }) => (
+          <motion.button
+            key={recipe.id}
+            className="card"
+            variants={{ hidden: { opacity: 0, y: 24, scale: 0.97 }, show: { opacity: 1, y: 0, scale: 1 } }}
+            whileHover={{ y: -4 }}
+            whileTap={{ scale: 0.98 }}
+            onClick={() => go({ name: "recipe", id: recipe.id })}
+          >
+            <div className="card-art" style={{ background: dishGradient(recipe) }}>
+              <motion.span whileHover={{ rotate: [0, -8, 8, 0] }}>{dishEmoji(recipe)}</motion.span>
+              {customIds.has(recipe.id) && <span className="badge custom-badge">⭐ Your recipe</span>}
+            </div>
+            <div className="card-body">
+              <h3>{recipe.title}</h3>
+              <p className="muted" style={{ fontSize: 15 }}>{recipe.summary}</p>
+              <div className="meta">
+                <span>⏱ {totalMinutes(recipe)} min</span>
+                <span>{cuisineLabel(recipe.cuisine)}</span>
+                <span>{recipe.difficulty === "easy" ? "Easy" : "Medium"}</span>
+              </div>
+              {reasons.length > 0 && (
+                <div className="reasons">{reasons.map((r) => <span key={r} className="reason">{r}</span>)}</div>
+              )}
+            </div>
+          </motion.button>
+        ))}
+      </motion.div>
+    </Page>
+  );
+}

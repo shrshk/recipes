@@ -1,0 +1,87 @@
+{
+  "id": "gyeran-mari",
+  "title": "Gyeran-mari Rolled Omelet",
+  "summary": "Korean rolled egg omelet with tiny veg, cut into finger slices.",
+  "cuisine": "korean",
+  "meals": [
+    "breakfast",
+    "lunch",
+    "snack"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 5,
+  "cookMinutes": 8,
+  "yield": 3,
+  "difficulty": "medium",
+  "tags": [
+    "finger-food",
+    "hidden-veg",
+    "lunchbox",
+    "quick"
+  ],
+  "allergens": [
+    "egg"
+  ],
+  "ingredients": [
+    {
+      "id": "egg",
+      "name": "eggs",
+      "qty": 3,
+      "unit": ""
+    },
+    {
+      "id": "carrot",
+      "name": "carrot",
+      "qty": 2,
+      "unit": "tbsp",
+      "note": "grated very fine"
+    },
+    {
+      "id": "scallion",
+      "name": "scallion",
+      "qty": 1,
+      "unit": "tbsp",
+      "note": "finely chopped",
+      "optional": true
+    },
+    {
+      "id": "oil",
+      "name": "neutral oil",
+      "qty": 1,
+      "unit": "tsp"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Beat {egg}. Stir in {carrot} and {scallion}."
+    },
+    {
+      "text": "Brush a pan with {oil} over low heat."
+    },
+    {
+      "text": "Pour in a thin layer. Cook until nearly set.",
+      "minutes": 2
+    },
+    {
+      "text": "Roll it up to one side, then pour more egg and roll again.",
+      "tip": "Low heat keeps it tender, not brown."
+    },
+    {
+      "text": "Rest, then slice into finger-width pieces.",
+      "tip": "Cool before slicing."
+    }
+  ],
+  "toddlerTips": [
+    "Cook eggs through.",
+    "Cut into short thick slices.",
+    "Skip salt."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.imthecheftoo.com/blogs/cooking-with-kids/healthy-and-engaging-korean-toddler-food-for-young-learners",
+      "title": "Korean toddler food for young learners"
+    }
+  ],
+  "popularity": 0.7
+}

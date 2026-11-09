@@ -1,0 +1,44 @@
+{
+  "name": "recipes",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.34.6",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.json && vite build && vite build --ssr server/main.ts --outDir dist-server",
+    "preview": "vite preview",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "kb:check": "vitest run src/kb",
+    "render-check": "vite-node scripts/render-check.ts",
+    "harvest": "node scripts/harvest.ts",
+    "scrape": "uv run --quiet scripts/scrape_recipe.py",
+    "start": "node dist-server/main.js",
+    "server:dev": "vite-node server/main.ts",
+    "mcp:stdio": "node dist-server/main.js --stdio"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  },
+  "dependencies": {
+    "@fontsource-variable/fraunces": "^5.3.0",
+    "@fontsource-variable/nunito": "^5.3.0",
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "motion": "^12.43.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "@types/react": "18.3.31",
+    "@types/react-dom": "18.3.7",
+    "@vitejs/plugin-react": "4.7.0",
+    "typescript": "5.6.3",
+    "vite": "5.4.21",
+    "vite-node": "2.1.9",
+    "vitest": "2.1.9"
+  }
+}

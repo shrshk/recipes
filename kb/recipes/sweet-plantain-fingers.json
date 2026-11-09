@@ -1,0 +1,79 @@
+{
+  "id": "sweet-plantain-fingers",
+  "title": "Baked Sweet Plantain Fingers",
+  "summary": "Ripe plantain baked until soft and caramelized.",
+  "cuisine": "caribbean",
+  "meals": [
+    "snack",
+    "dinner"
+  ],
+  "minAgeMonths": 9,
+  "prepMinutes": 5,
+  "cookMinutes": 20,
+  "difficulty": "easy",
+  "tags": [
+    "finger-food",
+    "sheet-pan",
+    "sweet",
+    "quick"
+  ],
+  "allergens": [],
+  "ingredients": [
+    {
+      "id": "plantain",
+      "name": "very ripe plantains",
+      "qty": 2,
+      "unit": "",
+      "note": "black-spotted"
+    },
+    {
+      "id": "oil",
+      "name": "coconut oil",
+      "qty": 1,
+      "unit": "tbsp",
+      "substitutes": [
+        {
+          "name": "olive oil"
+        }
+      ]
+    },
+    {
+      "id": "cinnamon",
+      "name": "cinnamon",
+      "qty": 0.25,
+      "unit": "tsp",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat the oven to 200C/400F."
+    },
+    {
+      "text": "Peel {plantain} and cut into thick fingers."
+    },
+    {
+      "text": "Toss with {list:oil,cinnamon}."
+    },
+    {
+      "text": "Bake, turning once.",
+      "minutes": 20
+    },
+    {
+      "text": "Cool and serve soft."
+    }
+  ],
+  "toddlerTips": [
+    "Soft and ripe only; cut into fingers.",
+    "Serve warm."
+  ],
+  "sources": [
+    {
+      "platform": "family",
+      "url": "",
+      "title": "Common family recipe"
+    }
+  ],
+  "popularity": 0.4,
+  "yield": 3
+}

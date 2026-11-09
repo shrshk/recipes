@@ -1,0 +1,123 @@
+{
+  "id": "lentil-fritters",
+  "title": "Lentil Fritters",
+  "summary": "Pan-fried red lentil and veg patties, iron-rich and easy to hold.",
+  "cuisine": "global",
+  "meals": [
+    "lunch",
+    "dinner",
+    "snack"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "yield": 4,
+  "difficulty": "easy",
+  "tags": [
+    "finger-food",
+    "iron-rich",
+    "protein-packed",
+    "lunchbox",
+    "batch-cook",
+    "savory"
+  ],
+  "allergens": [
+    "egg",
+    "gluten",
+    "wheat"
+  ],
+  "ingredients": [
+    {
+      "id": "lentils",
+      "name": "cooked red lentils",
+      "qty": 1,
+      "unit": "cup"
+    },
+    {
+      "id": "carrot",
+      "name": "grated carrot",
+      "qty": 0.5,
+      "unit": "cup"
+    },
+    {
+      "id": "spinach",
+      "name": "chopped spinach",
+      "qty": 0.5,
+      "unit": "cup",
+      "optional": true
+    },
+    {
+      "id": "egg",
+      "name": "egg",
+      "qty": 1,
+      "unit": "",
+      "substitutes": [
+        {
+          "name": "flax egg",
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "flour",
+      "name": "plain flour",
+      "qty": 3,
+      "unit": "tbsp",
+      "substitutes": [
+        {
+          "name": "chickpea flour"
+        }
+      ]
+    },
+    {
+      "id": "cumin",
+      "name": "ground cumin",
+      "qty": 0.5,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "oil",
+      "name": "oil for frying",
+      "qty": 1,
+      "unit": "tbsp"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Mix {list:lentils,carrot,spinach,egg,flour,cumin} in a bowl."
+    },
+    {
+      "text": "Let the mix rest.",
+      "minutes": 5
+    },
+    {
+      "text": "Heat {oil} in a pan on medium."
+    },
+    {
+      "text": "Spoon in small patties and flatten."
+    },
+    {
+      "text": "Fry each side until golden.",
+      "minutes": 6
+    },
+    {
+      "text": "Cool and cut into pieces.",
+      "tip": "Serve flat, not in balls."
+    }
+  ],
+  "toddlerTips": [
+    "Serve with plain yogurt dip.",
+    "No added salt.",
+    "Freeze cooked fritters and reheat in an oven."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.yummytoddlerfood.com/wprm_print/easy-lentil-patties",
+      "title": "Easy Lentil Patties",
+      "author": "Yummy Toddler Food"
+    }
+  ],
+  "popularity": 0.55
+}

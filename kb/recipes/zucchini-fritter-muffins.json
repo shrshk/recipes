@@ -1,0 +1,119 @@
+{
+  "id": "zucchini-fritter-muffins",
+  "title": "Zucchini Fritter Muffins",
+  "summary": "Baked courgette and cheese bites in muffin cups.",
+  "cuisine": "american",
+  "meals": [
+    "snack",
+    "lunch"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "yield": 12,
+  "difficulty": "easy",
+  "tags": [
+    "finger-food",
+    "hidden-veg",
+    "freezer-friendly",
+    "lunchbox",
+    "batch-cook"
+  ],
+  "allergens": [
+    "egg",
+    "gluten",
+    "wheat",
+    "dairy"
+  ],
+  "ingredients": [
+    {
+      "id": "zucchini",
+      "name": "grated courgette",
+      "qty": 1.5,
+      "unit": "cups",
+      "note": "squeezed dry"
+    },
+    {
+      "id": "egg",
+      "name": "egg",
+      "qty": 1,
+      "unit": "",
+      "substitutes": [
+        {
+          "name": "ricotta",
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      ]
+    },
+    {
+      "id": "flour",
+      "name": "plain flour",
+      "qty": 0.5,
+      "unit": "cup",
+      "substitutes": [
+        {
+          "name": "oat flour"
+        }
+      ]
+    },
+    {
+      "id": "cheese",
+      "name": "grated cheese",
+      "qty": 0.5,
+      "unit": "cup",
+      "substitutes": [
+        {
+          "name": "dairy-free cheese"
+        }
+      ]
+    },
+    {
+      "id": "baking-powder",
+      "name": "baking powder",
+      "qty": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "id": "oil",
+      "name": "oil",
+      "qty": 1,
+      "unit": "tbsp"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat the oven to 190C / 375F and grease a mini muffin tin."
+    },
+    {
+      "text": "Squeeze all the water out of the {zucchini}."
+    },
+    {
+      "text": "Mix {list:zucchini,egg,flour,cheese,baking-powder,oil}."
+    },
+    {
+      "text": "Spoon into the cups."
+    },
+    {
+      "text": "Bake until golden.",
+      "minutes": 18
+    },
+    {
+      "text": "Cool and loosen with a knife."
+    }
+  ],
+  "toddlerTips": [
+    "Dry the courgette well or the bites go soggy.",
+    "Cut in halves for small toddlers.",
+    "Little salt needed."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.yummytoddlerfood.com/easy-zucchini-fritter-muffins/",
+      "title": "Easy Zucchini Fritter Muffins",
+      "author": "Yummy Toddler Food"
+    }
+  ],
+  "popularity": 0.65
+}

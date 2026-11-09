@@ -1,0 +1,123 @@
+{
+  "id": "non-spicy-tofu-soup",
+  "title": "Mild Korean Tofu Soup",
+  "summary": "Soft tofu and veg in a mild broth, a non-spicy sundubu-style family soup.",
+  "cuisine": "korean",
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "yield": 3,
+  "difficulty": "easy",
+  "tags": [
+    "one-pot",
+    "quick",
+    "iron-rich"
+  ],
+  "allergens": [
+    "egg",
+    "soy"
+  ],
+  "ingredients": [
+    {
+      "id": "tofu",
+      "name": "soft tofu",
+      "qty": 150,
+      "unit": "g"
+    },
+    {
+      "id": "onion",
+      "name": "onion",
+      "qty": 0.25,
+      "unit": "",
+      "note": "sliced thin"
+    },
+    {
+      "id": "zucchini",
+      "name": "zucchini",
+      "qty": 0.25,
+      "unit": "",
+      "note": "cut small"
+    },
+    {
+      "id": "mushroom",
+      "name": "mushrooms",
+      "qty": 2,
+      "unit": "",
+      "note": "finely chopped",
+      "optional": true
+    },
+    {
+      "id": "water",
+      "name": "water or unsalted stock",
+      "qty": 0.75,
+      "unit": "cups"
+    },
+    {
+      "id": "egg",
+      "name": "egg",
+      "qty": 1,
+      "unit": "",
+      "optional": true
+    },
+    {
+      "id": "doenjang",
+      "name": "soybean paste",
+      "qty": 1,
+      "unit": "tsp",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "miso",
+          "qty": 1,
+          "unit": "tsp"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Bring {water} to a boil with {doenjang}."
+    },
+    {
+      "text": "Add {list:onion,zucchini,mushroom}. Simmer until soft.",
+      "minutes": 6
+    },
+    {
+      "text": "Spoon in {tofu} in soft chunks."
+    },
+    {
+      "text": "Crack {egg} in and stir gently until cooked.",
+      "minutes": 3,
+      "requires": [
+        "egg"
+      ]
+    },
+    {
+      "text": "Cool until warm before serving."
+    }
+  ],
+  "toddlerTips": [
+    "Soybean paste is salty; use a small amount.",
+    "Keep tofu in soft pieces.",
+    "Leave out gochugaru for toddlers."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.mjandhungryman.com/non-spicy-korean-tofu-stew/",
+      "title": "Non-Spicy Korean Tofu Stew",
+      "author": "MJ and Hungryman"
+    },
+    {
+      "platform": "blog",
+      "url": "https://www.maangchi.com/recipe/dubu-jogaetguk",
+      "title": "Tofu soup",
+      "author": "Maangchi"
+    }
+  ],
+  "popularity": 0.6
+}

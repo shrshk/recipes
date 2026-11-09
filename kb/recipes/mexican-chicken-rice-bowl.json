@@ -1,0 +1,107 @@
+{
+  "id": "mexican-chicken-rice-bowl",
+  "title": "Mexican Chicken Rice Skillet",
+  "summary": "One-pan rice with chicken, tomato, corn and a gentle cumin flavor.",
+  "cuisine": "mexican",
+  "meals": [
+    "dinner",
+    "lunch"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 25,
+  "difficulty": "easy",
+  "tags": [
+    "one-pot",
+    "family-meal",
+    "freezer-friendly",
+    "batch-cook"
+  ],
+  "allergens": [],
+  "ingredients": [
+    {
+      "id": "chicken",
+      "name": "boneless chicken thigh",
+      "qty": 250,
+      "unit": "g",
+      "note": "small pieces"
+    },
+    {
+      "id": "rice",
+      "name": "long-grain rice",
+      "qty": 1,
+      "unit": "cup",
+      "note": "rinsed"
+    },
+    {
+      "id": "tomatoes",
+      "name": "canned crushed tomatoes",
+      "qty": 0.5,
+      "unit": "cup"
+    },
+    {
+      "id": "corn",
+      "name": "corn kernels",
+      "qty": 0.5,
+      "unit": "cup"
+    },
+    {
+      "id": "cumin",
+      "name": "ground cumin",
+      "qty": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "id": "stock",
+      "name": "low-sodium chicken stock",
+      "qty": 2,
+      "unit": "cups",
+      "substitutes": [
+        {
+          "name": "water"
+        }
+      ]
+    },
+    {
+      "id": "oil",
+      "name": "oil",
+      "qty": 1,
+      "unit": "tbsp"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Brown {chicken} in {oil} in a wide pan."
+    },
+    {
+      "text": "Stir in {list:rice,cumin} for a minute."
+    },
+    {
+      "text": "Add {list:tomatoes,stock,corn} and bring to a simmer."
+    },
+    {
+      "text": "Cover and cook on low until the rice is tender.",
+      "minutes": 18
+    },
+    {
+      "text": "Check the chicken is cooked through, then shred or chop finely.",
+      "tip": "No pink inside."
+    },
+    {
+      "text": "Fluff and cool to warm."
+    }
+  ],
+  "toddlerTips": [
+    "Chop chicken small or shred it.",
+    "Use low-sodium stock."
+  ],
+  "sources": [
+    {
+      "platform": "family",
+      "url": "",
+      "title": "Common family recipe"
+    }
+  ],
+  "popularity": 0.55,
+  "yield": 5
+}

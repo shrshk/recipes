@@ -1,0 +1,125 @@
+{
+  "id": "baked-falafel-bites",
+  "title": "Baked Falafel Bites",
+  "summary": "Herby baked chickpea logs, soft inside, easy to hold.",
+  "cuisine": "mediterranean",
+  "meals": [
+    "lunch",
+    "dinner",
+    "snack"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 15,
+  "cookMinutes": 20,
+  "difficulty": "easy",
+  "tags": [
+    "finger-food",
+    "freezer-friendly",
+    "protein-packed",
+    "iron-rich",
+    "sheet-pan"
+  ],
+  "allergens": [],
+  "ingredients": [
+    {
+      "id": "chickpeas",
+      "name": "canned chickpeas",
+      "qty": 1,
+      "unit": "can",
+      "note": "drained and rinsed"
+    },
+    {
+      "id": "parsley",
+      "name": "fresh parsley",
+      "qty": 0.33,
+      "unit": "cup",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "fresh coriander"
+        }
+      ]
+    },
+    {
+      "id": "cumin",
+      "name": "ground cumin",
+      "qty": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "id": "onion",
+      "name": "onion",
+      "qty": 0.25,
+      "unit": "",
+      "note": "small, roughly chopped"
+    },
+    {
+      "id": "coriander",
+      "name": "ground coriander",
+      "qty": 0.33,
+      "unit": "tsp"
+    },
+    {
+      "id": "garlic",
+      "name": "garlic clove",
+      "qty": 1,
+      "unit": ""
+    },
+    {
+      "id": "flour",
+      "name": "chickpea flour",
+      "qty": 2,
+      "unit": "tbsp",
+      "substitutes": [
+        {
+          "name": "oat flour"
+        }
+      ]
+    },
+    {
+      "id": "oil",
+      "name": "olive oil",
+      "qty": 1,
+      "unit": "tbsp"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat the oven to 200C/400F and line a tray."
+    },
+    {
+      "text": "Blend {list:chickpeas,onion,parsley,cumin,coriander,garlic,flour} until a thick, rough paste."
+    },
+    {
+      "text": "Shape into small logs the length of a finger.",
+      "tip": "Logs and flat shapes, not balls, are safer."
+    },
+    {
+      "text": "Brush with {oil} and bake, turning once.",
+      "minutes": 20
+    },
+    {
+      "text": "Cool fully before serving."
+    }
+  ],
+  "toddlerTips": [
+    "Shape as logs or flat patties.",
+    "Serve with plain yogurt or hummus."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.mummycooks.com/blog/baked-falafel",
+      "title": "Baked Falafel",
+      "author": "Mummy Cooks"
+    },
+    {
+      "platform": "blog",
+      "url": "https://plantbasedjuniors.com/easy-baked-falafels/",
+      "title": "Easy Baked Falafels",
+      "author": "Plant Based Juniors"
+    }
+  ],
+  "popularity": 0.7,
+  "yield": 4
+}

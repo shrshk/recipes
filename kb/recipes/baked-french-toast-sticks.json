@@ -1,0 +1,127 @@
+{
+  "id": "baked-french-toast-sticks",
+  "title": "Baked French Toast Sticks",
+  "summary": "Eggy bread fingers baked on a tray, ready to freeze and reheat.",
+  "cuisine": "french",
+  "meals": [
+    "breakfast"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "yield": 6,
+  "difficulty": "easy",
+  "tags": [
+    "finger-food",
+    "freezer-friendly",
+    "batch-cook",
+    "sweet",
+    "picky-eater"
+  ],
+  "allergens": [
+    "egg",
+    "gluten",
+    "wheat",
+    "dairy"
+  ],
+  "ingredients": [
+    {
+      "id": "bread",
+      "name": "thick sliced bread",
+      "qty": 6,
+      "unit": "slices",
+      "substitutes": [
+        {
+          "name": "gluten-free bread"
+        }
+      ]
+    },
+    {
+      "id": "eggs",
+      "name": "eggs",
+      "qty": 3,
+      "unit": "",
+      "substitutes": [
+        {
+          "name": "mashed banana",
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      ]
+    },
+    {
+      "id": "milk",
+      "name": "milk",
+      "qty": 0.5,
+      "unit": "cup",
+      "substitutes": [
+        {
+          "name": "oat milk"
+        }
+      ]
+    },
+    {
+      "id": "cinnamon",
+      "name": "cinnamon",
+      "qty": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "vanilla",
+      "name": "vanilla extract",
+      "qty": 0.5,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "butter",
+      "name": "melted butter",
+      "qty": 1,
+      "unit": "tbsp",
+      "substitutes": [
+        {
+          "name": "oil"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat the oven to 200C / 400F and line a tray with baking paper."
+    },
+    {
+      "text": "Whisk {list:eggs,milk,cinnamon,vanilla} in a shallow dish."
+    },
+    {
+      "text": "Cut the {bread} into sticks."
+    },
+    {
+      "text": "Dip each stick briefly so it soaks but stays whole."
+    },
+    {
+      "text": "Lay the sticks on the tray and brush with {butter}."
+    },
+    {
+      "text": "Bake, flipping halfway, until golden.",
+      "minutes": 18
+    },
+    {
+      "text": "Cool fully before serving or freezing.",
+      "tip": "Check the centre is not too hot."
+    }
+  ],
+  "toddlerTips": [
+    "Serve in finger-width sticks.",
+    "Skip syrup; offer fruit puree for dipping.",
+    "Reheat from frozen in short bursts and test the temperature."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.yummytoddlerfood.com/baked-french-toast-sticks/",
+      "title": "Baked French Toast Sticks",
+      "author": "Yummy Toddler Food"
+    }
+  ],
+  "popularity": 0.8
+}

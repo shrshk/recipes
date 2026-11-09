@@ -1,0 +1,127 @@
+{
+  "id": "apple-cinnamon-oatmeal-cups",
+  "title": "Apple Cinnamon Baked Oatmeal Cups",
+  "summary": "Baked oat cups with applesauce that freeze well for grab-and-go breakfasts.",
+  "cuisine": "american",
+  "meals": [
+    "breakfast",
+    "snack"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 25,
+  "yield": 12,
+  "difficulty": "easy",
+  "tags": [
+    "batch-cook",
+    "freezer-friendly",
+    "finger-food",
+    "sweet",
+    "lunchbox"
+  ],
+  "allergens": [
+    "egg",
+    "gluten"
+  ],
+  "ingredients": [
+    {
+      "id": "oats",
+      "name": "rolled oats",
+      "qty": 2,
+      "unit": "cups",
+      "substitutes": [
+        {
+          "name": "certified gluten-free oats"
+        }
+      ]
+    },
+    {
+      "id": "applesauce",
+      "name": "unsweetened applesauce",
+      "qty": 1,
+      "unit": "cup"
+    },
+    {
+      "id": "egg",
+      "name": "egg",
+      "qty": 1,
+      "unit": "",
+      "substitutes": [
+        {
+          "name": "mashed banana",
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      ]
+    },
+    {
+      "id": "milk",
+      "name": "milk",
+      "qty": 0.75,
+      "unit": "cup",
+      "substitutes": [
+        {
+          "name": "oat milk"
+        }
+      ]
+    },
+    {
+      "id": "cinnamon",
+      "name": "cinnamon",
+      "qty": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "baking-powder",
+      "name": "baking powder",
+      "qty": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "maple",
+      "name": "maple syrup",
+      "qty": 1,
+      "unit": "tbsp",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat the oven to 180C / 350F and line a 12-cup muffin tin."
+    },
+    {
+      "text": "Stir {list:oats,cinnamon,baking-powder} together."
+    },
+    {
+      "text": "Whisk {list:applesauce,egg,milk,maple} in a second bowl."
+    },
+    {
+      "text": "Combine the wet and dry mixes."
+    },
+    {
+      "text": "Rest the batter so the oats soften.",
+      "minutes": 5
+    },
+    {
+      "text": "Spoon into the cups and bake until firm.",
+      "minutes": 22
+    },
+    {
+      "text": "Cool before serving."
+    }
+  ],
+  "toddlerTips": [
+    "Honey is not suitable under 12 months, so use maple syrup or none.",
+    "Serve at room temperature in halves.",
+    "Keep any whole apple chunks grated or cooked soft."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.countrysidecravings.com/apple-cinnamon-freezer-oatmeal-cups/",
+      "title": "Apple Cinnamon Freezer Oatmeal Cups",
+      "author": "Countryside Cravings"
+    }
+  ],
+  "popularity": 0.65
+}

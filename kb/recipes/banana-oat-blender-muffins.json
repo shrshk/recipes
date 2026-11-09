@@ -1,0 +1,142 @@
+{
+  "id": "banana-oat-blender-muffins",
+  "title": "Banana Oat Blender Muffins",
+  "summary": "Soft, naturally sweet muffins made by blending oats and ripe banana.",
+  "cuisine": "american",
+  "meals": [
+    "breakfast",
+    "snack"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "yield": 12,
+  "difficulty": "easy",
+  "tags": [
+    "batch-cook",
+    "freezer-friendly",
+    "finger-food",
+    "sweet",
+    "lunchbox"
+  ],
+  "allergens": [
+    "egg",
+    "gluten"
+  ],
+  "ingredients": [
+    {
+      "id": "oats",
+      "name": "rolled oats",
+      "qty": 1.5,
+      "unit": "cups",
+      "substitutes": [
+        {
+          "name": "certified gluten-free oats"
+        }
+      ]
+    },
+    {
+      "id": "banana",
+      "name": "ripe bananas",
+      "qty": 2,
+      "unit": "",
+      "note": "very ripe"
+    },
+    {
+      "id": "egg",
+      "name": "egg",
+      "qty": 1,
+      "unit": "",
+      "substitutes": [
+        {
+          "name": "unsweetened applesauce",
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      ]
+    },
+    {
+      "id": "milk",
+      "name": "milk",
+      "qty": 0.5,
+      "unit": "cup",
+      "substitutes": [
+        {
+          "name": "oat milk"
+        },
+        {
+          "name": "water"
+        }
+      ]
+    },
+    {
+      "id": "oil",
+      "name": "mild oil",
+      "qty": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "baking-powder",
+      "name": "baking powder",
+      "qty": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "cinnamon",
+      "name": "cinnamon",
+      "qty": 0.5,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "blueberries",
+      "name": "blueberries",
+      "qty": 0.5,
+      "unit": "cup",
+      "note": "halved or mashed",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat the oven to 180C / 350F and line a 12-cup muffin tin with paper cases."
+    },
+    {
+      "text": "Blend the {oats} into a coarse flour."
+    },
+    {
+      "text": "Add {list:banana,egg,milk,oil,baking-powder,cinnamon} and blend until smooth."
+    },
+    {
+      "text": "Stir in the {blueberries} by hand.",
+      "requires": [
+        "blueberries"
+      ]
+    },
+    {
+      "text": "Spoon the batter into the cases, about two thirds full."
+    },
+    {
+      "text": "Bake until a toothpick comes out clean.",
+      "minutes": 20
+    },
+    {
+      "text": "Cool fully on a rack before serving.",
+      "tip": "Warm muffins can hide hot spots. Cool them first."
+    }
+  ],
+  "toddlerTips": [
+    "Skip any added sugar; ripe banana is enough.",
+    "Honey is not safe under 12 months, so do not use it as a sweetener.",
+    "Mash or halve blueberries to lower choking risk."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.yummytoddlerfood.com/banana-oatmeal-muffins/",
+      "title": "Banana Oatmeal Muffins",
+      "author": "Yummy Toddler Food"
+    }
+  ],
+  "popularity": 0.85
+}

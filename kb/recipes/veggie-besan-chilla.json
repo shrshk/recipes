@@ -1,0 +1,124 @@
+{
+  "id": "veggie-besan-chilla",
+  "title": "Veggie Besan Chilla",
+  "summary": "Savory chickpea-flour pancakes with grated veg, cut into strips.",
+  "cuisine": "indian",
+  "meals": [
+    "breakfast",
+    "lunch",
+    "snack"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 12,
+  "difficulty": "easy",
+  "tags": [
+    "finger-food",
+    "hidden-veg",
+    "quick",
+    "protein-packed",
+    "lunchbox"
+  ],
+  "allergens": [],
+  "ingredients": [
+    {
+      "id": "besan",
+      "name": "besan (chickpea flour)",
+      "qty": 0.75,
+      "unit": "cup"
+    },
+    {
+      "id": "water",
+      "name": "water",
+      "qty": 0.75,
+      "unit": "cup"
+    },
+    {
+      "id": "carrot",
+      "name": "grated carrot",
+      "qty": 0.33,
+      "unit": "cup"
+    },
+    {
+      "id": "zucchini",
+      "name": "grated zucchini",
+      "qty": 0.25,
+      "unit": "cup",
+      "note": "squeezed dry",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "grated cucumber"
+        }
+      ]
+    },
+    {
+      "id": "ajwain",
+      "name": "ajwain (carom seeds)",
+      "qty": 0.25,
+      "unit": "tsp",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "ground cumin"
+        }
+      ]
+    },
+    {
+      "id": "turmeric",
+      "name": "turmeric",
+      "qty": 0.25,
+      "unit": "tsp"
+    },
+    {
+      "id": "oil",
+      "name": "oil",
+      "qty": 2,
+      "unit": "tbsp",
+      "note": "for the pan"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Whisk {list:besan,water,turmeric,ajwain} into a smooth, pourable batter."
+    },
+    {
+      "text": "Stir in {list:carrot,zucchini}.",
+      "tip": "Squeeze grated veg dry so the pancakes set."
+    },
+    {
+      "text": "Rest the batter for a few minutes.",
+      "minutes": 5
+    },
+    {
+      "text": "Heat a non-stick pan with a thin film of {oil} and pour in a small ladle of batter."
+    },
+    {
+      "text": "Cook until the edges lift and the underside is golden, then flip.",
+      "minutes": 3
+    },
+    {
+      "text": "Cut into strips and cool slightly."
+    }
+  ],
+  "toddlerTips": [
+    "Cut into finger strips; make them thin and fully cooked, not gooey.",
+    "Introduce besan in small amounts the first time in case of tummy upset."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.mylittlemoppet.com/chickpea-veggie-pancake-recipe/",
+      "title": "Chickpea veggie pancake recipe",
+      "author": "My Little Moppet"
+    },
+    {
+      "platform": "blog",
+      "url": "https://www.indianhealthyrecipes.com/cheela-recipe/",
+      "title": "Besan Chilla Recipe (Cheela)",
+      "author": "Indian Healthy Recipes"
+    }
+  ],
+  "popularity": 0.75,
+  "yield": 4
+}

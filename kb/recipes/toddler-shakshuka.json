@@ -1,0 +1,105 @@
+{
+  "id": "toddler-shakshuka",
+  "title": "Toddler Shakshuka",
+  "summary": "Eggs poached in a mild tomato and pepper sauce, served with toast.",
+  "cuisine": "middle-eastern",
+  "meals": [
+    "breakfast",
+    "lunch",
+    "dinner"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "difficulty": "easy",
+  "tags": [
+    "one-pot",
+    "quick",
+    "protein-packed",
+    "hidden-veg"
+  ],
+  "allergens": [
+    "egg"
+  ],
+  "ingredients": [
+    {
+      "id": "tomatoes",
+      "name": "canned crushed tomatoes",
+      "qty": 1,
+      "unit": "cup"
+    },
+    {
+      "id": "pepper",
+      "name": "red bell pepper",
+      "qty": 0.5,
+      "unit": "",
+      "note": "finely diced"
+    },
+    {
+      "id": "onion",
+      "name": "onion",
+      "qty": 0.25,
+      "unit": "",
+      "note": "finely diced"
+    },
+    {
+      "id": "cumin",
+      "name": "ground cumin",
+      "qty": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "id": "paprika",
+      "name": "sweet paprika",
+      "qty": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "id": "eggs",
+      "name": "eggs",
+      "qty": 3,
+      "unit": ""
+    },
+    {
+      "id": "oil",
+      "name": "olive oil",
+      "qty": 1,
+      "unit": "tbsp"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Soften {list:onion,pepper} in {oil}.",
+      "minutes": 5
+    },
+    {
+      "text": "Stir in {list:cumin,paprika,tomatoes} and simmer.",
+      "minutes": 8
+    },
+    {
+      "text": "Make wells and crack in {eggs}."
+    },
+    {
+      "text": "Cover and cook until the whites and yolks are firm.",
+      "minutes": 8,
+      "tip": "Cook eggs fully for toddlers."
+    },
+    {
+      "text": "Cool and break up with a spoon."
+    }
+  ],
+  "toddlerTips": [
+    "Serve with strips of toast.",
+    "Eggs must be fully set."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://organix.com/recipes/baby/shakshuka",
+      "title": "Shakshuka",
+      "author": "Organix"
+    }
+  ],
+  "popularity": 0.5,
+  "yield": 3
+}

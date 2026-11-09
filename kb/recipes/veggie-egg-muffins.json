@@ -1,0 +1,128 @@
+{
+  "id": "veggie-egg-muffins",
+  "title": "Veggie Egg Muffins",
+  "summary": "Mini baked omelettes with soft vegetables and a little cheese.",
+  "cuisine": "american",
+  "meals": [
+    "breakfast",
+    "snack"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 18,
+  "yield": 12,
+  "difficulty": "easy",
+  "tags": [
+    "finger-food",
+    "batch-cook",
+    "freezer-friendly",
+    "protein-packed",
+    "lunchbox",
+    "savory"
+  ],
+  "allergens": [
+    "egg",
+    "dairy"
+  ],
+  "ingredients": [
+    {
+      "id": "eggs",
+      "name": "eggs",
+      "qty": 6,
+      "unit": ""
+    },
+    {
+      "id": "milk",
+      "name": "milk",
+      "qty": 0.25,
+      "unit": "cup",
+      "substitutes": [
+        {
+          "name": "oat milk"
+        }
+      ]
+    },
+    {
+      "id": "cheese",
+      "name": "grated cheddar",
+      "qty": 0.5,
+      "unit": "cup",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "dairy-free cheese"
+        },
+        {
+          "name": "nutritional yeast"
+        }
+      ]
+    },
+    {
+      "id": "zucchini",
+      "name": "grated zucchini",
+      "qty": 0.5,
+      "unit": "cup",
+      "note": "squeezed dry"
+    },
+    {
+      "id": "carrot",
+      "name": "finely grated carrot",
+      "qty": 0.25,
+      "unit": "cup"
+    },
+    {
+      "id": "spinach",
+      "name": "chopped baby spinach",
+      "qty": 0.5,
+      "unit": "cup"
+    },
+    {
+      "id": "oil",
+      "name": "oil for the tin",
+      "qty": 1,
+      "unit": "tsp"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat the oven to 180C / 350F and grease a 12-cup mini muffin tin."
+    },
+    {
+      "text": "Whisk {list:eggs,milk} in a jug."
+    },
+    {
+      "text": "Divide {list:zucchini,carrot,spinach} between the cups."
+    },
+    {
+      "text": "Sprinkle {cheese} over the veg.",
+      "requires": [
+        "cheese"
+      ]
+    },
+    {
+      "text": "Pour the egg mix over, filling each cup about three quarters.",
+      "tip": "Eggs puff up as they bake."
+    },
+    {
+      "text": "Bake until set in the middle.",
+      "minutes": 15
+    },
+    {
+      "text": "Rest a few minutes, then loosen with a knife."
+    }
+  ],
+  "toddlerTips": [
+    "Cut into halves or quarters for younger toddlers.",
+    "No added salt needed; cheese adds enough.",
+    "Cook eggs fully until firm."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.yummytoddlerfood.com/egg-and-cheese-mini-muffins/",
+      "title": "Egg and Cheese Mini Muffins",
+      "author": "Yummy Toddler Food"
+    }
+  ],
+  "popularity": 0.8
+}

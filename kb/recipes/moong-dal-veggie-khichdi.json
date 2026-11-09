@@ -1,0 +1,141 @@
+{
+  "id": "moong-dal-veggie-khichdi",
+  "title": "Moong Dal Veggie Khichdi",
+  "summary": "Soft one-pot rice and yellow lentils with carrot and peas, mild and mashable.",
+  "cuisine": "indian",
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 25,
+  "difficulty": "easy",
+  "tags": [
+    "one-pot",
+    "freezer-friendly",
+    "iron-rich",
+    "batch-cook"
+  ],
+  "allergens": [
+    "dairy"
+  ],
+  "ingredients": [
+    {
+      "id": "rice",
+      "name": "basmati rice",
+      "qty": 0.5,
+      "unit": "cup",
+      "note": "rinsed"
+    },
+    {
+      "id": "dal",
+      "name": "yellow moong dal",
+      "qty": 0.5,
+      "unit": "cup",
+      "note": "rinsed",
+      "substitutes": [
+        {
+          "name": "red lentils"
+        }
+      ]
+    },
+    {
+      "id": "carrot",
+      "name": "carrot",
+      "qty": 0.5,
+      "unit": "cup",
+      "note": "grated"
+    },
+    {
+      "id": "peas",
+      "name": "green peas",
+      "qty": 0.25,
+      "unit": "cup",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "diced green beans"
+        }
+      ]
+    },
+    {
+      "id": "turmeric",
+      "name": "turmeric",
+      "qty": 0.25,
+      "unit": "tsp"
+    },
+    {
+      "id": "cumin",
+      "name": "cumin seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "ghee",
+      "name": "ghee",
+      "qty": 2,
+      "unit": "tsp",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "olive oil"
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "name": "water",
+      "qty": 4,
+      "unit": "cups"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Rinse {list:rice,dal} until the water runs mostly clear."
+    },
+    {
+      "text": "Warm {ghee} in a pot and toast {cumin} for a few seconds.",
+      "requires": [
+        "ghee",
+        "cumin"
+      ]
+    },
+    {
+      "text": "Add {list:rice,dal,carrot,peas,turmeric} and {water}."
+    },
+    {
+      "text": "Bring to a boil, then cover and simmer on low until everything is very soft.",
+      "minutes": 20,
+      "tip": "Add water if it sticks. Toddler khichdi should be soft and a little soupy."
+    },
+    {
+      "text": "Mash lightly with the back of a spoon so grains clump for easy scooping."
+    },
+    {
+      "text": "Cool until warm before serving."
+    }
+  ],
+  "toddlerTips": [
+    "Serve warm, not hot. Mash less as your child gets used to textures.",
+    "Skip salt, or add only a tiny pinch for a child over 12 months.",
+    "Freezes well in small portions."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.tarladalal.com/vegetable-khichdi-for-babies-and-toddlers-3072r",
+      "title": "Vegetable Khichdi For Babies And Toddlers",
+      "author": "Tarla Dalal"
+    },
+    {
+      "platform": "blog",
+      "url": "https://www.yummytummyaarthi.com/moong-dal-khichdi-plain-dal-khichdi/",
+      "title": "Moong Dal Khichdi",
+      "author": "Yummy Tummy Aarthi"
+    }
+  ],
+  "popularity": 0.8,
+  "yield": 4
+}

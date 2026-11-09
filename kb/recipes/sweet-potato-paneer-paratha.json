@@ -1,0 +1,115 @@
+{
+  "id": "sweet-potato-paneer-paratha",
+  "title": "Sweet Potato Paneer Paratha",
+  "summary": "Whole wheat flatbread stuffed with soft sweet potato and crumbled paneer.",
+  "cuisine": "indian",
+  "meals": [
+    "lunch",
+    "dinner",
+    "snack"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 25,
+  "cookMinutes": 15,
+  "difficulty": "medium",
+  "tags": [
+    "finger-food",
+    "lunchbox",
+    "freezer-friendly",
+    "iron-rich"
+  ],
+  "allergens": [
+    "dairy",
+    "gluten",
+    "wheat"
+  ],
+  "ingredients": [
+    {
+      "id": "atta",
+      "name": "whole wheat flour (atta)",
+      "qty": 1,
+      "unit": "cup"
+    },
+    {
+      "id": "sweet-potato",
+      "name": "sweet potato",
+      "qty": 1,
+      "unit": "small",
+      "note": "boiled and mashed"
+    },
+    {
+      "id": "paneer",
+      "name": "paneer",
+      "qty": 0.25,
+      "unit": "cup",
+      "note": "crumbled",
+      "substitutes": [
+        {
+          "name": "mashed chickpeas"
+        }
+      ]
+    },
+    {
+      "id": "cumin",
+      "name": "ground cumin",
+      "qty": 0.25,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "water",
+      "name": "water",
+      "qty": 0.33,
+      "unit": "cup",
+      "note": "approx"
+    },
+    {
+      "id": "ghee",
+      "name": "ghee or oil",
+      "qty": 1,
+      "unit": "tsp",
+      "substitutes": [
+        {
+          "name": "olive oil"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Knead {list:atta,water} into a soft dough, then rest it.",
+      "minutes": 10
+    },
+    {
+      "text": "Mix {list:sweet-potato,paneer,cumin} into a smooth filling."
+    },
+    {
+      "text": "Roll a dough ball flat, add a spoon of filling, and pinch closed."
+    },
+    {
+      "text": "Roll gently into a small round paratha."
+    },
+    {
+      "text": "Cook on a hot pan, flipping, with a little {ghee} until brown spots appear.",
+      "minutes": 4
+    },
+    {
+      "text": "Cool, then cut into strips.",
+      "tip": "Soft strips are easier than rolled wedges for little hands."
+    }
+  ],
+  "toddlerTips": [
+    "Cut into strips and check the middle is not too hot.",
+    "Pair with plain yogurt as a dip."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.danone.in/recipes/sweet-potato-paneer-paratha/",
+      "title": "Sweet Potato and Paneer Paratha",
+      "author": "Danone India"
+    }
+  ],
+  "popularity": 0.6,
+  "yield": 4
+}

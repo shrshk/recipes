@@ -1,0 +1,105 @@
+{
+  "id": "lemon-oregano-chicken-bites",
+  "title": "Lemon Oregano Chicken Bites",
+  "summary": "Roasted chicken pieces marinated in lemon, garlic and oregano.",
+  "cuisine": "greek",
+  "meals": [
+    "dinner",
+    "lunch"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "difficulty": "easy",
+  "tags": [
+    "finger-food",
+    "sheet-pan",
+    "protein-packed",
+    "family-meal"
+  ],
+  "allergens": [],
+  "ingredients": [
+    {
+      "id": "chicken",
+      "name": "chicken thigh",
+      "qty": 300,
+      "unit": "g",
+      "note": "cut in strips"
+    },
+    {
+      "id": "lemon",
+      "name": "lemon juice",
+      "qty": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "oil",
+      "name": "olive oil",
+      "qty": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "garlic",
+      "name": "garlic",
+      "qty": 1,
+      "unit": "clove",
+      "note": "grated"
+    },
+    {
+      "id": "oregano",
+      "name": "dried oregano",
+      "qty": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "yogurt",
+      "name": "plain yogurt",
+      "qty": 0.25,
+      "unit": "cup",
+      "note": "for dipping",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "hummus"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Mix {list:lemon,oil,garlic,oregano} in a bowl."
+    },
+    {
+      "text": "Coat {chicken} and marinate.",
+      "minutes": 15
+    },
+    {
+      "text": "Heat the oven to 200C/400F and spread chicken on a tray."
+    },
+    {
+      "text": "Roast until cooked through.",
+      "minutes": 18,
+      "tip": "Cut one open; no pink."
+    },
+    {
+      "text": "Rest and cut into small strips."
+    },
+    {
+      "text": "Serve with {yogurt}."
+    }
+  ],
+  "toddlerTips": [
+    "Cut into thin strips against the grain.",
+    "No added salt needed."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://boobtofood.com/pages/our-best-recipes",
+      "title": "Our best recipes (Greek lemon chicken)",
+      "author": "Boob to Food"
+    }
+  ],
+  "popularity": 0.5,
+  "yield": 4
+}

@@ -1,0 +1,128 @@
+{
+  "id": "sweet-potato-pancakes",
+  "title": "Sweet Potato Pancakes",
+  "summary": "Fluffy pancakes sweetened by mashed sweet potato and applesauce.",
+  "cuisine": "american",
+  "meals": [
+    "breakfast"
+  ],
+  "minAgeMonths": 10,
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "yield": 4,
+  "difficulty": "easy",
+  "tags": [
+    "finger-food",
+    "sweet",
+    "freezer-friendly",
+    "picky-eater"
+  ],
+  "allergens": [
+    "egg",
+    "gluten",
+    "wheat"
+  ],
+  "ingredients": [
+    {
+      "id": "sweet-potato",
+      "name": "cooked mashed sweet potato",
+      "qty": 0.75,
+      "unit": "cup"
+    },
+    {
+      "id": "eggs",
+      "name": "eggs",
+      "qty": 2,
+      "unit": "",
+      "substitutes": [
+        {
+          "name": "extra applesauce",
+          "qty": 0.25,
+          "unit": "cup"
+        }
+      ]
+    },
+    {
+      "id": "applesauce",
+      "name": "unsweetened applesauce",
+      "qty": 0.25,
+      "unit": "cup"
+    },
+    {
+      "id": "flour",
+      "name": "plain flour",
+      "qty": 0.5,
+      "unit": "cup",
+      "substitutes": [
+        {
+          "name": "oat flour"
+        },
+        {
+          "name": "gluten-free flour blend"
+        }
+      ]
+    },
+    {
+      "id": "baking-powder",
+      "name": "baking powder",
+      "qty": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "cinnamon",
+      "name": "cinnamon",
+      "qty": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "id": "butter",
+      "name": "butter or oil for the pan",
+      "qty": 1,
+      "unit": "tbsp",
+      "substitutes": [
+        {
+          "name": "coconut oil"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Mash {sweet-potato} until smooth."
+    },
+    {
+      "text": "Whisk in {list:eggs,applesauce,cinnamon}."
+    },
+    {
+      "text": "Stir in {list:flour,baking-powder} until just combined."
+    },
+    {
+      "text": "Heat a pan on medium-low with a little {butter}."
+    },
+    {
+      "text": "Spoon small rounds of batter into the pan.",
+      "tip": "Small pancakes are easier for toddlers to hold."
+    },
+    {
+      "text": "Cook until bubbles form, then flip and cook again.",
+      "minutes": 4
+    },
+    {
+      "text": "Cool slightly and cut into strips."
+    }
+  ],
+  "toddlerTips": [
+    "Serve cooled to warm, cut in strips.",
+    "Offer plain yogurt or fruit instead of syrup.",
+    "Freeze between parchment sheets and reheat in a toaster."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://mykidslickthebowl.com/sweet-potato-pancakes/",
+      "title": "Sweet Potato Pancakes",
+      "author": "My Kids Lick the Bowl"
+    }
+  ],
+  "popularity": 0.75
+}

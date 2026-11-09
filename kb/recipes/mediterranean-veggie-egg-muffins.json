@@ -1,0 +1,101 @@
+{
+  "id": "mediterranean-veggie-egg-muffins",
+  "title": "Mediterranean Egg Muffins",
+  "summary": "Mini baked omelets with spinach, tomato and feta.",
+  "cuisine": "mediterranean",
+  "meals": [
+    "breakfast",
+    "snack"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 18,
+  "difficulty": "easy",
+  "tags": [
+    "finger-food",
+    "freezer-friendly",
+    "batch-cook",
+    "lunchbox",
+    "protein-packed"
+  ],
+  "allergens": [
+    "egg",
+    "dairy"
+  ],
+  "ingredients": [
+    {
+      "id": "eggs",
+      "name": "eggs",
+      "qty": 6,
+      "unit": ""
+    },
+    {
+      "id": "spinach",
+      "name": "baby spinach",
+      "qty": 1,
+      "unit": "cup",
+      "note": "chopped"
+    },
+    {
+      "id": "tomato",
+      "name": "tomato",
+      "qty": 1,
+      "unit": "small",
+      "note": "deseeded, diced"
+    },
+    {
+      "id": "feta",
+      "name": "feta",
+      "qty": 0.25,
+      "unit": "cup",
+      "note": "crumbled",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "shredded cheddar"
+        }
+      ]
+    },
+    {
+      "id": "oil",
+      "name": "oil",
+      "qty": 1,
+      "unit": "tsp",
+      "note": "for the tin"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat the oven to 180C/350F and grease a muffin tin with {oil}."
+    },
+    {
+      "text": "Whisk {eggs} in a bowl."
+    },
+    {
+      "text": "Stir in {list:spinach,tomato,feta}."
+    },
+    {
+      "text": "Pour into the tin cups until two-thirds full."
+    },
+    {
+      "text": "Bake until set in the middle.",
+      "minutes": 18
+    },
+    {
+      "text": "Cool and loosen with a knife."
+    }
+  ],
+  "toddlerTips": [
+    "Feta is salty; use a small amount.",
+    "Cut in halves for younger toddlers."
+  ],
+  "sources": [
+    {
+      "platform": "family",
+      "url": "",
+      "title": "Common family recipe"
+    }
+  ],
+  "popularity": 0.6,
+  "yield": 6
+}

@@ -1,0 +1,101 @@
+{
+  "id": "toddler-onigiri",
+  "title": "Toddler Onigiri Rice Balls",
+  "summary": "Small soft rice balls with a mild filling, easy to hold and good for lunchboxes.",
+  "cuisine": "japanese",
+  "meals": [
+    "lunch",
+    "snack"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 15,
+  "cookMinutes": 0,
+  "yield": 6,
+  "difficulty": "easy",
+  "tags": [
+    "finger-food",
+    "lunchbox",
+    "quick"
+  ],
+  "allergens": [
+    "fish",
+    "sesame"
+  ],
+  "ingredients": [
+    {
+      "id": "rice",
+      "name": "warm cooked short-grain rice",
+      "qty": 1.5,
+      "unit": "cups"
+    },
+    {
+      "id": "salmon",
+      "name": "cooked flaked salmon",
+      "qty": 3,
+      "unit": "tbsp",
+      "note": "bones removed",
+      "substitutes": [
+        {
+          "name": "shredded cooked chicken",
+          "qty": 3,
+          "unit": "tbsp"
+        }
+      ]
+    },
+    {
+      "id": "nori",
+      "name": "nori sheet",
+      "qty": 1,
+      "unit": "",
+      "note": "cut into thin strips",
+      "optional": true
+    },
+    {
+      "id": "sesame",
+      "name": "toasted sesame seeds",
+      "qty": 1,
+      "unit": "tsp",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Fold {salmon} into {rice} with a spoon."
+    },
+    {
+      "text": "Wet your hands and scoop a small portion of rice onto plastic wrap.",
+      "tip": "Cool slightly so it is warm, not hot."
+    },
+    {
+      "text": "Twist the wrap to shape a small ball or triangle."
+    },
+    {
+      "text": "Wrap a thin strip of {nori} around each, or dust with {sesame}.",
+      "requires": [
+        "nori"
+      ]
+    },
+    {
+      "text": "Cool fully before serving.",
+      "tip": "Cut balls in half for younger toddlers."
+    }
+  ],
+  "toddlerTips": [
+    "Make balls small (walnut size). Sticky rice can clump, so supervise and cut in half.",
+    "Use nori in thin strips; a full sheet turns chewy.",
+    "Skip salt in the rice."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://cookpad.com/eng/recipes/17655367",
+      "title": "Easy Rice Ball (Onigiri) for Babies"
+    },
+    {
+      "platform": "blog",
+      "url": "https://www.imthecheftoo.com/blogs/cooking-with-kids/delightful-onigiri-recipe-for-kids",
+      "title": "Onigiri Recipe for Kids"
+    }
+  ],
+  "popularity": 0.9
+}

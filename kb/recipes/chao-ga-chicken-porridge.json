@@ -1,0 +1,85 @@
+{
+  "id": "chao-ga-chicken-porridge",
+  "title": "Chao Ga Chicken Rice Porridge",
+  "summary": "Vietnamese chicken rice porridge with scallion, a traditional first food.",
+  "cuisine": "vietnamese",
+  "meals": [
+    "breakfast",
+    "lunch",
+    "dinner"
+  ],
+  "minAgeMonths": 10,
+  "prepMinutes": 10,
+  "cookMinutes": 40,
+  "yield": 4,
+  "difficulty": "easy",
+  "tags": [
+    "one-pot",
+    "freezer-friendly",
+    "batch-cook"
+  ],
+  "allergens": [],
+  "ingredients": [
+    {
+      "id": "rice",
+      "name": "rice",
+      "qty": 0.5,
+      "unit": "cup"
+    },
+    {
+      "id": "water",
+      "name": "water or stock",
+      "qty": 5,
+      "unit": "cups"
+    },
+    {
+      "id": "chicken",
+      "name": "chicken thigh",
+      "qty": 120,
+      "unit": "g"
+    },
+    {
+      "id": "scallion",
+      "name": "scallion",
+      "qty": 1,
+      "unit": "",
+      "note": "chopped",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Combine {rice}, {water} and {chicken}. Boil."
+    },
+    {
+      "text": "Simmer until soft.",
+      "minutes": 35
+    },
+    {
+      "text": "Remove and shred {chicken}."
+    },
+    {
+      "text": "Stir back; add {scallion}.",
+      "requires": [
+        "scallion"
+      ]
+    },
+    {
+      "text": "Cool to warm."
+    }
+  ],
+  "toddlerTips": [
+    "Shred chicken fine.",
+    "No salt.",
+    "Freeze portions."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.inkl.com/news/three-child-friendly-vietnamese-recipes",
+      "title": "Three child-friendly Vietnamese recipes",
+      "author": "Uyen Luu"
+    }
+  ],
+  "popularity": 0.6
+}

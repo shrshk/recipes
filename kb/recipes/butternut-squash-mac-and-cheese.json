@@ -1,0 +1,126 @@
+{
+  "id": "butternut-squash-mac-and-cheese",
+  "title": "Butternut Squash Mac and Cheese",
+  "summary": "Creamy mac and cheese with blended squash for sweetness.",
+  "cuisine": "american",
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "yield": 6,
+  "difficulty": "easy",
+  "tags": [
+    "hidden-veg",
+    "picky-eater",
+    "one-pot",
+    "freezer-friendly",
+    "savory"
+  ],
+  "allergens": [
+    "dairy",
+    "gluten",
+    "wheat"
+  ],
+  "ingredients": [
+    {
+      "id": "pasta",
+      "name": "small pasta shapes",
+      "qty": 250,
+      "unit": "g",
+      "substitutes": [
+        {
+          "name": "gluten-free pasta"
+        }
+      ]
+    },
+    {
+      "id": "squash",
+      "name": "butternut squash",
+      "qty": 2,
+      "unit": "cups",
+      "note": "peeled, cubed"
+    },
+    {
+      "id": "milk",
+      "name": "milk",
+      "qty": 0.75,
+      "unit": "cup",
+      "substitutes": [
+        {
+          "name": "unsweetened oat milk"
+        }
+      ]
+    },
+    {
+      "id": "cheese",
+      "name": "grated cheddar",
+      "qty": 1.5,
+      "unit": "cup",
+      "substitutes": [
+        {
+          "name": "dairy-free cheese"
+        }
+      ]
+    },
+    {
+      "id": "butter",
+      "name": "butter",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "substitutes": [
+        {
+          "name": "olive oil"
+        }
+      ]
+    },
+    {
+      "id": "garlic-powder",
+      "name": "garlic powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Boil the {squash} until very soft.",
+      "minutes": 12
+    },
+    {
+      "text": "Cook the {pasta} in a separate pot and drain."
+    },
+    {
+      "text": "Blend {list:squash,milk,butter,garlic-powder} until smooth."
+    },
+    {
+      "text": "Warm the sauce and melt in the {cheese}.",
+      "tip": "Stir off the boil so the cheese stays smooth."
+    },
+    {
+      "text": "Toss with the pasta and let it cool."
+    }
+  ],
+  "toddlerTips": [
+    "Use short pasta that is easy to pick up.",
+    "Skip salt; cheese is already salty.",
+    "Test temperature; sauce holds heat."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://babyfoode.com/blog/butternut-squash-mac-and-cheese-for-toddler/",
+      "title": "15-Minute Butternut Squash Mac & Cheese",
+      "author": "Baby Foode"
+    },
+    {
+      "platform": "blog",
+      "url": "https://yummytoddlerfood.com/5-ingredient-butternut-squash-mac-and-cheese/comment-page-3",
+      "title": "5 Ingredient Butternut Squash Mac and Cheese",
+      "author": "Yummy Toddler Food"
+    }
+  ],
+  "popularity": 0.9
+}

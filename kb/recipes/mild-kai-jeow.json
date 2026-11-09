@@ -1,0 +1,89 @@
+{
+  "id": "mild-kai-jeow",
+  "title": "Soft Thai Omelet",
+  "summary": "Thai-style fluffy omelet, mild, cut into strips.",
+  "cuisine": "thai",
+  "meals": [
+    "breakfast",
+    "lunch",
+    "dinner"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 3,
+  "cookMinutes": 5,
+  "yield": 2,
+  "difficulty": "easy",
+  "tags": [
+    "quick",
+    "finger-food",
+    "protein-packed"
+  ],
+  "allergens": [
+    "egg",
+    "fish"
+  ],
+  "ingredients": [
+    {
+      "id": "egg",
+      "name": "eggs",
+      "qty": 2,
+      "unit": ""
+    },
+    {
+      "id": "oil",
+      "name": "oil",
+      "qty": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "rice",
+      "name": "cooked rice",
+      "qty": 1,
+      "unit": "cup",
+      "note": "to serve",
+      "optional": true
+    },
+    {
+      "id": "fish",
+      "name": "fish sauce",
+      "qty": 0.5,
+      "unit": "tsp",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Beat {egg} with {fish}."
+    },
+    {
+      "text": "Heat {oil} in a pan on medium."
+    },
+    {
+      "text": "Pour in the egg and cook until set.",
+      "minutes": 3
+    },
+    {
+      "text": "Fold into a parcel and cut into strips."
+    },
+    {
+      "text": "Serve with {rice}.",
+      "requires": [
+        "rice"
+      ]
+    }
+  ],
+  "toddlerTips": [
+    "Fish sauce is salty; use very little.",
+    "Cook fully.",
+    "Cut into strips."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://grantourismotravels.com/thai-omelette-recipe/",
+      "title": "Thai Omelette Recipe for Kai Jeow",
+      "author": "Grantourismo"
+    }
+  ],
+  "popularity": 0.5
+}

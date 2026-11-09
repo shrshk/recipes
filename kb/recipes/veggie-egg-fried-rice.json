@@ -1,0 +1,125 @@
+{
+  "id": "veggie-egg-fried-rice",
+  "title": "Veggie Egg Fried Rice",
+  "summary": "Fluffy egg fried rice with tiny veg, lightly seasoned for toddlers.",
+  "cuisine": "chinese",
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 8,
+  "yield": 4,
+  "difficulty": "easy",
+  "tags": [
+    "quick",
+    "hidden-veg",
+    "lunchbox",
+    "family-meal"
+  ],
+  "allergens": [
+    "egg",
+    "soy",
+    "wheat",
+    "gluten"
+  ],
+  "ingredients": [
+    {
+      "id": "rice",
+      "name": "cooked rice",
+      "qty": 1,
+      "unit": "cups",
+      "note": "cold, leftover is best"
+    },
+    {
+      "id": "egg",
+      "name": "egg",
+      "qty": 1,
+      "unit": "",
+      "note": "beaten"
+    },
+    {
+      "id": "veg",
+      "name": "frozen peas and carrot mix",
+      "qty": 0.5,
+      "unit": "cup",
+      "note": "thawed, carrots diced tiny"
+    },
+    {
+      "id": "oil",
+      "name": "neutral oil",
+      "qty": 1.5,
+      "unit": "tsp"
+    },
+    {
+      "id": "soy",
+      "name": "low-sodium soy sauce",
+      "qty": 1.5,
+      "unit": "tsp",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "coconut aminos",
+          "qty": 1.5,
+          "unit": "tsp"
+        }
+      ]
+    },
+    {
+      "id": "garlic",
+      "name": "garlic",
+      "qty": 0.5,
+      "unit": "clove",
+      "note": "minced",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat {oil} in a wide pan. Cook {garlic} for 20 seconds.",
+      "requires": [
+        "garlic"
+      ]
+    },
+    {
+      "text": "Add {veg} and stir-fry until soft.",
+      "minutes": 3
+    },
+    {
+      "text": "Push the veg aside, pour in {egg} and scramble until set."
+    },
+    {
+      "text": "Add {rice} and break up the clumps. Stir until hot."
+    },
+    {
+      "text": "Splash in {soy} and toss to coat.",
+      "requires": [
+        "soy"
+      ]
+    },
+    {
+      "text": "Cool to warm before serving.",
+      "tip": "Spread on a plate to cool faster."
+    }
+  ],
+  "toddlerTips": [
+    "Dice carrots very small and cook until soft; whole peas can be squashed flat.",
+    "Use only a tiny amount of soy sauce.",
+    "Serve with a spoon or as small clumps for hands."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://babyfoode.com/blog/easy-veggie-fried-rice-for-baby-toddler",
+      "title": "Easy Veggie Fried Rice for Baby and Toddler",
+      "author": "Baby Foode"
+    },
+    {
+      "platform": "blog",
+      "url": "https://babyyumyum.com/?p=126913",
+      "title": "Egg Fried Rice with Veggies for Toddlers"
+    }
+  ],
+  "popularity": 0.85
+}

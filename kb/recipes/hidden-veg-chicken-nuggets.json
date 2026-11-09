@@ -1,0 +1,105 @@
+{
+  "id": "hidden-veg-chicken-nuggets",
+  "title": "Hidden Veg Chicken Nuggets",
+  "summary": "Baked chicken nuggets with grated courgette and carrot.",
+  "cuisine": "american",
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 15,
+  "cookMinutes": 20,
+  "yield": 6,
+  "difficulty": "easy",
+  "tags": [
+    "hidden-veg",
+    "freezer-friendly",
+    "finger-food",
+    "picky-eater",
+    "protein-packed"
+  ],
+  "allergens": [
+    "egg",
+    "gluten",
+    "wheat"
+  ],
+  "ingredients": [
+    {
+      "id": "chicken",
+      "name": "minced chicken",
+      "qty": 500,
+      "unit": "g"
+    },
+    {
+      "id": "zucchini",
+      "name": "grated courgette",
+      "qty": 0.75,
+      "unit": "cup",
+      "note": "squeezed dry"
+    },
+    {
+      "id": "carrot",
+      "name": "grated carrot",
+      "qty": 0.5,
+      "unit": "cup"
+    },
+    {
+      "id": "egg",
+      "name": "egg",
+      "qty": 1,
+      "unit": ""
+    },
+    {
+      "id": "breadcrumbs",
+      "name": "breadcrumbs",
+      "qty": 0.5,
+      "unit": "cup",
+      "substitutes": [
+        {
+          "name": "gluten-free breadcrumbs"
+        }
+      ]
+    },
+    {
+      "id": "garlic-powder",
+      "name": "garlic powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat the oven to 200C / 400F and line a tray."
+    },
+    {
+      "text": "Mix {list:chicken,zucchini,carrot,egg,breadcrumbs,garlic-powder}."
+    },
+    {
+      "text": "Shape into flat nuggets with damp hands."
+    },
+    {
+      "text": "Bake, turning once, until golden.",
+      "minutes": 18,
+      "tip": "Chicken must reach 74C / 165F inside."
+    },
+    {
+      "text": "Cool a few minutes before serving."
+    }
+  ],
+  "toddlerTips": [
+    "Flat shapes are safer than balls.",
+    "Keep salt out.",
+    "Freeze on a tray first."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://frugalandthriving.com.au/toddler-foodhomemade-chicken-nuggets/",
+      "title": "Homemade chicken nuggets with hidden vegetables",
+      "author": "Frugal and Thriving"
+    }
+  ],
+  "popularity": 0.8
+}

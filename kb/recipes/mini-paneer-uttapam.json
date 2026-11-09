@@ -1,0 +1,101 @@
+{
+  "id": "mini-paneer-uttapam",
+  "title": "Mini Paneer Uttapam",
+  "summary": "Little savory lentil-rice pancakes topped with paneer and grated carrot.",
+  "cuisine": "indian",
+  "meals": [
+    "breakfast",
+    "lunch",
+    "snack"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "difficulty": "easy",
+  "tags": [
+    "finger-food",
+    "lunchbox",
+    "quick"
+  ],
+  "allergens": [
+    "dairy"
+  ],
+  "ingredients": [
+    {
+      "id": "batter",
+      "name": "dosa or idli batter",
+      "qty": 1,
+      "unit": "cup",
+      "note": "store-bought is fine"
+    },
+    {
+      "id": "paneer",
+      "name": "paneer",
+      "qty": 0.5,
+      "unit": "cup",
+      "note": "grated",
+      "substitutes": [
+        {
+          "name": "grated zucchini"
+        }
+      ]
+    },
+    {
+      "id": "carrot",
+      "name": "carrot",
+      "qty": 2,
+      "unit": "tbsp",
+      "note": "grated"
+    },
+    {
+      "id": "onion",
+      "name": "onion",
+      "qty": 0.25,
+      "unit": "cup",
+      "note": "finely chopped"
+    },
+    {
+      "id": "oil",
+      "name": "oil",
+      "qty": 1,
+      "unit": "tsp",
+      "note": "for the pan"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Warm a non-stick pan and brush with {oil}."
+    },
+    {
+      "text": "Pour small spoonfuls of {batter} to make mini rounds."
+    },
+    {
+      "text": "Sprinkle {list:paneer,carrot,onion} on top and press lightly."
+    },
+    {
+      "text": "Cook with a lid on until set underneath.",
+      "minutes": 3
+    },
+    {
+      "text": "Flip and cook the other side briefly.",
+      "minutes": 2
+    },
+    {
+      "text": "Cool and cut into small pieces."
+    }
+  ],
+  "toddlerTips": [
+    "Keep rounds small and thin so they cook through.",
+    "Grate veg finely so it stays soft."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.indianveggiedelight.com/kids-lunch-box-idea-2/",
+      "title": "Kids Lunch Box - Mini Paneer Uttapam",
+      "author": "Indian Veggie Delight"
+    }
+  ],
+  "popularity": 0.55,
+  "yield": 4
+}

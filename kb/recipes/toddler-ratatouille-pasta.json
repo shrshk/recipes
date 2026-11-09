@@ -1,0 +1,129 @@
+{
+  "id": "toddler-ratatouille-pasta",
+  "title": "Toddler Ratatouille Pasta",
+  "summary": "Soft stewed courgette, pepper and tomato tossed with small pasta.",
+  "cuisine": "french",
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 15,
+  "cookMinutes": 30,
+  "yield": 6,
+  "difficulty": "easy",
+  "tags": [
+    "batch-cook",
+    "freezer-friendly",
+    "hidden-veg",
+    "one-pot",
+    "savory"
+  ],
+  "allergens": [
+    "gluten",
+    "wheat"
+  ],
+  "ingredients": [
+    {
+      "id": "oil",
+      "name": "olive oil",
+      "qty": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "onion",
+      "name": "onion",
+      "qty": 1,
+      "unit": "",
+      "note": "diced small"
+    },
+    {
+      "id": "pepper",
+      "name": "red pepper",
+      "qty": 1,
+      "unit": "",
+      "note": "diced small"
+    },
+    {
+      "id": "zucchini",
+      "name": "courgette",
+      "qty": 1,
+      "unit": "",
+      "note": "diced small"
+    },
+    {
+      "id": "aubergine",
+      "name": "aubergine",
+      "qty": 0.5,
+      "unit": "",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "extra courgette"
+        }
+      ]
+    },
+    {
+      "id": "tomatoes",
+      "name": "tinned chopped tomatoes",
+      "qty": 700,
+      "unit": "g"
+    },
+    {
+      "id": "thyme",
+      "name": "dried thyme",
+      "qty": 1.5,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "pasta",
+      "name": "small pasta",
+      "qty": 90,
+      "unit": "g",
+      "substitutes": [
+        {
+          "name": "gluten-free pasta"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Soften {list:onion,pepper} in {oil}.",
+      "minutes": 5
+    },
+    {
+      "text": "Add {list:zucchini,aubergine} and cook briefly.",
+      "minutes": 5
+    },
+    {
+      "text": "Add {tomatoes} and {thyme}."
+    },
+    {
+      "text": "Simmer until the vegetables are very soft.",
+      "minutes": 18
+    },
+    {
+      "text": "Cook the {pasta} until soft and drain."
+    },
+    {
+      "text": "Mash some of the sauce, mix with pasta, then cool.",
+      "tip": "Chop larger pieces small for younger toddlers."
+    }
+  ],
+  "toddlerTips": [
+    "Cook veg until squashable between fingers.",
+    "Skip salt.",
+    "Freeze the sauce without the pasta."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.nhs.uk/start-for-life/baby/recipes-and-meal-ideas/pasta-ratatouille/",
+      "title": "Pasta ratatouille",
+      "author": "NHS Start for Life"
+    }
+  ],
+  "popularity": 0.6
+}

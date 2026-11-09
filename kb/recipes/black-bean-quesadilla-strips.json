@@ -1,0 +1,106 @@
+{
+  "id": "black-bean-quesadilla-strips",
+  "title": "Black Bean Quesadilla Strips",
+  "summary": "Crispy tortilla with mashed beans and cheese, cut into strips.",
+  "cuisine": "global",
+  "meals": [
+    "lunch",
+    "dinner",
+    "snack"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 10,
+  "yield": 4,
+  "difficulty": "easy",
+  "tags": [
+    "finger-food",
+    "quick",
+    "iron-rich",
+    "lunchbox",
+    "savory"
+  ],
+  "allergens": [
+    "dairy",
+    "gluten",
+    "wheat"
+  ],
+  "ingredients": [
+    {
+      "id": "beans",
+      "name": "black beans",
+      "qty": 1,
+      "unit": "cup",
+      "note": "rinsed, low-sodium"
+    },
+    {
+      "id": "cheese",
+      "name": "grated cheese",
+      "qty": 0.75,
+      "unit": "cup",
+      "substitutes": [
+        {
+          "name": "dairy-free cheese"
+        }
+      ]
+    },
+    {
+      "id": "tortillas",
+      "name": "small flour tortillas",
+      "qty": 4,
+      "unit": "",
+      "substitutes": [
+        {
+          "name": "corn tortillas"
+        }
+      ]
+    },
+    {
+      "id": "cumin",
+      "name": "ground cumin",
+      "qty": 0.25,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "avocado",
+      "name": "avocado",
+      "qty": 0.5,
+      "unit": "",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Mash {list:beans,cumin} roughly."
+    },
+    {
+      "text": "Spread the mix over half of each {tortillas}."
+    },
+    {
+      "text": "Sprinkle {cheese} on top and fold over."
+    },
+    {
+      "text": "Toast in a dry pan until golden and melted.",
+      "minutes": 4
+    },
+    {
+      "text": "Cut into strips and serve with {avocado}.",
+      "tip": "Let the cheese cool a minute."
+    }
+  ],
+  "toddlerTips": [
+    "Mash beans well; whole beans can be slippery.",
+    "Rinse canned beans to cut salt.",
+    "Cut into thin strips."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.yummytoddlerfood.com/easy-quesadillas-with-black-beans/",
+      "title": "Easy Quesadillas with Black Beans",
+      "author": "Yummy Toddler Food"
+    }
+  ],
+  "popularity": 0.7
+}

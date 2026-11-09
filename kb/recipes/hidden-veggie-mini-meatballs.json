@@ -1,0 +1,145 @@
+{
+  "id": "hidden-veggie-mini-meatballs",
+  "title": "Hidden Veggie Mini Meatballs",
+  "summary": "Baked beef meatballs with grated veg that freeze well.",
+  "cuisine": "italian",
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 15,
+  "cookMinutes": 18,
+  "yield": 6,
+  "difficulty": "easy",
+  "tags": [
+    "hidden-veg",
+    "freezer-friendly",
+    "batch-cook",
+    "finger-food",
+    "iron-rich",
+    "protein-packed"
+  ],
+  "allergens": [
+    "egg",
+    "gluten",
+    "wheat",
+    "dairy"
+  ],
+  "ingredients": [
+    {
+      "id": "beef",
+      "name": "lean minced beef",
+      "qty": 500,
+      "unit": "g",
+      "substitutes": [
+        {
+          "name": "minced turkey"
+        },
+        {
+          "name": "minced chicken"
+        }
+      ]
+    },
+    {
+      "id": "zucchini",
+      "name": "grated courgette",
+      "qty": 0.5,
+      "unit": "cup",
+      "note": "squeezed dry"
+    },
+    {
+      "id": "onion",
+      "name": "onion",
+      "qty": 1,
+      "unit": "",
+      "note": "small, grated"
+    },
+    {
+      "id": "carrot",
+      "name": "grated carrot",
+      "qty": 0.5,
+      "unit": "cup"
+    },
+    {
+      "id": "breadcrumbs",
+      "name": "breadcrumbs",
+      "qty": 0.5,
+      "unit": "cup",
+      "substitutes": [
+        {
+          "name": "gluten-free breadcrumbs"
+        },
+        {
+          "name": "oats"
+        }
+      ]
+    },
+    {
+      "id": "egg",
+      "name": "egg",
+      "qty": 1,
+      "unit": "",
+      "substitutes": [
+        {
+          "name": "milk",
+          "qty": 2,
+          "unit": "tbsp"
+        }
+      ]
+    },
+    {
+      "id": "parmesan",
+      "name": "grated parmesan",
+      "qty": 0.25,
+      "unit": "cup",
+      "optional": true
+    },
+    {
+      "id": "herbs",
+      "name": "dried oregano",
+      "qty": 1,
+      "unit": "tsp",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat the oven to 200C / 400F and line a tray."
+    },
+    {
+      "text": "Mix {list:beef,onion,zucchini,carrot,breadcrumbs,egg,parmesan,herbs} well."
+    },
+    {
+      "text": "Roll into small balls about the size of a walnut."
+    },
+    {
+      "text": "Bake until browned and cooked through.",
+      "minutes": 15,
+      "tip": "Cut one open to check there is no pink."
+    },
+    {
+      "text": "Cool, then cut each ball in half."
+    }
+  ],
+  "toddlerTips": [
+    "Squash or halve meatballs; round balls are a choking risk.",
+    "Use low-salt sauce for dipping.",
+    "Freeze cooled meatballs flat on a tray, then bag."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.yummytoddlerfood.com/hidden-veggie-toddler-meatballs",
+      "title": "Hidden Veggie Toddler Meatballs",
+      "author": "Yummy Toddler Food"
+    },
+    {
+      "platform": "blog",
+      "url": "https://www.creativenourish.com/healthy-meatballs-for-toddler-baby-with-hidden-veggies/",
+      "title": "Healthy Meatballs for Toddlers with Hidden Veggies",
+      "author": "Creative Nourish"
+    }
+  ],
+  "popularity": 0.85
+}

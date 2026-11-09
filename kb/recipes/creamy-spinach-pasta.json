@@ -1,0 +1,103 @@
+{
+  "id": "creamy-spinach-pasta",
+  "title": "One-Pot Creamy Spinach Pasta",
+  "summary": "Small pasta in a mild spinach and cream cheese sauce.",
+  "cuisine": "italian",
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 5,
+  "cookMinutes": 12,
+  "yield": 4,
+  "difficulty": "easy",
+  "tags": [
+    "one-pot",
+    "quick",
+    "hidden-veg",
+    "picky-eater",
+    "savory"
+  ],
+  "allergens": [
+    "dairy",
+    "gluten",
+    "wheat"
+  ],
+  "ingredients": [
+    {
+      "id": "pasta",
+      "name": "small pasta",
+      "qty": 200,
+      "unit": "g",
+      "substitutes": [
+        {
+          "name": "gluten-free pasta"
+        }
+      ]
+    },
+    {
+      "id": "spinach",
+      "name": "baby spinach",
+      "qty": 2,
+      "unit": "cups"
+    },
+    {
+      "id": "cream-cheese",
+      "name": "cream cheese",
+      "qty": 3,
+      "unit": "tbsp",
+      "substitutes": [
+        {
+          "name": "dairy-free cream cheese"
+        }
+      ]
+    },
+    {
+      "id": "parmesan",
+      "name": "grated parmesan",
+      "qty": 2,
+      "unit": "tbsp",
+      "optional": true
+    },
+    {
+      "id": "oil",
+      "name": "olive oil",
+      "qty": 1,
+      "unit": "tsp"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Boil the {pasta} until soft.",
+      "minutes": 10
+    },
+    {
+      "text": "Add the {spinach} for the last minute."
+    },
+    {
+      "text": "Reserve a little water, then drain."
+    },
+    {
+      "text": "Stir {list:cream-cheese,oil,parmesan} into the hot pasta with splashes of water."
+    },
+    {
+      "text": "Chop any long strands and cool to warm.",
+      "tip": "Chop spinach small so it does not clump."
+    }
+  ],
+  "toddlerTips": [
+    "Chop pasta and spinach small for younger toddlers.",
+    "Skip extra salt.",
+    "Reheat with a splash of milk."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.spicekitchenuk.com/blogs/baby-spice-recipes/one-pot-creamy-spinach-pasta",
+      "title": "One Pot Creamy Spinach Pasta",
+      "author": "Spice Kitchen UK"
+    }
+  ],
+  "popularity": 0.6
+}

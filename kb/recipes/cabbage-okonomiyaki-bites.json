@@ -1,0 +1,104 @@
+{
+  "id": "cabbage-okonomiyaki-bites",
+  "title": "Mini Cabbage Okonomiyaki",
+  "summary": "Small soft cabbage pancakes, Japanese-style, that freeze well.",
+  "cuisine": "japanese",
+  "meals": [
+    "lunch",
+    "snack"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 10,
+  "yield": 4,
+  "difficulty": "easy",
+  "tags": [
+    "finger-food",
+    "hidden-veg",
+    "freezer-friendly"
+  ],
+  "allergens": [
+    "egg",
+    "wheat",
+    "gluten"
+  ],
+  "ingredients": [
+    {
+      "id": "cabbage",
+      "name": "cabbage",
+      "qty": 1.5,
+      "unit": "cups",
+      "note": "very finely chopped"
+    },
+    {
+      "id": "carrot",
+      "name": "carrot",
+      "qty": 0.25,
+      "unit": "cup",
+      "note": "grated finely"
+    },
+    {
+      "id": "flour",
+      "name": "all-purpose flour",
+      "qty": 0.5,
+      "unit": "cup",
+      "substitutes": [
+        {
+          "name": "rice flour",
+          "qty": 0.5,
+          "unit": "cup"
+        }
+      ]
+    },
+    {
+      "id": "egg",
+      "name": "egg",
+      "qty": 1,
+      "unit": ""
+    },
+    {
+      "id": "water",
+      "name": "water",
+      "qty": 0.33,
+      "unit": "cup"
+    },
+    {
+      "id": "oil",
+      "name": "neutral oil",
+      "qty": 1,
+      "unit": "tbsp"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Whisk {list:flour,egg,water} into a thick batter."
+    },
+    {
+      "text": "Fold in {cabbage} and {carrot}."
+    },
+    {
+      "text": "Heat {oil} in a pan. Spoon small rounds of batter into it."
+    },
+    {
+      "text": "Cook until golden and set, then flip.",
+      "minutes": 6,
+      "tip": "Press flat so the middle cooks through."
+    },
+    {
+      "text": "Cool and cut into strips."
+    }
+  ],
+  "toddlerTips": [
+    "Chop cabbage very fine and cook until soft.",
+    "Skip the usual sauce and mayonnaise or use a thin brush of low-sodium sauce.",
+    "Freeze with paper between layers."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://cookpad.com/us/recipes/171785",
+      "title": "Okonomiyaki-Style Rice Flour & Chinese Cabbage Patties for Toddlers"
+    }
+  ],
+  "popularity": 0.6
+}

@@ -1,0 +1,99 @@
+{
+  "id": "tofu-chicken-patties",
+  "title": "Tofu and Chicken Patties",
+  "summary": "Tender Japanese-style patties of tofu and minced chicken, baked or pan-fried.",
+  "cuisine": "japanese",
+  "meals": [
+    "lunch",
+    "dinner",
+    "snack"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 10,
+  "yield": 4,
+  "difficulty": "easy",
+  "tags": [
+    "finger-food",
+    "protein-packed",
+    "freezer-friendly",
+    "hidden-veg"
+  ],
+  "allergens": [
+    "soy"
+  ],
+  "ingredients": [
+    {
+      "id": "tofu",
+      "name": "firm tofu",
+      "qty": 100,
+      "unit": "g",
+      "note": "drained well"
+    },
+    {
+      "id": "chicken",
+      "name": "minced chicken",
+      "qty": 100,
+      "unit": "g"
+    },
+    {
+      "id": "carrot",
+      "name": "carrot",
+      "qty": 0.25,
+      "unit": "cup",
+      "note": "finely grated"
+    },
+    {
+      "id": "starch",
+      "name": "potato starch",
+      "qty": 1,
+      "unit": "tbsp",
+      "substitutes": [
+        {
+          "name": "cornstarch",
+          "qty": 1,
+          "unit": "tbsp"
+        }
+      ]
+    },
+    {
+      "id": "oil",
+      "name": "neutral oil",
+      "qty": 1,
+      "unit": "tbsp"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Crumble {tofu} into a bowl."
+    },
+    {
+      "text": "Add {list:chicken,carrot,starch} and mix until sticky."
+    },
+    {
+      "text": "Shape into small flat patties."
+    },
+    {
+      "text": "Heat {oil} in a pan. Cook patties until golden on both sides and cooked through.",
+      "minutes": 8,
+      "tip": "Cut one open to check no pink remains."
+    },
+    {
+      "text": "Cool and cut into strips."
+    }
+  ],
+  "toddlerTips": [
+    "Cook chicken fully.",
+    "Flat finger shapes are easier than round balls.",
+    "No salt needed."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://tinytotintokyo.com/easy-japanese-tofu-and-chicken-patty-recipe-for-babies-and-toddlers",
+      "title": "Easy Japanese Tofu and Chicken Patty Recipe",
+      "author": "Tiny Tot in Tokyo"
+    }
+  ],
+  "popularity": 0.65
+}

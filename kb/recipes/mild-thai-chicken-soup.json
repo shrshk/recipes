@@ -1,0 +1,115 @@
+{
+  "id": "mild-thai-chicken-soup",
+  "title": "Mild Thai Coconut Chicken Soup",
+  "summary": "Gentle coconut chicken and rice noodle soup with a Thai-style flavour.",
+  "cuisine": "thai",
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "yield": 4,
+  "difficulty": "easy",
+  "tags": [
+    "one-pot",
+    "family-meal"
+  ],
+  "allergens": [],
+  "ingredients": [
+    {
+      "id": "onion",
+      "name": "onion",
+      "qty": 150,
+      "unit": "g",
+      "note": "chopped"
+    },
+    {
+      "id": "broccoli",
+      "name": "broccoli",
+      "qty": 100,
+      "unit": "g",
+      "note": "small florets"
+    },
+    {
+      "id": "chicken",
+      "name": "chicken breast",
+      "qty": 150,
+      "unit": "g",
+      "note": "finely diced"
+    },
+    {
+      "id": "coconut",
+      "name": "coconut milk",
+      "qty": 1.25,
+      "unit": "cup"
+    },
+    {
+      "id": "stock",
+      "name": "unsalted chicken stock",
+      "qty": 2.5,
+      "unit": "cups"
+    },
+    {
+      "id": "noodles",
+      "name": "thin rice noodles",
+      "qty": 50,
+      "unit": "g",
+      "note": "broken short"
+    },
+    {
+      "id": "lime",
+      "name": "lime juice",
+      "qty": 1,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "pepper",
+      "name": "red pepper",
+      "qty": 0.5,
+      "unit": "",
+      "note": "finely chopped",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Simmer {list:onion,broccoli} in {stock} until soft, then stir in {coconut}.",
+      "minutes": 8
+    },
+    {
+      "text": "Add {chicken} and {pepper}. Simmer until cooked.",
+      "minutes": 10,
+      "tip": "Cut a piece to check inside."
+    },
+    {
+      "text": "Add {noodles} and cook until soft.",
+      "minutes": 4
+    },
+    {
+      "text": "Stir in {lime}.",
+      "requires": [
+        "lime"
+      ]
+    },
+    {
+      "text": "Cool until warm."
+    }
+  ],
+  "toddlerTips": [
+    "Break noodles short.",
+    "Skip chili and fish sauce.",
+    "Chop chicken small."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.goodtoknow.co.uk/recipes/283723/Annabel-Karmel-s-Thai-style-chicken-soup",
+      "title": "Annabel Karmel's Thai style chicken soup",
+      "author": "Annabel Karmel"
+    }
+  ],
+  "popularity": 0.55
+}

@@ -1,0 +1,107 @@
+{
+  "id": "oven-baked-spanish-tortilla",
+  "title": "Oven-Baked Spanish Tortilla",
+  "summary": "Potato and egg bake cut into squares, good warm or cold.",
+  "cuisine": "spanish",
+  "meals": [
+    "lunch",
+    "dinner",
+    "snack"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 15,
+  "cookMinutes": 35,
+  "difficulty": "easy",
+  "tags": [
+    "finger-food",
+    "lunchbox",
+    "family-meal",
+    "batch-cook"
+  ],
+  "allergens": [
+    "egg"
+  ],
+  "ingredients": [
+    {
+      "id": "potatoes",
+      "name": "potatoes",
+      "qty": 200,
+      "unit": "g",
+      "note": "thinly sliced"
+    },
+    {
+      "id": "onion",
+      "name": "onion",
+      "qty": 20,
+      "unit": "g",
+      "note": "thinly sliced",
+      "optional": true
+    },
+    {
+      "id": "eggs",
+      "name": "eggs",
+      "qty": 4,
+      "unit": ""
+    },
+    {
+      "id": "oil",
+      "name": "olive oil",
+      "qty": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "peas",
+      "name": "peas",
+      "qty": 0.25,
+      "unit": "cup",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "diced zucchini"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat the oven to 190C/375F."
+    },
+    {
+      "text": "Toss {list:potatoes,onion} with {oil} and microwave or steam until nearly soft.",
+      "minutes": 8
+    },
+    {
+      "text": "Whisk {eggs} and stir in the potatoes and {peas}."
+    },
+    {
+      "text": "Pour into a lined baking dish."
+    },
+    {
+      "text": "Bake until set and lightly golden.",
+      "minutes": 25
+    },
+    {
+      "text": "Cool and cut into squares."
+    }
+  ],
+  "toddlerTips": [
+    "Cut into small squares.",
+    "Keeps in fridge a couple of days."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://flower-conch-b359.squarespace.com/blog/oven-baked-spanish-omelette",
+      "title": "Oven-Baked Spanish Omelette (BLW)",
+      "author": ""
+    },
+    {
+      "platform": "blog",
+      "url": "https://www.sevendaysvt.com/guides/spanish-tortilla-small-bites-for-small-hands-and-big-ones-too-35270460/",
+      "title": "Spanish tortilla, small bites",
+      "author": "Seven Days"
+    }
+  ],
+  "popularity": 0.5,
+  "yield": 6
+}
