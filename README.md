@@ -25,7 +25,7 @@ pnpm install
 pnpm dev          # http://localhost:5181
 pnpm test         # engine, knowledge base and animation checks
 pnpm build        # static site in dist/ and server in dist-server/
-pnpm start        # app + custom recipes + MCP on http://127.0.0.1:8725
+pnpm start        # app + custom recipes + MCP on http://127.0.0.1:8726
 ```
 
 In development, run `pnpm server:dev` next to `pnpm dev`; the dev app proxies `/api` and `/mcp` to it.

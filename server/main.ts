@@ -1,6 +1,6 @@
 // Highchair Chef server: the app, the custom-recipe API and an MCP endpoint, in one process.
 //
-//   node dist-server/main.js            HTTP on 127.0.0.1:8725 (RECIPES_HOST / RECIPES_PORT)
+//   node dist-server/main.js            HTTP on 127.0.0.1:8726 (RECIPES_HOST / RECIPES_PORT)
 //   node dist-server/main.js --stdio    MCP over stdio, for desktop clients that launch servers
 //
 // Trust model (docs/HOSTING.md): no user accounts. The app and its API trust the network they
@@ -40,7 +40,7 @@ if (process.argv.includes("--stdio")) {
 function startHttp() {
   const { token, file } = loadToken();
   const host = process.env.RECIPES_HOST ?? "127.0.0.1";
-  const port = Number(process.env.RECIPES_PORT ?? 8725);
+  const port = Number(process.env.RECIPES_PORT ?? 8726);
   const staticDir = resolve(process.env.RECIPES_STATIC_DIR ?? "dist");
 
   const server = createServer(async (req, res) => {

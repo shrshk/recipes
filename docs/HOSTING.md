@@ -11,12 +11,21 @@
 
 The app notices which one it is on: with no server, the save button simply doesn't appear.
 
+## Run it as a service on a Mac
+
+```sh
+pnpm install && pnpm build
+bash scripts/install-mac.sh     # LaunchAgent dev.highchair-chef: starts at login, restarts if it stops
+```
+
+To update: `git pull && pnpm install && pnpm build && launchctl kickstart -k gui/$UID/dev.highchair-chef`.
+
 ## Server settings
 
 | Variable | Default | |
 |---|---|---|
 | `RECIPES_HOST` | `127.0.0.1` | Set to `0.0.0.0` or a Tailscale IP to reach it from a phone. |
-| `RECIPES_PORT` | `8725` | |
+| `RECIPES_PORT` | `8726` | |
 | `RECIPES_DATA_DIR` | `~/.local/share/recipes/custom` | One JSON file per custom recipe. Back this folder up. |
 | `RECIPES_MCP_TOKEN` / `RECIPES_MCP_TOKEN_FILE` | `~/.config/recipes/mcp-token` | Bearer token for `/mcp`. |
 | `RECIPES_STATIC_DIR` | `dist` | The built app. |

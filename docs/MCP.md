@@ -20,7 +20,7 @@ Maya's mac."* The client reads the original, rewrites it, and calls `save_custom
 
 ## Over HTTP (OpenClaw, remote clients)
 
-`pnpm build && pnpm start` serves `/mcp` (Streamable HTTP, stateless) on `127.0.0.1:8725`. Every
+`pnpm build && pnpm start` serves `/mcp` (Streamable HTTP, stateless) on `127.0.0.1:8726`. Every
 call needs `Authorization: Bearer <token>`. The token is created on first start in
 `~/.config/recipes/mcp-token` (mode 600), or set `RECIPES_MCP_TOKEN`.
 
@@ -30,7 +30,7 @@ OpenClaw `config.json`:
 "mcp": {
   "servers": {
     "highchair-chef": {
-      "url": "http://127.0.0.1:8725/mcp",
+      "url": "http://127.0.0.1:8726/mcp",
       "transport": "streamable-http",
       "headers": { "Authorization": "Bearer ${RECIPES_MCP_TOKEN}" }
     }
