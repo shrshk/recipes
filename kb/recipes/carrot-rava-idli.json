@@ -1,0 +1,187 @@
+{
+  "id": "carrot-rava-idli",
+  "title": "Carrot Rava Idli",
+  "summary": "Soft steamed semolina-yogurt cakes with carrot. No fermenting, ready in about an hour.",
+  "cuisine": "indian",
+  "meals": [
+    "breakfast",
+    "snack"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 40,
+  "cookMinutes": 15,
+  "yield": 8,
+  "difficulty": "medium",
+  "tags": [
+    "finger-food",
+    "lunchbox",
+    "savory",
+    "hidden-veg"
+  ],
+  "allergens": [
+    "dairy",
+    "gluten",
+    "wheat"
+  ],
+  "ingredients": [
+    {
+      "id": "rava",
+      "name": "fine semolina (rava / sooji)",
+      "qty": 1,
+      "unit": "cup"
+    },
+    {
+      "id": "ghee",
+      "name": "ghee",
+      "qty": 2,
+      "unit": "tbsp",
+      "substitutes": [
+        {
+          "name": "oil",
+          "note": "dairy-free"
+        }
+      ]
+    },
+    {
+      "id": "mustard",
+      "name": "mustard seeds",
+      "qty": 0.5,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "cumin",
+      "name": "cumin seeds",
+      "qty": 0.25,
+      "unit": "tsp"
+    },
+    {
+      "id": "curry",
+      "name": "curry leaves",
+      "qty": 8,
+      "unit": "",
+      "note": "finely chopped",
+      "optional": true
+    },
+    {
+      "id": "ginger",
+      "name": "ginger",
+      "qty": 0.75,
+      "unit": "tsp",
+      "note": "grated",
+      "optional": true
+    },
+    {
+      "id": "yogurt",
+      "name": "plain yogurt",
+      "qty": 0.75,
+      "unit": "cup",
+      "note": "runny; thin thick yogurt with water",
+      "substitutes": [
+        {
+          "name": "plain coconut yogurt",
+          "note": "dairy-free"
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "name": "water",
+      "qty": 0.5,
+      "unit": "cup",
+      "note": "plus a little more if needed"
+    },
+    {
+      "id": "carrot",
+      "name": "carrot",
+      "qty": 0.25,
+      "unit": "cup",
+      "note": "finely grated"
+    },
+    {
+      "id": "coriander",
+      "name": "fresh coriander",
+      "qty": 2,
+      "unit": "tbsp",
+      "note": "finely chopped",
+      "optional": true
+    },
+    {
+      "id": "eno",
+      "name": "Eno fruit salt",
+      "qty": 1,
+      "unit": "tsp",
+      "substitutes": [
+        {
+          "name": "baking soda",
+          "qty": 0.25,
+          "unit": "tsp",
+          "note": "plus 1 tsp lemon juice"
+        }
+      ]
+    },
+    {
+      "id": "oil",
+      "name": "oil",
+      "qty": 1,
+      "unit": "tsp",
+      "note": "to grease the moulds"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Warm {ghee} in a pan and add {list:mustard,cumin}. Let them sizzle.",
+      "action": "fry"
+    },
+    {
+      "text": "Add {list:curry,ginger} and stir for a few seconds.",
+      "action": "fry",
+      "requires": [
+        "curry",
+        "ginger"
+      ]
+    },
+    {
+      "text": "Stir in {rava} and roast on low heat until it smells toasty. Cool completely.",
+      "action": "fry",
+      "minutes": 5
+    },
+    {
+      "text": "Mix the roasted rava with {list:yogurt,water,carrot,coriander} into a thick batter. Rest it.",
+      "action": "mix",
+      "minutes": 30
+    },
+    {
+      "text": "Bring water to a boil in a steamer and grease the idli moulds with {oil}.",
+      "action": "boil"
+    },
+    {
+      "text": "Stir {eno} gently into the batter until it foams, then spoon it into the moulds straight away.",
+      "action": "mix",
+      "tip": "Thin the batter with a spoon of water if it is stiff; it should drop off a spoon."
+    },
+    {
+      "text": "Steam until a fork in the centre comes out clean.",
+      "action": "steam",
+      "minutes": 10
+    },
+    {
+      "text": "Rest a few minutes, lift out with a wet spoon and serve warm.",
+      "action": "serve"
+    }
+  ],
+  "toddlerTips": [
+    "Leave out the green chili and whole cashews the original uses; they are not needed.",
+    "Cut each idli into strips or quarters for little hands.",
+    "Skip salt for toddlers. Serve with mild coconut chutney or a little dal for dipping."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.indianhealthyrecipes.com/rava-idli-recipe/",
+      "title": "Rava Idli Recipe (Restaurant Style)",
+      "author": "Swasthi Shreekanth (Swasthi's Recipes)"
+    }
+  ],
+  "popularity": 0.75
+}

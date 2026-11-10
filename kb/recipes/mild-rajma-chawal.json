@@ -1,0 +1,200 @@
+{
+  "id": "mild-rajma-chawal",
+  "title": "Mild Rajma Chawal",
+  "summary": "Soft kidney beans in a gentle tomato-onion gravy, served over rice. A North Indian favourite.",
+  "cuisine": "indian",
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 30,
+  "yield": 8,
+  "difficulty": "easy",
+  "tags": [
+    "iron-rich",
+    "protein-packed",
+    "family-meal",
+    "batch-cook",
+    "freezer-friendly"
+  ],
+  "allergens": [],
+  "ingredients": [
+    {
+      "id": "rajma",
+      "name": "cooked red kidney beans",
+      "qty": 3,
+      "unit": "cups",
+      "note": "two 15 oz cans, drained, or 1 cup dried and pressure-cooked"
+    },
+    {
+      "id": "ghee",
+      "name": "ghee",
+      "qty": 2,
+      "unit": "tbsp",
+      "substitutes": [
+        {
+          "name": "oil",
+          "note": "dairy-free"
+        }
+      ]
+    },
+    {
+      "id": "cumin",
+      "name": "cumin seeds",
+      "qty": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "id": "bay",
+      "name": "bay leaf",
+      "qty": 1,
+      "unit": "",
+      "optional": true
+    },
+    {
+      "id": "onion",
+      "name": "onion",
+      "qty": 1,
+      "unit": "cup",
+      "note": "finely chopped"
+    },
+    {
+      "id": "ginger-garlic",
+      "name": "ginger-garlic paste",
+      "qty": 1.5,
+      "unit": "tsp"
+    },
+    {
+      "id": "tomato",
+      "name": "tomato puree",
+      "qty": 1.5,
+      "unit": "cups"
+    },
+    {
+      "id": "coriander-powder",
+      "name": "ground coriander",
+      "qty": 1.5,
+      "unit": "tsp"
+    },
+    {
+      "id": "cumin-powder",
+      "name": "ground cumin",
+      "qty": 0.75,
+      "unit": "tsp"
+    },
+    {
+      "id": "turmeric",
+      "name": "turmeric",
+      "qty": 0.25,
+      "unit": "tsp"
+    },
+    {
+      "id": "garam",
+      "name": "garam masala",
+      "qty": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "id": "chili-powder",
+      "name": "Kashmiri chili powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "note": "mild; for colour",
+      "optional": true
+    },
+    {
+      "id": "water",
+      "name": "hot water",
+      "qty": 1,
+      "unit": "cup"
+    },
+    {
+      "id": "methi",
+      "name": "kasuri methi (dried fenugreek leaves)",
+      "qty": 0.5,
+      "unit": "tsp",
+      "note": "crushed",
+      "optional": true
+    },
+    {
+      "id": "cream",
+      "name": "cream",
+      "qty": 2,
+      "unit": "tbsp",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "coconut cream",
+          "note": "dairy-free"
+        }
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "cooked basmati rice",
+      "qty": 3,
+      "unit": "cups",
+      "note": "to serve"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Warm {ghee} in a pot and add {list:cumin,bay}. When they sizzle, add {onion}.",
+      "action": "fry"
+    },
+    {
+      "text": "Cook the onion until golden, then stir in {ginger-garlic} for a minute.",
+      "action": "fry",
+      "minutes": 7
+    },
+    {
+      "text": "Add {tomato} and cook until thick.",
+      "action": "fry",
+      "minutes": 4
+    },
+    {
+      "text": "Stir in {list:coriander-powder,cumin-powder,turmeric,garam,chili-powder} and cook until fragrant.",
+      "action": "fry",
+      "minutes": 2
+    },
+    {
+      "text": "Add {rajma} and {water}. Simmer until thick, mashing a spoonful of beans to thicken the gravy.",
+      "action": "boil",
+      "minutes": 15
+    },
+    {
+      "text": "Stir in {list:methi,cream}.",
+      "action": "mix",
+      "requires": [
+        "methi",
+        "cream"
+      ]
+    },
+    {
+      "text": "Serve over {rice}, mashing the beans for younger toddlers.",
+      "action": "serve"
+    }
+  ],
+  "toddlerTips": [
+    "Squash each bean flat or mash the toddler portion; whole beans can be a choking risk for under-twos.",
+    "If using dried beans, soak overnight and cook until they mash easily between two fingers. Undercooked kidney beans are unsafe.",
+    "Use no-salt-added canned beans and skip extra salt for toddlers.",
+    "Freezes well in small portions."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.indianhealthyrecipes.com/rajma-recipe-rajma-masala/",
+      "title": "Rajma Recipe (Rajma Masala)",
+      "author": "Swasthi Shreekanth (Swasthi's Recipes)"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/foodbutforbabies/comments/1alhonz/dont_see_much_nonwestern_food_posted_here_and/",
+      "title": "Don't see much non-western food posted here (r/foodbutforbabies)"
+    }
+  ],
+  "popularity": 0.8
+}

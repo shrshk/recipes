@@ -1,0 +1,151 @@
+{
+  "id": "toddler-beef-bulgogi",
+  "title": "Toddler Beef Bulgogi",
+  "summary": "Beef in a no-chili pear and apple marinade, cooked until caramelized; serve over rice.",
+  "cuisine": "korean",
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 40,
+  "cookMinutes": 10,
+  "yield": 6,
+  "difficulty": "easy",
+  "tags": [
+    "iron-rich",
+    "protein-packed",
+    "family-meal",
+    "freezer-friendly"
+  ],
+  "allergens": [
+    "sesame",
+    "soy",
+    "wheat",
+    "gluten"
+  ],
+  "ingredients": [
+    {
+      "id": "pear",
+      "name": "pear",
+      "qty": 1,
+      "unit": "cup",
+      "note": "peeled and chopped",
+      "substitutes": [
+        {
+          "name": "apple"
+        }
+      ]
+    },
+    {
+      "id": "apple",
+      "name": "apple",
+      "qty": 0.5,
+      "unit": "cup",
+      "note": "peeled and chopped"
+    },
+    {
+      "id": "onion",
+      "name": "yellow onion",
+      "qty": 0.5,
+      "unit": "cup",
+      "note": "chopped"
+    },
+    {
+      "id": "garlic",
+      "name": "garlic",
+      "qty": 1,
+      "unit": "clove",
+      "note": "small"
+    },
+    {
+      "id": "sesame",
+      "name": "sesame seeds",
+      "qty": 2,
+      "unit": "tsp",
+      "note": "toasted",
+      "optional": true
+    },
+    {
+      "id": "soy",
+      "name": "low-sodium soy sauce",
+      "qty": 1,
+      "unit": "tbsp",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "coconut aminos"
+        }
+      ]
+    },
+    {
+      "id": "beef",
+      "name": "ground beef",
+      "qty": 1,
+      "unit": "lb",
+      "substitutes": [
+        {
+          "name": "very thinly sliced beef",
+          "note": "chopped small after cooking"
+        }
+      ]
+    },
+    {
+      "id": "veg",
+      "name": "soft veg such as zucchini or carrot",
+      "qty": 1,
+      "unit": "cup",
+      "note": "finely chopped",
+      "optional": true
+    },
+    {
+      "id": "rice",
+      "name": "cooked rice",
+      "qty": 2,
+      "unit": "cups",
+      "note": "to serve",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Blend {list:pear,apple,onion,garlic,sesame,soy} into a smooth marinade.",
+      "action": "blend"
+    },
+    {
+      "text": "Massage the marinade into {beef}, cover and chill.",
+      "action": "mix",
+      "minutes": 30,
+      "tip": "Thin slices can marinate overnight."
+    },
+    {
+      "text": "Heat a skillet over medium-high and cook {list:beef,veg} until cooked through and lightly caramelized.",
+      "action": "fry",
+      "minutes": 8
+    },
+    {
+      "text": "Serve warm over {rice}.",
+      "action": "serve"
+    }
+  ],
+  "toddlerTips": [
+    "Ground beef is easiest for new eaters; chop sliced beef into tiny pieces.",
+    "Blending the sesame seeds avoids whole seeds; skip them if sesame is not yet introduced.",
+    "The fruit makes it sweet, so no sugar is needed and soy sauce is optional."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.mjandhungryman.com/baby-friendly-korean-bulgogi/",
+      "title": "Baby-Friendly Korean Bulgogi",
+      "author": "Min Kwon (MJ and Hungryman)"
+    },
+    {
+      "platform": "blog",
+      "url": "https://www.koreanbapsang.com/bulgogi-korean-bbq-beef/",
+      "title": "Bulgogi (Korean BBQ Beef)",
+      "author": "Hyosun (Korean Bapsang)"
+    }
+  ],
+  "popularity": 0.75
+}

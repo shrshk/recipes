@@ -1,0 +1,162 @@
+{
+  "id": "toddler-oyakodon",
+  "title": "Toddler Oyakodon",
+  "summary": "Japanese chicken and egg simmered in a light sweet-savory broth, spooned over soft rice.",
+  "cuisine": "japanese",
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 12,
+  "yield": 4,
+  "difficulty": "easy",
+  "tags": [
+    "one-pot",
+    "protein-packed",
+    "family-meal",
+    "quick"
+  ],
+  "allergens": [
+    "egg",
+    "soy",
+    "wheat",
+    "gluten"
+  ],
+  "ingredients": [
+    {
+      "id": "onion",
+      "name": "yellow onion",
+      "qty": 0.5,
+      "unit": "",
+      "note": "thinly sliced"
+    },
+    {
+      "id": "chicken",
+      "name": "chicken thighs",
+      "qty": 8,
+      "unit": "oz",
+      "note": "boneless, skinless, cut into small bite-size pieces"
+    },
+    {
+      "id": "stock",
+      "name": "low-sodium chicken stock",
+      "qty": 0.5,
+      "unit": "cup",
+      "substitutes": [
+        {
+          "name": "dashi",
+          "note": "contains fish if made with bonito"
+        }
+      ]
+    },
+    {
+      "id": "soy",
+      "name": "low-sodium soy sauce",
+      "qty": 1,
+      "unit": "tbsp",
+      "substitutes": [
+        {
+          "name": "coconut aminos",
+          "note": "soy- and gluten-free"
+        }
+      ]
+    },
+    {
+      "id": "mirin",
+      "name": "mirin",
+      "qty": 1,
+      "unit": "tbsp",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "apple juice"
+        }
+      ]
+    },
+    {
+      "id": "sugar",
+      "name": "sugar",
+      "qty": 1,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "egg",
+      "name": "eggs",
+      "qty": 3,
+      "unit": "",
+      "substitutes": [
+        {
+          "name": "firm tofu",
+          "qty": 5,
+          "unit": "oz",
+          "note": "crumbled; egg-free"
+        }
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "cooked short-grain rice",
+      "qty": 2,
+      "unit": "cups"
+    },
+    {
+      "id": "scallion",
+      "name": "scallion",
+      "qty": 1,
+      "unit": "",
+      "note": "finely sliced",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Stir {list:stock,soy,mirin,sugar} together in a jug.",
+      "action": "mix"
+    },
+    {
+      "text": "Spread {onion} in a single layer in a frying pan and pour the sauce over it."
+    },
+    {
+      "text": "Bring to a simmer, add {chicken} and cook uncovered, turning once, until the chicken is cooked through and the onion is soft.",
+      "action": "boil",
+      "minutes": 6
+    },
+    {
+      "text": "Lightly beat {egg} with a fork so some white streaks stay.",
+      "action": "mix"
+    },
+    {
+      "text": "Pour the egg in a circle over the chicken while the sauce bubbles gently, cover and cook until fully set.",
+      "action": "boil",
+      "minutes": 3,
+      "tip": "For toddlers cook the egg all the way through, not runny as in restaurants."
+    },
+    {
+      "text": "Scatter over {scallion}.",
+      "requires": [
+        "scallion"
+      ]
+    },
+    {
+      "text": "Spoon over {rice} with a little of the sauce and cool before serving.",
+      "action": "serve"
+    }
+  ],
+  "toddlerTips": [
+    "Cut the chicken into small, thin pieces and cook the egg fully.",
+    "Halve the soy sauce for under-2s; the onion and mirin carry the flavour.",
+    "Loosen the rice with extra sauce so it is easy to scoop."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.justonecookbook.com/oyakodon/",
+      "title": "Oyakodon (Chicken and Egg Rice Bowl)",
+      "author": "Namiko Hirasawa Chen (Just One Cookbook)"
+    }
+  ],
+  "popularity": 0.85
+}

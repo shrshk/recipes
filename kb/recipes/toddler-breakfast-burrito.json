@@ -1,0 +1,141 @@
+{
+  "id": "toddler-breakfast-burrito",
+  "title": "Toddler Breakfast Burrito",
+  "summary": "Soft scrambled egg, wilted greens, tomato and avocado rolled in a warm tortilla.",
+  "cuisine": "mexican",
+  "meals": [
+    "breakfast",
+    "lunch"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 5,
+  "cookMinutes": 8,
+  "yield": 2,
+  "difficulty": "easy",
+  "tags": [
+    "quick",
+    "protein-packed",
+    "hidden-veg",
+    "finger-food"
+  ],
+  "allergens": [
+    "egg",
+    "gluten",
+    "wheat"
+  ],
+  "ingredients": [
+    {
+      "id": "eggs",
+      "name": "eggs",
+      "qty": 2,
+      "unit": ""
+    },
+    {
+      "id": "chipotle",
+      "name": "chipotle paste",
+      "qty": 0.25,
+      "unit": "tsp",
+      "note": "for grown-ups",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "smoked paprika",
+          "qty": 1,
+          "unit": "pinch"
+        }
+      ]
+    },
+    {
+      "id": "oil",
+      "name": "rapeseed oil",
+      "qty": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "kale",
+      "name": "kale or baby spinach",
+      "qty": 1,
+      "unit": "handful",
+      "note": "stems removed, finely chopped",
+      "optional": true
+    },
+    {
+      "id": "tomatoes",
+      "name": "cherry tomatoes",
+      "qty": 4,
+      "unit": "",
+      "note": "quartered",
+      "optional": true
+    },
+    {
+      "id": "tortilla",
+      "name": "wholemeal tortilla",
+      "qty": 1,
+      "unit": "",
+      "note": "warmed",
+      "substitutes": [
+        {
+          "name": "corn tortilla",
+          "note": "gluten-free"
+        }
+      ]
+    },
+    {
+      "id": "avocado",
+      "name": "ripe avocado",
+      "qty": 0.5,
+      "unit": "",
+      "note": "mashed or thinly sliced",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Whisk the {eggs} with {chipotle}.",
+      "action": "mix"
+    },
+    {
+      "text": "Heat the {oil} in a frying pan.",
+      "action": "fry"
+    },
+    {
+      "text": "Cook {list:kale,tomatoes} until wilted and soft, then push them to one side.",
+      "action": "fry",
+      "minutes": 3,
+      "requires": [
+        "kale",
+        "tomatoes"
+      ]
+    },
+    {
+      "text": "Pour the egg into the pan and scramble until fully set.",
+      "action": "fry",
+      "minutes": 2
+    },
+    {
+      "text": "Spread the {avocado} over the {tortilla}.",
+      "action": "add",
+      "requires": [
+        "avocado"
+      ]
+    },
+    {
+      "text": "Spoon the filling into the middle of the {tortilla}, roll up and cut into pinwheels.",
+      "action": "shape"
+    }
+  ],
+  "toddlerTips": [
+    "Cook the egg until fully set, with no runny bits.",
+    "Chop greens very finely; whole kale leaves are hard to chew.",
+    "Cut into 2cm pinwheels or strips; quarter cherry tomatoes lengthwise."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.bbcgoodfood.com/recipes/breakfast-burrito",
+      "title": "Breakfast burrito (BBC Good Food)",
+      "author": "Sophie Godwin"
+    }
+  ],
+  "popularity": 0.62
+}

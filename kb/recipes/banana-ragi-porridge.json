@@ -1,0 +1,130 @@
+{
+  "id": "banana-ragi-porridge",
+  "title": "Banana Ragi Porridge",
+  "summary": "Smooth finger-millet porridge sweetened only with ripe banana. Iron and calcium in 10 minutes.",
+  "cuisine": "indian",
+  "meals": [
+    "breakfast"
+  ],
+  "minAgeMonths": 9,
+  "prepMinutes": 2,
+  "cookMinutes": 8,
+  "yield": 2,
+  "difficulty": "easy",
+  "tags": [
+    "quick",
+    "sweet",
+    "iron-rich"
+  ],
+  "allergens": [],
+  "ingredients": [
+    {
+      "id": "ragi",
+      "name": "ragi flour (finger millet)",
+      "qty": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "water",
+      "name": "water",
+      "qty": 0.75,
+      "unit": "cup"
+    },
+    {
+      "id": "banana",
+      "name": "ripe banana",
+      "qty": 1,
+      "unit": "",
+      "note": "small, well spotted"
+    },
+    {
+      "id": "milk",
+      "name": "milk",
+      "qty": 0.25,
+      "unit": "cup",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "oat milk",
+          "note": "dairy-free"
+        },
+        {
+          "name": "breast milk or formula"
+        }
+      ]
+    },
+    {
+      "id": "cardamom",
+      "name": "ground cardamom",
+      "qty": 1,
+      "unit": "pinch",
+      "optional": true
+    },
+    {
+      "id": "ghee",
+      "name": "ghee",
+      "qty": 0.5,
+      "unit": "tsp",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "oil",
+          "note": "dairy-free"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Whisk {ragi} into {water} in a small pan until there are no lumps.",
+      "action": "mix",
+      "tip": "Mixing the flour into cold water first stops lumps."
+    },
+    {
+      "text": "Cook on low heat, stirring all the time, until thick and glossy.",
+      "action": "boil",
+      "minutes": 6
+    },
+    {
+      "text": "Mash {banana} on a plate with a fork until smooth.",
+      "action": "mash"
+    },
+    {
+      "text": "Take the pan off the heat and stir in the banana.",
+      "action": "mix"
+    },
+    {
+      "text": "Stir in {list:milk,cardamom,ghee} to loosen it.",
+      "action": "mix",
+      "requires": [
+        "milk",
+        "cardamom",
+        "ghee"
+      ]
+    },
+    {
+      "text": "Cool until just warm, then serve.",
+      "action": "serve"
+    }
+  ],
+  "toddlerTips": [
+    "No sugar needed: the banana sweetens it. Do not add honey for babies under 12 months.",
+    "It thickens as it cools. Stir in a spoon of warm water or milk before serving.",
+    "Older toddlers can have a spoon of ground nuts or seeds stirred in for extra protein."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://archanaskitchen.com/banana-and-ragi-porridge-recipe-for-babies-and-toddlers",
+      "title": "Banana And Ragi Porridge Recipe For Babies And Toddlers",
+      "author": "Archana's Kitchen"
+    },
+    {
+      "platform": "blog",
+      "url": "https://www.indianhealthyrecipes.com/apple-ragi-halwa-recipe-babies/",
+      "title": "Ragi Malt Recipe (Ragi Java, Ragi Porridge)",
+      "author": "Swasthi Shreekanth (Swasthi's Recipes)"
+    }
+  ],
+  "popularity": 0.85
+}

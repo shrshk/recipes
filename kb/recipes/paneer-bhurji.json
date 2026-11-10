@@ -1,0 +1,194 @@
+{
+  "id": "paneer-bhurji",
+  "title": "Paneer Bhurji",
+  "summary": "Crumbled paneer cooked soft with tomato, onion and mild spices. Like scrambled eggs, egg-free.",
+  "cuisine": "indian",
+  "meals": [
+    "breakfast",
+    "lunch",
+    "dinner"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "yield": 6,
+  "difficulty": "easy",
+  "tags": [
+    "quick",
+    "protein-packed",
+    "savory",
+    "family-meal"
+  ],
+  "allergens": [
+    "dairy"
+  ],
+  "ingredients": [
+    {
+      "id": "paneer",
+      "name": "paneer",
+      "qty": 200,
+      "unit": "g",
+      "note": "crumbled",
+      "substitutes": [
+        {
+          "name": "extra-firm tofu",
+          "note": "dairy-free; crumble and pat dry; contains soy"
+        }
+      ]
+    },
+    {
+      "id": "oil",
+      "name": "oil",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "substitutes": [
+        {
+          "name": "ghee"
+        }
+      ]
+    },
+    {
+      "id": "cumin",
+      "name": "cumin seeds",
+      "qty": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "id": "onion",
+      "name": "onion",
+      "qty": 1,
+      "unit": "",
+      "note": "medium, finely chopped"
+    },
+    {
+      "id": "ginger-garlic",
+      "name": "ginger-garlic paste",
+      "qty": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "tomato",
+      "name": "tomato",
+      "qty": 1,
+      "unit": "",
+      "note": "medium, finely chopped"
+    },
+    {
+      "id": "turmeric",
+      "name": "turmeric",
+      "qty": 0.125,
+      "unit": "tsp"
+    },
+    {
+      "id": "garam",
+      "name": "garam masala",
+      "qty": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "id": "peas",
+      "name": "green peas",
+      "qty": 0.25,
+      "unit": "cup",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "finely diced bell pepper"
+        }
+      ]
+    },
+    {
+      "id": "methi",
+      "name": "kasuri methi (dried fenugreek leaves)",
+      "qty": 0.5,
+      "unit": "tsp",
+      "note": "crushed",
+      "optional": true
+    },
+    {
+      "id": "chili-powder",
+      "name": "Kashmiri chili powder",
+      "qty": 0.25,
+      "unit": "tsp",
+      "note": "for grown-up heat",
+      "optional": true
+    },
+    {
+      "id": "coriander",
+      "name": "fresh coriander",
+      "qty": 2,
+      "unit": "tbsp",
+      "note": "finely chopped",
+      "optional": true
+    },
+    {
+      "id": "lemon",
+      "name": "lemon juice",
+      "qty": 1,
+      "unit": "tsp",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Warm {oil} in a pan and add {cumin}. When it sizzles, add {onion} and cook until golden.",
+      "action": "fry",
+      "minutes": 5
+    },
+    {
+      "text": "Stir in {ginger-garlic} and cook for a minute.",
+      "action": "fry",
+      "minutes": 1
+    },
+    {
+      "text": "Add {list:tomato,turmeric} and cook until the tomato is soft and mushy.",
+      "action": "fry",
+      "minutes": 4
+    },
+    {
+      "text": "Stir in {list:garam,chili-powder,methi} and cook for a minute.",
+      "action": "fry",
+      "minutes": 1
+    },
+    {
+      "text": "Add {peas} with a splash of water and cook until soft.",
+      "action": "fry",
+      "minutes": 3,
+      "requires": [
+        "peas"
+      ]
+    },
+    {
+      "text": "Add {paneer}, stir and cook just until hot.",
+      "action": "fry",
+      "minutes": 2,
+      "tip": "Do not cook it long or the paneer turns rubbery."
+    },
+    {
+      "text": "Turn off the heat and stir in {list:coriander,lemon}.",
+      "action": "mix",
+      "requires": [
+        "coriander",
+        "lemon"
+      ]
+    },
+    {
+      "text": "Cool until warm and serve with soft roti, toast or rice.",
+      "action": "serve"
+    }
+  ],
+  "toddlerTips": [
+    "Crumble the paneer small so there are no firm chunks.",
+    "Skip salt for toddlers; paneer is mild and the tomato carries the flavour.",
+    "Good rolled in a soft roti as a finger-food wrap."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.indianhealthyrecipes.com/paneer-bhurji-recipe/",
+      "title": "Paneer Bhurji Recipe",
+      "author": "Swasthi Shreekanth (Swasthi's Recipes)"
+    }
+  ],
+  "popularity": 0.7
+}

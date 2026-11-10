@@ -1,0 +1,195 @@
+{
+  "id": "veggie-poha",
+  "title": "Veggie Poha",
+  "summary": "Soft flattened-rice flakes with carrot, peas and turmeric. A 20-minute Indian breakfast.",
+  "cuisine": "indian",
+  "meals": [
+    "breakfast",
+    "snack"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 12,
+  "yield": 4,
+  "difficulty": "easy",
+  "tags": [
+    "quick",
+    "savory",
+    "hidden-veg"
+  ],
+  "allergens": [
+    "peanut"
+  ],
+  "ingredients": [
+    {
+      "id": "poha",
+      "name": "thick poha (flattened rice flakes)",
+      "qty": 1.5,
+      "unit": "cups",
+      "note": "medium or thick flakes, not thin"
+    },
+    {
+      "id": "oil",
+      "name": "oil",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "substitutes": [
+        {
+          "name": "ghee",
+          "note": "contains dairy"
+        }
+      ]
+    },
+    {
+      "id": "cumin",
+      "name": "cumin seeds",
+      "qty": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "id": "mustard",
+      "name": "mustard seeds",
+      "qty": 0.5,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "onion",
+      "name": "onion",
+      "qty": 0.5,
+      "unit": "",
+      "note": "finely chopped"
+    },
+    {
+      "id": "curry",
+      "name": "curry leaves",
+      "qty": 6,
+      "unit": "",
+      "note": "torn small",
+      "optional": true
+    },
+    {
+      "id": "chili",
+      "name": "green chili",
+      "qty": 0.5,
+      "unit": "",
+      "note": "seeded and minced; for grown-up heat",
+      "optional": true
+    },
+    {
+      "id": "veg",
+      "name": "mixed carrot and peas",
+      "qty": 0.5,
+      "unit": "cup",
+      "note": "carrot finely diced",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "small potato",
+          "qty": 1,
+          "unit": "",
+          "note": "cut in tiny cubes"
+        }
+      ]
+    },
+    {
+      "id": "turmeric",
+      "name": "turmeric",
+      "qty": 0.25,
+      "unit": "tsp"
+    },
+    {
+      "id": "lemon",
+      "name": "lemon juice",
+      "qty": 1,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "coriander",
+      "name": "fresh coriander",
+      "qty": 2,
+      "unit": "tbsp",
+      "note": "finely chopped",
+      "optional": true
+    },
+    {
+      "id": "peanuts",
+      "name": "roasted peanuts",
+      "qty": 2,
+      "unit": "tbsp",
+      "note": "ground to a fine powder",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "grated fresh coconut",
+          "note": "peanut-free"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Rinse {poha} quickly in a strainer under running water, drain well and leave covered to soften.",
+      "action": "rinse",
+      "minutes": 5,
+      "tip": "Pressed between two fingers, a flake should squash easily."
+    },
+    {
+      "text": "Warm {oil} in a pan and add {list:cumin,mustard}. Wait until they sizzle.",
+      "action": "fry"
+    },
+    {
+      "text": "Add {list:onion,curry,chili} and cook until the onion is soft.",
+      "action": "fry",
+      "minutes": 3
+    },
+    {
+      "text": "Add {veg} with a splash of water, cover and cook on low until soft.",
+      "action": "fry",
+      "minutes": 5,
+      "requires": [
+        "veg"
+      ]
+    },
+    {
+      "text": "Stir in {turmeric} and the softened {poha}. Cover and steam on low until hot.",
+      "action": "steam",
+      "minutes": 3,
+      "tip": "Sprinkle in a little water if it looks dry."
+    },
+    {
+      "text": "Turn off the heat and stir in {list:lemon,coriander}.",
+      "action": "mix",
+      "requires": [
+        "lemon",
+        "coriander"
+      ]
+    },
+    {
+      "text": "Sprinkle {peanuts} on top.",
+      "action": "add",
+      "requires": [
+        "peanuts"
+      ]
+    },
+    {
+      "text": "Cool until warm, then serve.",
+      "action": "serve"
+    }
+  ],
+  "toddlerTips": [
+    "Never serve whole or halved peanuts to under-fives. Grind them to a powder or leave them out.",
+    "Skip salt for toddlers, or add a tiny pinch for the grown-ups' plates.",
+    "Easy to scoop with a spoon or pinch with fingers."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.indianhealthyrecipes.com/poha-recipe-kanda-batata-poha/",
+      "title": "Poha Recipe (Kanda Batata Poha)",
+      "author": "Swasthi Shreekanth (Swasthi's Recipes)"
+    }
+  ],
+  "popularity": 0.75
+}

@@ -1,0 +1,196 @@
+{
+  "id": "coconut-veg-pulao",
+  "title": "Coconut Milk Veg Pulao",
+  "summary": "Fragrant basmati cooked in coconut milk with carrot, beans, peas and potato. Mild and one-pot.",
+  "cuisine": "indian",
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 20,
+  "cookMinutes": 20,
+  "yield": 5,
+  "difficulty": "easy",
+  "tags": [
+    "one-pot",
+    "hidden-veg",
+    "family-meal",
+    "savory"
+  ],
+  "allergens": [
+    "dairy"
+  ],
+  "ingredients": [
+    {
+      "id": "rice",
+      "name": "basmati rice",
+      "qty": 1,
+      "unit": "cup",
+      "note": "rinsed and soaked 15 minutes"
+    },
+    {
+      "id": "coconut-milk",
+      "name": "canned coconut milk",
+      "qty": 1,
+      "unit": "cup"
+    },
+    {
+      "id": "water",
+      "name": "water",
+      "qty": 1,
+      "unit": "cup"
+    },
+    {
+      "id": "ghee",
+      "name": "ghee",
+      "qty": 2,
+      "unit": "tbsp",
+      "substitutes": [
+        {
+          "name": "oil",
+          "note": "dairy-free"
+        }
+      ]
+    },
+    {
+      "id": "bay",
+      "name": "bay leaf",
+      "qty": 1,
+      "unit": "",
+      "optional": true
+    },
+    {
+      "id": "cinnamon",
+      "name": "cinnamon stick",
+      "qty": 1,
+      "unit": "inch",
+      "optional": true
+    },
+    {
+      "id": "cardamom",
+      "name": "green cardamom pods",
+      "qty": 2,
+      "unit": "",
+      "optional": true
+    },
+    {
+      "id": "cumin",
+      "name": "cumin seeds",
+      "qty": 0.75,
+      "unit": "tsp"
+    },
+    {
+      "id": "onion",
+      "name": "onion",
+      "qty": 1,
+      "unit": "",
+      "note": "small, thinly sliced"
+    },
+    {
+      "id": "ginger-garlic",
+      "name": "ginger-garlic paste",
+      "qty": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "carrot",
+      "name": "carrot",
+      "qty": 0.25,
+      "unit": "cup",
+      "note": "finely diced"
+    },
+    {
+      "id": "potato",
+      "name": "potato",
+      "qty": 0.25,
+      "unit": "cup",
+      "note": "finely diced",
+      "optional": true
+    },
+    {
+      "id": "beans",
+      "name": "green beans",
+      "qty": 0.25,
+      "unit": "cup",
+      "note": "finely chopped",
+      "optional": true
+    },
+    {
+      "id": "peas",
+      "name": "green peas",
+      "qty": 0.25,
+      "unit": "cup"
+    },
+    {
+      "id": "mint",
+      "name": "mint leaves",
+      "qty": 2,
+      "unit": "tbsp",
+      "note": "finely chopped",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Drain the soaked {rice} well.",
+      "action": "rinse"
+    },
+    {
+      "text": "Warm {ghee} in a heavy pot and add {list:bay,cinnamon,cardamom,cumin}. When they sizzle, add {onion}.",
+      "action": "fry"
+    },
+    {
+      "text": "Cook the onion until golden, then stir in {ginger-garlic} for a minute.",
+      "action": "fry",
+      "minutes": 6
+    },
+    {
+      "text": "Add {list:carrot,potato,beans,peas,mint} and stir for 2 minutes.",
+      "action": "fry",
+      "minutes": 2
+    },
+    {
+      "text": "Pour in {list:coconut-milk,water} and bring to a rolling boil.",
+      "action": "boil"
+    },
+    {
+      "text": "Stir in the rice, cover and cook on low until the liquid is absorbed and the rice is soft.",
+      "action": "boil",
+      "minutes": 15
+    },
+    {
+      "text": "Rest covered for 5 minutes, then fluff with a fork.",
+      "action": "mix",
+      "minutes": 5
+    },
+    {
+      "text": "Pick out the whole spices.",
+      "action": "prep",
+      "requires": [
+        "bay",
+        "cinnamon",
+        "cardamom"
+      ],
+      "tip": "Count the bay leaf, cinnamon and cardamom pods back out before serving."
+    },
+    {
+      "text": "Serve warm.",
+      "action": "serve"
+    }
+  ],
+  "toddlerTips": [
+    "Remove every whole spice before serving; they are choking hazards.",
+    "Skip the green chili and salt for toddlers.",
+    "Serve with plain yogurt or a little dal to make it softer."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.indianhealthyrecipes.com/vegetable-pulao-recipe/",
+      "title": "Coconut Milk Pulao",
+      "author": "Swasthi Shreekanth (Swasthi's Recipes)"
+    }
+  ],
+  "popularity": 0.6
+}

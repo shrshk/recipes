@@ -1,0 +1,150 @@
+{
+  "id": "lebanese-red-lentil-soup",
+  "title": "Lebanese Red Lentil Soup",
+  "summary": "Shorbet adas: golden lentil and rice soup with cumin and lemon, blended until half smooth.",
+  "cuisine": "middle-eastern",
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "minAgeMonths": 9,
+  "prepMinutes": 10,
+  "cookMinutes": 30,
+  "yield": 8,
+  "difficulty": "easy",
+  "tags": [
+    "one-pot",
+    "iron-rich",
+    "hidden-veg",
+    "freezer-friendly",
+    "batch-cook"
+  ],
+  "allergens": [],
+  "ingredients": [
+    {
+      "id": "oil",
+      "name": "olive oil",
+      "qty": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "onion",
+      "name": "onion",
+      "qty": 1,
+      "unit": "",
+      "note": "diced"
+    },
+    {
+      "id": "garlic",
+      "name": "garlic cloves",
+      "qty": 2,
+      "unit": "",
+      "note": "crushed"
+    },
+    {
+      "id": "cumin",
+      "name": "ground cumin",
+      "qty": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "turmeric",
+      "name": "ground turmeric",
+      "qty": 0.75,
+      "unit": "tsp"
+    },
+    {
+      "id": "lentils",
+      "name": "red lentils",
+      "qty": 1,
+      "unit": "cup",
+      "note": "rinsed"
+    },
+    {
+      "id": "rice",
+      "name": "short-grain white rice",
+      "qty": 0.25,
+      "unit": "cup",
+      "optional": true
+    },
+    {
+      "id": "stock",
+      "name": "low-salt vegetable stock",
+      "qty": 5,
+      "unit": "cups",
+      "note": "or water"
+    },
+    {
+      "id": "carrot",
+      "name": "carrot",
+      "qty": 1,
+      "unit": "",
+      "note": "diced small"
+    },
+    {
+      "id": "celery",
+      "name": "celery stalk",
+      "qty": 1,
+      "unit": "",
+      "note": "diced small",
+      "optional": true
+    },
+    {
+      "id": "lemon",
+      "name": "lemon juice",
+      "qty": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "parsley",
+      "name": "fresh parsley",
+      "qty": 1,
+      "unit": "tbsp",
+      "note": "finely chopped",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Warm the {oil} in a large pot and soften {list:onion,garlic,cumin,turmeric}.",
+      "action": "fry",
+      "minutes": 4
+    },
+    {
+      "text": "Stir in the {lentils} so they are coated in the oil.",
+      "action": "mix"
+    },
+    {
+      "text": "Pour in {list:stock,rice}, cover and simmer.",
+      "action": "boil",
+      "minutes": 15
+    },
+    {
+      "text": "Add {list:carrot,celery} and simmer until soft.",
+      "action": "boil",
+      "minutes": 10
+    },
+    {
+      "text": "Turn off the heat and stir in {list:lemon,parsley}.",
+      "action": "mix"
+    },
+    {
+      "text": "Blend until mostly smooth with a few soft bits left.",
+      "action": "blend"
+    }
+  ],
+  "toddlerTips": [
+    "Blend fully smooth for new eaters; leave it chunkier as they grow.",
+    "Use low-salt stock or water and skip added salt; the lemon gives plenty of flavour.",
+    "Serve with soft pitta strips for dipping."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://plantbasedfolk.com/lebanese-lentil-soup/",
+      "title": "Lebanese Lentil Soup",
+      "author": "Plant Based Folk"
+    }
+  ],
+  "popularity": 0.7
+}

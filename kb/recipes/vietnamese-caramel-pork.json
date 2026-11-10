@@ -1,0 +1,150 @@
+{
+  "id": "vietnamese-caramel-pork",
+  "title": "Vietnamese Caramel Pork",
+  "summary": "Tender pork slow-simmered in coconut water and light caramel until sticky; serve with rice.",
+  "cuisine": "vietnamese",
+  "meals": [
+    "dinner"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 80,
+  "yield": 6,
+  "difficulty": "easy",
+  "tags": [
+    "one-pot",
+    "iron-rich",
+    "protein-packed",
+    "family-meal",
+    "batch-cook",
+    "freezer-friendly"
+  ],
+  "allergens": [
+    "fish"
+  ],
+  "ingredients": [
+    {
+      "id": "sugar",
+      "name": "brown sugar",
+      "qty": 3,
+      "unit": "tbsp",
+      "note": "packed"
+    },
+    {
+      "id": "water",
+      "name": "water",
+      "qty": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "pork",
+      "name": "boneless pork shoulder",
+      "qty": 1,
+      "unit": "lb",
+      "note": "cut into 1-inch pieces"
+    },
+    {
+      "id": "coconut-water",
+      "name": "coconut water",
+      "qty": 1,
+      "unit": "cup",
+      "substitutes": [
+        {
+          "name": "water"
+        }
+      ]
+    },
+    {
+      "id": "shallot",
+      "name": "shallot",
+      "qty": 1,
+      "unit": "",
+      "note": "very finely sliced"
+    },
+    {
+      "id": "garlic",
+      "name": "garlic",
+      "qty": 1,
+      "unit": "clove",
+      "note": "minced"
+    },
+    {
+      "id": "fish-sauce",
+      "name": "fish sauce",
+      "qty": 2,
+      "unit": "tsp",
+      "substitutes": [
+        {
+          "name": "low-sodium soy sauce",
+          "note": "fish-free; contains soy and wheat; contains soy and wheat; tamari is wheat-free"
+        }
+      ]
+    },
+    {
+      "id": "pepper",
+      "name": "white pepper",
+      "qty": 1,
+      "unit": "pinch",
+      "optional": true
+    },
+    {
+      "id": "scallion",
+      "name": "scallion",
+      "qty": 1,
+      "unit": "",
+      "note": "finely sliced",
+      "optional": true
+    },
+    {
+      "id": "rice",
+      "name": "cooked rice",
+      "qty": 2,
+      "unit": "cups",
+      "note": "to serve"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Melt {sugar} with {water} in a heavy pot over medium heat until it bubbles like caramel.",
+      "action": "boil",
+      "minutes": 3
+    },
+    {
+      "text": "Add {list:pork,coconut-water,shallot,garlic,fish-sauce,pepper} and stir.",
+      "action": "add",
+      "tip": "Stand back; the caramel spits when the liquid goes in."
+    },
+    {
+      "text": "Simmer uncovered, stirring once or twice, until the pork is tender and the liquid has nearly gone.",
+      "action": "boil",
+      "minutes": 75
+    },
+    {
+      "text": "Stir as the pork browns in its own fat and the glaze clings to it.",
+      "action": "fry",
+      "minutes": 3
+    },
+    {
+      "text": "Chop the pork into small pieces and scatter over {scallion}.",
+      "action": "chop"
+    },
+    {
+      "text": "Serve with {rice} and a spoonful of the glaze.",
+      "action": "serve"
+    }
+  ],
+  "toddlerTips": [
+    "Chop the pork into pea-size pieces or shred it with two forks.",
+    "This version uses less fish sauce than the original; keep the toddler portion small and serve with plenty of rice.",
+    "Cool the glaze well; sugar holds heat."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.recipetineats.com/vietnamese-caramel-pork/",
+      "title": "Vietnamese Caramel Pork",
+      "author": "Nagi (RecipeTin Eats)"
+    }
+  ],
+  "popularity": 0.75
+}

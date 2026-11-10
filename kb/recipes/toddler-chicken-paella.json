@@ -1,0 +1,162 @@
+{
+  "id": "toddler-chicken-paella",
+  "title": "Toddler Chicken Paella",
+  "summary": "One-pan saffron rice with chicken and peas; chorizo optional for a milder, less salty pan.",
+  "cuisine": "spanish",
+  "meals": [
+    "dinner"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 40,
+  "yield": 6,
+  "difficulty": "easy",
+  "tags": [
+    "one-pot",
+    "family-meal",
+    "protein-packed"
+  ],
+  "allergens": [],
+  "ingredients": [
+    {
+      "id": "oil",
+      "name": "olive oil",
+      "qty": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "chicken",
+      "name": "chicken breast",
+      "qty": 1,
+      "unit": "",
+      "note": "cut into small chunks",
+      "substitutes": [
+        {
+          "name": "boneless chicken thighs"
+        }
+      ]
+    },
+    {
+      "id": "onion",
+      "name": "onion",
+      "qty": 1,
+      "unit": "",
+      "note": "finely sliced"
+    },
+    {
+      "id": "garlic",
+      "name": "garlic clove",
+      "qty": 1,
+      "unit": "",
+      "note": "crushed"
+    },
+    {
+      "id": "chorizo",
+      "name": "cooking chorizo",
+      "qty": 50,
+      "unit": "g",
+      "note": "finely chopped",
+      "optional": true
+    },
+    {
+      "id": "turmeric",
+      "name": "ground turmeric",
+      "qty": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "id": "saffron",
+      "name": "saffron",
+      "qty": 1,
+      "unit": "pinch",
+      "optional": true
+    },
+    {
+      "id": "paprika",
+      "name": "sweet paprika",
+      "qty": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "id": "rice",
+      "name": "paella rice",
+      "qty": 150,
+      "unit": "g"
+    },
+    {
+      "id": "stock",
+      "name": "hot low-salt chicken stock",
+      "qty": 425,
+      "unit": "ml"
+    },
+    {
+      "id": "peas",
+      "name": "frozen peas",
+      "qty": 100,
+      "unit": "g"
+    },
+    {
+      "id": "lemon",
+      "name": "lemon wedges",
+      "qty": 2,
+      "unit": "",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Brown the {chicken} in the {oil} without cooking it through, then set aside on a plate.",
+      "action": "fry",
+      "minutes": 4
+    },
+    {
+      "text": "Cook the {onion} slowly on low heat until soft, then add the {garlic} for a minute.",
+      "action": "fry",
+      "minutes": 10
+    },
+    {
+      "text": "Add the {chorizo} and fry until it releases its oil.",
+      "action": "fry",
+      "minutes": 2,
+      "requires": [
+        "chorizo"
+      ]
+    },
+    {
+      "text": "Stir in {list:turmeric,saffron,paprika}, then add the {rice} and coat it in the oil.",
+      "action": "mix",
+      "minutes": 2
+    },
+    {
+      "text": "Pour in the {stock}, bring to the boil, return the chicken and simmer, stirring now and then.",
+      "action": "boil",
+      "minutes": 20
+    },
+    {
+      "text": "Add the {peas} and simmer until the rice and chicken are tender.",
+      "action": "boil",
+      "minutes": 5
+    },
+    {
+      "text": "Serve with {lemon} to squeeze over.",
+      "action": "serve",
+      "requires": [
+        "lemon"
+      ]
+    }
+  ],
+  "toddlerTips": [
+    "Chorizo is salty and can be spicy; use a little or skip it and add a pinch of smoked paprika.",
+    "Cut chicken into small, thin pieces and check it is cooked through.",
+    "Keep the rice soft and a little loose; add a splash more stock if it dries."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.bbcgoodfood.com/recipes/chicken-chorizo-paella",
+      "title": "Chicken & chorizo paella (BBC Good Food)",
+      "author": "Chelsie Collins"
+    }
+  ],
+  "popularity": 0.78
+}

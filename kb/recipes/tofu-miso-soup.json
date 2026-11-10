@@ -1,0 +1,135 @@
+{
+  "id": "tofu-miso-soup",
+  "title": "Gentle Tofu Miso Soup",
+  "summary": "Silky tofu cubes in a mild, lower-salt miso broth, a Japanese breakfast staple.",
+  "cuisine": "japanese",
+  "meals": [
+    "breakfast",
+    "lunch"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 5,
+  "cookMinutes": 15,
+  "yield": 4,
+  "difficulty": "easy",
+  "tags": [
+    "quick",
+    "one-pot",
+    "protein-packed"
+  ],
+  "allergens": [
+    "soy"
+  ],
+  "ingredients": [
+    {
+      "id": "water",
+      "name": "water",
+      "qty": 3,
+      "unit": "cups"
+    },
+    {
+      "id": "kombu",
+      "name": "kombu (dried kelp)",
+      "qty": 1,
+      "unit": "piece",
+      "note": "about 4 inches square",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "low-sodium vegetable stock",
+          "qty": 3,
+          "unit": "cups",
+          "note": "use instead of the water"
+        }
+      ]
+    },
+    {
+      "id": "miso",
+      "name": "mild white miso",
+      "qty": 2,
+      "unit": "tbsp",
+      "note": "less than a standard recipe"
+    },
+    {
+      "id": "tofu",
+      "name": "silken tofu",
+      "qty": 7,
+      "unit": "oz",
+      "note": "cut into small cubes"
+    },
+    {
+      "id": "wakame",
+      "name": "dried wakame seaweed",
+      "qty": 1,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "scallion",
+      "name": "scallion",
+      "qty": 1,
+      "unit": "",
+      "note": "finely sliced",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Put {water} and {kombu} in a saucepan.",
+      "action": "add"
+    },
+    {
+      "text": "Heat slowly until just about to boil, then lift out the kombu.",
+      "action": "boil",
+      "minutes": 10,
+      "requires": [
+        "kombu"
+      ]
+    },
+    {
+      "text": "Bring the broth to a gentle simmer, then turn off the heat.",
+      "action": "boil"
+    },
+    {
+      "text": "Put {miso} in a ladle, lower it into the pot and stir with chopsticks until it dissolves.",
+      "action": "mix",
+      "tip": "Do not boil once the miso is in."
+    },
+    {
+      "text": "Slide in {tofu} and warm through for a minute.",
+      "action": "add"
+    },
+    {
+      "text": "Soak {wakame} in a little water, squeeze dry, chop it small and add to the pot.",
+      "requires": [
+        "wakame"
+      ],
+      "action": "chop"
+    },
+    {
+      "text": "Add {scallion}.",
+      "requires": [
+        "scallion"
+      ],
+      "action": "add"
+    },
+    {
+      "text": "Ladle into small cups and serve warm, not hot.",
+      "action": "serve"
+    }
+  ],
+  "toddlerTips": [
+    "Miso is salty: use about half the usual amount and serve a small cup.",
+    "Silken tofu is soft enough to squish with a spoon; chop wakame very small.",
+    "Serve tofu pieces on a spoon or let them fish with fingers once cooled."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.justonecookbook.com/homemade-miso-soup/",
+      "title": "Homemade Miso Soup with Tofu",
+      "author": "Namiko Hirasawa Chen (Just One Cookbook)"
+    }
+  ],
+  "popularity": 0.85
+}

@@ -1,0 +1,177 @@
+{
+  "id": "pork-cabbage-potstickers",
+  "title": "Pork and Cabbage Potstickers",
+  "summary": "Juicy pork and napa cabbage dumplings, crisp underneath and soft on top; freeze a batch.",
+  "cuisine": "chinese",
+  "meals": [
+    "lunch",
+    "dinner",
+    "snack"
+  ],
+  "minAgeMonths": 18,
+  "prepMinutes": 45,
+  "cookMinutes": 12,
+  "yield": 6,
+  "difficulty": "medium",
+  "tags": [
+    "finger-food",
+    "hidden-veg",
+    "freezer-friendly",
+    "batch-cook",
+    "family-meal"
+  ],
+  "allergens": [
+    "wheat",
+    "gluten",
+    "soy",
+    "sesame"
+  ],
+  "ingredients": [
+    {
+      "id": "cabbage",
+      "name": "napa cabbage",
+      "qty": 1.5,
+      "unit": "cups",
+      "note": "finely chopped"
+    },
+    {
+      "id": "mushroom",
+      "name": "dried shiitake mushrooms",
+      "qty": 4,
+      "unit": "",
+      "note": "soaked and finely chopped",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "fresh mushrooms",
+          "qty": 0.5,
+          "unit": "cup",
+          "note": "finely chopped"
+        }
+      ]
+    },
+    {
+      "id": "pork",
+      "name": "ground pork",
+      "qty": 8,
+      "unit": "oz"
+    },
+    {
+      "id": "chives",
+      "name": "garlic chives",
+      "qty": 0.25,
+      "unit": "cup",
+      "note": "finely chopped",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "scallion"
+        }
+      ]
+    },
+    {
+      "id": "soy",
+      "name": "low-sodium soy sauce",
+      "qty": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "ginger",
+      "name": "fresh ginger",
+      "qty": 0.5,
+      "unit": "tsp",
+      "note": "grated"
+    },
+    {
+      "id": "garlic",
+      "name": "garlic",
+      "qty": 1,
+      "unit": "clove",
+      "note": "minced"
+    },
+    {
+      "id": "sesame",
+      "name": "sesame oil",
+      "qty": 0.5,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "wrappers",
+      "name": "dumpling wrappers",
+      "qty": 30,
+      "unit": "",
+      "note": "round"
+    },
+    {
+      "id": "oil",
+      "name": "vegetable oil",
+      "qty": 4,
+      "unit": "tsp",
+      "note": "for the pan"
+    },
+    {
+      "id": "water",
+      "name": "water",
+      "qty": 0.5,
+      "unit": "cup",
+      "note": "per batch"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Soak {mushroom} in boiled water until soft, then squeeze dry and chop finely.",
+      "requires": [
+        "mushroom"
+      ],
+      "action": "chop",
+      "minutes": 20
+    },
+    {
+      "text": "Squeeze the chopped {cabbage} hard in your hands to get rid of extra water.",
+      "action": "prep"
+    },
+    {
+      "text": "Mix {list:cabbage,mushroom,pork,chives,soy,ginger,garlic,sesame} with your hands until well combined.",
+      "action": "mix"
+    },
+    {
+      "text": "Wet half the edge of one of the {wrappers}, put a heaped teaspoon of filling in the middle, fold it over and pinch or pleat it shut.",
+      "action": "shape",
+      "tip": "Pleats are optional; a pressed seam works fine. Your toddler can press the edges."
+    },
+    {
+      "text": "Keep the finished dumplings under a damp towel while you make the rest.",
+      "action": "prep"
+    },
+    {
+      "text": "Heat 1 to 2 teaspoons of {oil} in a non-stick pan and fry 8 to 10 dumplings, flat side down, until golden underneath.",
+      "action": "fry",
+      "minutes": 2
+    },
+    {
+      "text": "Pour in {water}, put the lid on straight away and steam until the filling is cooked through.",
+      "action": "steam",
+      "minutes": 7
+    },
+    {
+      "text": "Take off the lid and cook until the water is gone and the bottoms crisp again. Repeat with the rest.",
+      "action": "fry",
+      "minutes": 2
+    }
+  ],
+  "toddlerTips": [
+    "Cut each dumpling in half or quarters so the steam escapes and pieces are bite-size.",
+    "For young toddlers, boil the dumplings instead of pan-frying for a softer wrapper.",
+    "Freeze uncooked dumplings on a tray, then bag; cook from frozen with a few extra minutes of steaming."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.recipetineats.com/potstickers-chinese-pan-fried-dumplings/",
+      "title": "Chinese dumplings (Potstickers!)",
+      "author": "Nagi (RecipeTin Eats)"
+    }
+  ],
+  "popularity": 0.65
+}

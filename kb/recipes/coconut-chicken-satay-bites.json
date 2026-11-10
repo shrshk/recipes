@@ -1,0 +1,137 @@
+{
+  "id": "coconut-chicken-satay-bites",
+  "title": "Coconut Chicken Satay Bites",
+  "summary": "Coconut and curry-powder chicken pieces, pan-fried off the skewer, with a mild peanut dip.",
+  "cuisine": "thai",
+  "meals": [
+    "lunch",
+    "dinner",
+    "snack"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 25,
+  "cookMinutes": 12,
+  "yield": 6,
+  "difficulty": "easy",
+  "tags": [
+    "finger-food",
+    "protein-packed",
+    "family-meal"
+  ],
+  "allergens": [
+    "peanut",
+    "soy",
+    "wheat",
+    "gluten"
+  ],
+  "ingredients": [
+    {
+      "id": "chicken",
+      "name": "chicken thighs",
+      "qty": 1,
+      "unit": "lb",
+      "note": "boneless, skinless, cut into small pieces"
+    },
+    {
+      "id": "coconut",
+      "name": "coconut milk",
+      "qty": 1,
+      "unit": "cup",
+      "note": "full fat, divided"
+    },
+    {
+      "id": "curry",
+      "name": "mild curry powder",
+      "qty": 2,
+      "unit": "tsp"
+    },
+    {
+      "id": "sugar",
+      "name": "sugar",
+      "qty": 1,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "paste",
+      "name": "red curry paste",
+      "qty": 1,
+      "unit": "tsp",
+      "note": "adds heat",
+      "optional": true
+    },
+    {
+      "id": "oil",
+      "name": "vegetable oil",
+      "qty": 1,
+      "unit": "tbsp",
+      "note": "for the pan"
+    },
+    {
+      "id": "pb",
+      "name": "smooth peanut butter",
+      "qty": 0.33,
+      "unit": "cup",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "sunflower seed butter",
+          "note": "peanut-free"
+        }
+      ]
+    },
+    {
+      "id": "soy",
+      "name": "low-sodium soy sauce",
+      "qty": 1,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "vinegar",
+      "name": "cider vinegar",
+      "qty": 2,
+      "unit": "tsp",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Mix {chicken} with {list:curry,sugar,paste} and a quarter of {coconut}, then leave to marinate.",
+      "action": "mix",
+      "minutes": 20,
+      "tip": "Can marinate overnight in the fridge."
+    },
+    {
+      "text": "Heat {oil} in a large non-stick pan and fry the chicken in batches until golden and cooked through.",
+      "action": "fry",
+      "minutes": 6
+    },
+    {
+      "text": "Simmer the rest of the coconut milk with {list:pb,soy,vinegar} until smooth, adding water until it is a thick but pourable dip.",
+      "requires": [
+        "pb"
+      ],
+      "action": "boil",
+      "minutes": 5
+    },
+    {
+      "text": "Cool {chicken} slightly and serve with any dip on the side.",
+      "action": "serve"
+    }
+  ],
+  "toddlerTips": [
+    "Skip skewers for toddlers; serve the pieces on a plate or cut them smaller.",
+    "Leave out the chopped peanuts that grown-up satay uses; smooth butter thinned in the sauce is safe.",
+    "Red curry paste is optional heat; leave it out the first time."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.recipetineats.com/thai-chicken-satay/",
+      "title": "Thai Chicken Satay with Peanut Sauce",
+      "author": "Nagi (RecipeTin Eats)"
+    }
+  ],
+  "popularity": 0.85
+}

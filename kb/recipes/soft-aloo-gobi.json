@@ -1,0 +1,195 @@
+{
+  "id": "soft-aloo-gobi",
+  "title": "Soft Aloo Gobi",
+  "summary": "Potato and cauliflower cooked tender with tomato, cumin and turmeric. A dry curry for little fingers.",
+  "cuisine": "indian",
+  "meals": [
+    "dinner",
+    "lunch"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 15,
+  "cookMinutes": 30,
+  "yield": 6,
+  "difficulty": "easy",
+  "tags": [
+    "finger-food",
+    "family-meal",
+    "savory"
+  ],
+  "allergens": [],
+  "ingredients": [
+    {
+      "id": "potato",
+      "name": "potatoes",
+      "qty": 2,
+      "unit": "",
+      "note": "medium, in 3/4 inch cubes"
+    },
+    {
+      "id": "cauliflower",
+      "name": "cauliflower florets",
+      "qty": 2,
+      "unit": "cups",
+      "note": "in small florets"
+    },
+    {
+      "id": "oil",
+      "name": "oil",
+      "qty": 2,
+      "unit": "tbsp"
+    },
+    {
+      "id": "cumin",
+      "name": "cumin seeds",
+      "qty": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "id": "ginger",
+      "name": "ginger",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "note": "grated"
+    },
+    {
+      "id": "garlic",
+      "name": "garlic",
+      "qty": 3,
+      "unit": "cloves",
+      "note": "minced",
+      "optional": true
+    },
+    {
+      "id": "onion",
+      "name": "onion",
+      "qty": 1,
+      "unit": "",
+      "note": "medium, finely chopped"
+    },
+    {
+      "id": "turmeric",
+      "name": "turmeric",
+      "qty": 0.25,
+      "unit": "tsp"
+    },
+    {
+      "id": "coriander-powder",
+      "name": "ground coriander",
+      "qty": 0.75,
+      "unit": "tsp"
+    },
+    {
+      "id": "cumin-powder",
+      "name": "roasted ground cumin",
+      "qty": 0.5,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "garam",
+      "name": "garam masala",
+      "qty": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "id": "chili-powder",
+      "name": "Kashmiri chili powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "note": "mild; for colour",
+      "optional": true
+    },
+    {
+      "id": "water",
+      "name": "water",
+      "qty": 3,
+      "unit": "tbsp",
+      "note": "plus more as needed"
+    },
+    {
+      "id": "tomato",
+      "name": "tomatoes",
+      "qty": 2,
+      "unit": "",
+      "note": "medium, finely chopped"
+    },
+    {
+      "id": "methi",
+      "name": "kasuri methi (dried fenugreek leaves)",
+      "qty": 1,
+      "unit": "tsp",
+      "note": "crushed",
+      "optional": true
+    },
+    {
+      "id": "coriander",
+      "name": "fresh coriander",
+      "qty": 2,
+      "unit": "tbsp",
+      "note": "finely chopped",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Warm {oil} in a wide pan and add {cumin}. When it sizzles, add {list:ginger,garlic} for 30 seconds.",
+      "action": "fry"
+    },
+    {
+      "text": "Add {onion} and cook until soft and see-through.",
+      "action": "fry",
+      "minutes": 3
+    },
+    {
+      "text": "Add {potato}, cover and cook on low, stirring now and then, until half done.",
+      "action": "fry",
+      "minutes": 8
+    },
+    {
+      "text": "Add {cauliflower} and stir-fry for 3 minutes.",
+      "action": "fry",
+      "minutes": 3
+    },
+    {
+      "text": "Stir in {list:turmeric,coriander-powder,cumin-powder,garam,chili-powder} and sprinkle over {water}.",
+      "action": "mix"
+    },
+    {
+      "text": "Cover and cook on low until both vegetables are fork-tender.",
+      "action": "steam",
+      "minutes": 12,
+      "tip": "For toddlers, cook a few minutes longer than usual so the pieces squash easily."
+    },
+    {
+      "text": "Add {list:tomato,methi} and cook until the tomato breaks down.",
+      "action": "fry",
+      "minutes": 4
+    },
+    {
+      "text": "Stir in {coriander}.",
+      "action": "mix",
+      "requires": [
+        "coriander"
+      ]
+    },
+    {
+      "text": "Cool until warm before serving.",
+      "action": "serve"
+    }
+  ],
+  "toddlerTips": [
+    "Skip the green chili and salt for toddlers.",
+    "Pieces should squash easily between your fingers. Cut any big pieces smaller.",
+    "Serve with dal and rice or rolled in a soft roti."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.indianhealthyrecipes.com/aloo-gobi/",
+      "title": "Aloo Gobi Recipe (Cauliflower Potato Curry)",
+      "author": "Swasthi Shreekanth (Swasthi's Recipes)"
+    }
+  ],
+  "popularity": 0.8
+}

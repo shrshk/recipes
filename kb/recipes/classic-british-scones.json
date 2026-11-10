@@ -1,0 +1,175 @@
+{
+  "id": "classic-british-scones",
+  "title": "Classic British Scones",
+  "summary": "Soft, lightly sweet scones for snack time; serve plain, buttered or with mashed berries.",
+  "cuisine": "british",
+  "meals": [
+    "snack",
+    "breakfast"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 15,
+  "cookMinutes": 10,
+  "yield": 8,
+  "difficulty": "easy",
+  "tags": [
+    "sweet",
+    "finger-food",
+    "freezer-friendly",
+    "lunchbox"
+  ],
+  "allergens": [
+    "gluten",
+    "wheat",
+    "dairy",
+    "egg"
+  ],
+  "ingredients": [
+    {
+      "id": "flour",
+      "name": "self-raising flour",
+      "qty": 350,
+      "unit": "g",
+      "note": "plus extra for dusting"
+    },
+    {
+      "id": "baking-powder",
+      "name": "baking powder",
+      "qty": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "butter",
+      "name": "cold butter",
+      "qty": 85,
+      "unit": "g",
+      "note": "cubed",
+      "substitutes": [
+        {
+          "name": "cold dairy-free block butter"
+        }
+      ]
+    },
+    {
+      "id": "sugar",
+      "name": "caster sugar",
+      "qty": 1,
+      "unit": "tbsp",
+      "note": "the original uses 3",
+      "optional": true
+    },
+    {
+      "id": "milk",
+      "name": "milk",
+      "qty": 175,
+      "unit": "ml",
+      "substitutes": [
+        {
+          "name": "unsweetened oat milk"
+        }
+      ]
+    },
+    {
+      "id": "vanilla",
+      "name": "vanilla extract",
+      "qty": 1,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "lemon",
+      "name": "lemon juice",
+      "qty": 1,
+      "unit": "squeeze"
+    },
+    {
+      "id": "egg",
+      "name": "beaten egg",
+      "qty": 1,
+      "unit": "",
+      "note": "to glaze",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "milk",
+          "note": "egg-free glaze"
+        }
+      ]
+    },
+    {
+      "id": "topping",
+      "name": "mashed berries or no-added-sugar jam",
+      "qty": 4,
+      "unit": "tbsp",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat the oven to 220C (200C fan) and put a baking tray in to heat."
+    },
+    {
+      "text": "Mix the {flour} and {baking-powder} in a large bowl.",
+      "action": "mix"
+    },
+    {
+      "text": "Rub in the {butter} with your fingertips until it looks like fine crumbs.",
+      "action": "mix"
+    },
+    {
+      "text": "Stir in the {sugar}.",
+      "action": "mix",
+      "requires": [
+        "sugar"
+      ]
+    },
+    {
+      "text": "Warm the {milk} until just warm, then add {list:vanilla,lemon}.",
+      "action": "prep"
+    },
+    {
+      "text": "Pour the liquid into the dry mix and stir quickly with a knife into a soft, wet dough.",
+      "action": "mix"
+    },
+    {
+      "text": "Tip onto a floured surface, fold the dough over a few times and pat into a round about 4cm thick.",
+      "action": "shape"
+    },
+    {
+      "text": "Cut out scones with a floured 5cm cutter, re-pressing the scraps as needed.",
+      "action": "shape"
+    },
+    {
+      "text": "Brush the tops with {egg}.",
+      "action": "add",
+      "requires": [
+        "egg"
+      ]
+    },
+    {
+      "text": "Bake on the hot tray until risen and golden.",
+      "minutes": 10
+    },
+    {
+      "text": "Serve warm or cold with {topping}.",
+      "action": "serve",
+      "requires": [
+        "topping"
+      ]
+    }
+  ],
+  "toddlerTips": [
+    "Leave out the added salt the original uses; baking powder already adds some sodium.",
+    "Toddlers can rub in the butter and press the cutter.",
+    "Serve in small pieces; dry scone can be crumbly, so pair with a drink."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.bbcgoodfood.com/recipes/classic-scones-jam-clotted-cream",
+      "title": "Classic scones with jam & clotted cream (BBC Good Food)",
+      "author": "Jane Hornby"
+    }
+  ],
+  "popularity": 0.88
+}

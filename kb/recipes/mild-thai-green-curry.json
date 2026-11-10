@@ -1,0 +1,208 @@
+{
+  "id": "mild-thai-green-curry",
+  "title": "Mild Thai Green Curry",
+  "summary": "Creamy coconut chicken curry with soft veg and a light hand on the curry paste.",
+  "cuisine": "thai",
+  "meals": [
+    "dinner"
+  ],
+  "minAgeMonths": 18,
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "yield": 6,
+  "difficulty": "easy",
+  "tags": [
+    "one-pot",
+    "hidden-veg",
+    "family-meal",
+    "protein-packed"
+  ],
+  "allergens": [
+    "fish",
+    "shellfish"
+  ],
+  "ingredients": [
+    {
+      "id": "oil",
+      "name": "vegetable oil",
+      "qty": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "paste",
+      "name": "green curry paste",
+      "qty": 1,
+      "unit": "tbsp",
+      "note": "adds heat; start with 1 tsp",
+      "substitutes": [
+        {
+          "name": "mild curry powder",
+          "qty": 2,
+          "unit": "tsp",
+          "note": "no heat"
+        }
+      ]
+    },
+    {
+      "id": "garlic",
+      "name": "garlic",
+      "qty": 1,
+      "unit": "clove",
+      "note": "minced"
+    },
+    {
+      "id": "ginger",
+      "name": "fresh ginger",
+      "qty": 1,
+      "unit": "tsp",
+      "note": "grated"
+    },
+    {
+      "id": "stock",
+      "name": "low-sodium chicken stock",
+      "qty": 1,
+      "unit": "cup"
+    },
+    {
+      "id": "coconut",
+      "name": "coconut milk",
+      "qty": 1,
+      "unit": "can",
+      "note": "14 oz, full fat"
+    },
+    {
+      "id": "fish-sauce",
+      "name": "fish sauce",
+      "qty": 0.5,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "sugar",
+      "name": "sugar",
+      "qty": 1,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "lime-leaves",
+      "name": "kaffir lime leaves",
+      "qty": 3,
+      "unit": "",
+      "note": "torn",
+      "optional": true
+    },
+    {
+      "id": "chicken",
+      "name": "chicken thighs",
+      "qty": 12,
+      "unit": "oz",
+      "note": "boneless, skinless, cut into small pieces",
+      "substitutes": [
+        {
+          "name": "firm tofu",
+          "note": "cubed; contains soy"
+        }
+      ]
+    },
+    {
+      "id": "eggplant",
+      "name": "small eggplant",
+      "qty": 1,
+      "unit": "",
+      "note": "diced",
+      "substitutes": [
+        {
+          "name": "zucchini"
+        }
+      ]
+    },
+    {
+      "id": "peas",
+      "name": "snow peas",
+      "qty": 1,
+      "unit": "cup",
+      "note": "sliced thinly",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "frozen peas"
+        }
+      ]
+    },
+    {
+      "id": "basil",
+      "name": "Thai basil leaves",
+      "qty": 6,
+      "unit": "",
+      "note": "chopped",
+      "optional": true
+    },
+    {
+      "id": "lime",
+      "name": "lime juice",
+      "qty": 1,
+      "unit": "tbsp",
+      "optional": true
+    },
+    {
+      "id": "rice",
+      "name": "cooked jasmine rice",
+      "qty": 2,
+      "unit": "cups",
+      "note": "to serve"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat {oil} in a pot and fry {list:paste,garlic,ginger} until fragrant.",
+      "action": "fry",
+      "minutes": 2
+    },
+    {
+      "text": "Pour in {stock} and {coconut} and stir to dissolve the paste.",
+      "action": "add"
+    },
+    {
+      "text": "Add {list:fish-sauce,sugar,lime-leaves} and bring to a simmer.",
+      "action": "boil"
+    },
+    {
+      "text": "Add {chicken} and simmer gently.",
+      "action": "boil",
+      "minutes": 7
+    },
+    {
+      "text": "Add {eggplant} and cook until very soft.",
+      "action": "boil",
+      "minutes": 6
+    },
+    {
+      "text": "Stir in {peas} and cook until tender.",
+      "action": "boil",
+      "minutes": 2
+    },
+    {
+      "text": "Stir in {basil} and {lime}.",
+      "action": "mix"
+    },
+    {
+      "text": "Take out any lime leaves and serve the curry over {rice}.",
+      "action": "serve"
+    }
+  ],
+  "toddlerTips": [
+    "Taste before serving; you can scoop out a toddler portion and stir in extra coconut milk to cool the heat.",
+    "Remove the lime leaves; they are tough and a choking risk.",
+    "Most green curry pastes contain shrimp paste and fish sauce; check the label for allergies."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.recipetineats.com/thai-green-curry/",
+      "title": "Thai Green Curry",
+      "author": "Nagi (RecipeTin Eats)"
+    }
+  ],
+  "popularity": 0.75
+}

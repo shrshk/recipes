@@ -1,0 +1,205 @@
+{
+  "id": "mild-palak-paneer",
+  "title": "Mild Palak Paneer",
+  "summary": "Soft paneer in a smooth, creamy spinach sauce with gentle spices. Serve with rice or roti.",
+  "cuisine": "indian",
+  "meals": [
+    "dinner",
+    "lunch"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 15,
+  "cookMinutes": 25,
+  "yield": 8,
+  "difficulty": "medium",
+  "tags": [
+    "iron-rich",
+    "protein-packed",
+    "hidden-veg",
+    "family-meal"
+  ],
+  "allergens": [
+    "dairy"
+  ],
+  "ingredients": [
+    {
+      "id": "spinach",
+      "name": "spinach",
+      "qty": 350,
+      "unit": "g"
+    },
+    {
+      "id": "tomato",
+      "name": "tomato",
+      "qty": 1,
+      "unit": "",
+      "note": "medium"
+    },
+    {
+      "id": "garlic",
+      "name": "garlic",
+      "qty": 5,
+      "unit": "cloves",
+      "note": "3 whole, 2 finely chopped"
+    },
+    {
+      "id": "ginger",
+      "name": "ginger",
+      "qty": 1,
+      "unit": "inch",
+      "note": "peeled"
+    },
+    {
+      "id": "oil",
+      "name": "oil",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "substitutes": [
+        {
+          "name": "ghee"
+        }
+      ]
+    },
+    {
+      "id": "onion",
+      "name": "onion",
+      "qty": 1,
+      "unit": "",
+      "note": "large, finely chopped"
+    },
+    {
+      "id": "water",
+      "name": "water",
+      "qty": 0.5,
+      "unit": "cup"
+    },
+    {
+      "id": "garam",
+      "name": "garam masala",
+      "qty": 0.75,
+      "unit": "tsp"
+    },
+    {
+      "id": "turmeric",
+      "name": "turmeric",
+      "qty": 0.25,
+      "unit": "tsp"
+    },
+    {
+      "id": "chili-powder",
+      "name": "Kashmiri chili powder",
+      "qty": 0.25,
+      "unit": "tsp",
+      "note": "for grown-up heat",
+      "optional": true
+    },
+    {
+      "id": "cream",
+      "name": "heavy cream",
+      "qty": 2,
+      "unit": "tbsp",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "plain yogurt"
+        },
+        {
+          "name": "coconut cream",
+          "note": "dairy-free"
+        }
+      ]
+    },
+    {
+      "id": "paneer",
+      "name": "paneer",
+      "qty": 225,
+      "unit": "g",
+      "note": "cut in small cubes; soak 15 minutes in hot water to soften",
+      "substitutes": [
+        {
+          "name": "extra-firm tofu",
+          "note": "dairy-free; contains soy"
+        }
+      ]
+    },
+    {
+      "id": "methi",
+      "name": "kasuri methi (dried fenugreek leaves)",
+      "qty": 0.5,
+      "unit": "tbsp",
+      "note": "crushed",
+      "optional": true
+    },
+    {
+      "id": "lemon",
+      "name": "lemon juice",
+      "qty": 1,
+      "unit": "tsp",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Boil {spinach} for 2 to 3 minutes until wilted, then drain and cool in cold water.",
+      "action": "boil",
+      "minutes": 3
+    },
+    {
+      "text": "Blend the spinach with {list:tomato,ginger} and the 3 whole cloves of {garlic} until smooth.",
+      "action": "blend"
+    },
+    {
+      "text": "Warm {oil} in a wide pan and fry the chopped garlic until light golden. Add {onion} and cook until soft.",
+      "action": "fry",
+      "minutes": 4
+    },
+    {
+      "text": "Stir in the spinach puree and {water}. Simmer until it thickens a little.",
+      "action": "boil",
+      "minutes": 5
+    },
+    {
+      "text": "Add {list:garam,turmeric,chili-powder} and cook for a minute.",
+      "action": "fry",
+      "minutes": 1
+    },
+    {
+      "text": "Stir in {cream}.",
+      "action": "mix",
+      "requires": [
+        "cream"
+      ]
+    },
+    {
+      "text": "Add {paneer} and simmer gently.",
+      "action": "boil",
+      "minutes": 3
+    },
+    {
+      "text": "Turn off the heat and stir in {list:methi,lemon}.",
+      "action": "mix",
+      "requires": [
+        "methi",
+        "lemon"
+      ]
+    },
+    {
+      "text": "Cool until warm and serve with rice or soft roti.",
+      "action": "serve"
+    }
+  ],
+  "toddlerTips": [
+    "Leave out the green chili for toddlers; the sauce is still full of flavour.",
+    "Skip salt, or add a small pinch at the end for the grown-ups.",
+    "Cut paneer into small pieces or mash it into the sauce for younger toddlers."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://cookwithmanali.com/palak-paneer/",
+      "title": "Palak Paneer (from scratch)",
+      "author": "Manali Singh (Cook with Manali)"
+    }
+  ],
+  "popularity": 0.7
+}

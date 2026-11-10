@@ -1,0 +1,143 @@
+{
+  "id": "no-sugar-banana-bread",
+  "title": "No-Sugar Banana Bread",
+  "summary": "Banana, applesauce and oat loaf with no added sugar; soft enough for small hands.",
+  "cuisine": "american",
+  "meals": [
+    "breakfast",
+    "snack"
+  ],
+  "minAgeMonths": 9,
+  "prepMinutes": 10,
+  "cookMinutes": 55,
+  "yield": 10,
+  "difficulty": "easy",
+  "tags": [
+    "sweet",
+    "freezer-friendly",
+    "lunchbox",
+    "finger-food",
+    "batch-cook"
+  ],
+  "allergens": [
+    "egg",
+    "gluten",
+    "wheat"
+  ],
+  "ingredients": [
+    {
+      "id": "bananas",
+      "name": "very ripe bananas",
+      "qty": 4,
+      "unit": ""
+    },
+    {
+      "id": "applesauce",
+      "name": "unsweetened applesauce",
+      "qty": 0.33,
+      "unit": "cup"
+    },
+    {
+      "id": "egg",
+      "name": "egg",
+      "qty": 1,
+      "unit": "",
+      "substitutes": [
+        {
+          "name": "flax egg",
+          "note": "1 tbsp ground flaxseed + 3 tbsp water"
+        }
+      ]
+    },
+    {
+      "id": "vanilla",
+      "name": "vanilla extract",
+      "qty": 1,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "flour",
+      "name": "wholewheat pastry flour",
+      "qty": 1,
+      "unit": "cup",
+      "substitutes": [
+        {
+          "name": "gluten-free flour blend"
+        }
+      ]
+    },
+    {
+      "id": "oats",
+      "name": "quick oats",
+      "qty": 0.5,
+      "unit": "cup"
+    },
+    {
+      "id": "soda",
+      "name": "baking soda",
+      "qty": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "cinnamon",
+      "name": "ground cinnamon",
+      "qty": 2,
+      "unit": "tsp"
+    },
+    {
+      "id": "choc",
+      "name": "no-sugar chocolate chips",
+      "qty": 0.25,
+      "unit": "cup",
+      "note": "for older toddlers",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat the oven to 175C (350F) and line a loaf tin with baking paper."
+    },
+    {
+      "text": "Mash the {bananas} in a bowl.",
+      "action": "mash"
+    },
+    {
+      "text": "Stir in {list:egg,applesauce,vanilla}.",
+      "action": "mix"
+    },
+    {
+      "text": "In another bowl, mix {list:flour,oats,soda,cinnamon}.",
+      "action": "mix"
+    },
+    {
+      "text": "Fold the dry mix into the wet mix until just combined.",
+      "action": "mix"
+    },
+    {
+      "text": "Fold in the {choc}.",
+      "action": "mix",
+      "requires": [
+        "choc"
+      ]
+    },
+    {
+      "text": "Pour into the tin and bake until a skewer comes out clean.",
+      "minutes": 55
+    }
+  ],
+  "toddlerTips": [
+    "Use very spotty bananas; they are the only sweetener.",
+    "Leave out the salt the original uses; it is not needed for a toddler loaf.",
+    "Slice into fingers; freeze slices and toast lightly from frozen."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.hellospoonful.com/no-added-sugar-banana-bread/",
+      "title": "No Sugar Added Banana Bread with Applesauce",
+      "author": "Elizabeth Moye (Hello Spoonful)"
+    }
+  ],
+  "popularity": 0.6
+}

@@ -1,0 +1,169 @@
+{
+  "id": "tadka-curd-rice",
+  "title": "Curd Rice",
+  "summary": "Soft rice mixed with yogurt, grated carrot and cucumber. Cooling South Indian comfort food.",
+  "cuisine": "indian",
+  "meals": [
+    "lunch"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 5,
+  "cookMinutes": 20,
+  "yield": 4,
+  "difficulty": "easy",
+  "tags": [
+    "lunchbox",
+    "savory",
+    "picky-eater",
+    "hidden-veg"
+  ],
+  "allergens": [
+    "dairy"
+  ],
+  "ingredients": [
+    {
+      "id": "rice",
+      "name": "white rice",
+      "qty": 0.5,
+      "unit": "cup",
+      "note": "rinsed"
+    },
+    {
+      "id": "water",
+      "name": "water",
+      "qty": 1.5,
+      "unit": "cups"
+    },
+    {
+      "id": "yogurt",
+      "name": "plain yogurt",
+      "qty": 1,
+      "unit": "cup",
+      "note": "plus more to loosen",
+      "substitutes": [
+        {
+          "name": "plain coconut yogurt",
+          "note": "dairy-free"
+        }
+      ]
+    },
+    {
+      "id": "carrot",
+      "name": "carrot",
+      "qty": 2,
+      "unit": "tbsp",
+      "note": "finely grated"
+    },
+    {
+      "id": "cucumber",
+      "name": "cucumber",
+      "qty": 2,
+      "unit": "tbsp",
+      "note": "peeled and finely grated",
+      "optional": true
+    },
+    {
+      "id": "coriander",
+      "name": "fresh coriander",
+      "qty": 1,
+      "unit": "tsp",
+      "note": "finely chopped",
+      "optional": true
+    },
+    {
+      "id": "oil",
+      "name": "oil",
+      "qty": 1,
+      "unit": "tsp",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "ghee"
+        }
+      ]
+    },
+    {
+      "id": "mustard",
+      "name": "mustard seeds",
+      "qty": 0.5,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "cumin",
+      "name": "cumin seeds",
+      "qty": 0.5,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "curry",
+      "name": "curry leaves",
+      "qty": 6,
+      "unit": "",
+      "note": "torn small",
+      "optional": true
+    },
+    {
+      "id": "ginger",
+      "name": "ginger",
+      "qty": 0.5,
+      "unit": "tsp",
+      "note": "grated",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Simmer {rice} in {water}, covered, until very soft.",
+      "action": "boil",
+      "minutes": 18,
+      "tip": "Softer than usual is right here. A pressure cooker takes 3 whistles."
+    },
+    {
+      "text": "Mash the rice lightly with a spoon and let it cool completely.",
+      "action": "mash"
+    },
+    {
+      "text": "Stir in {yogurt} until creamy, then mix in {list:carrot,cucumber,coriander}.",
+      "action": "mix"
+    },
+    {
+      "text": "Warm {oil} in a small pan, add {list:mustard,cumin}. When they splutter, add {list:curry,ginger}.",
+      "action": "fry",
+      "requires": [
+        "oil"
+      ]
+    },
+    {
+      "text": "Pour the tempering over the rice and stir.",
+      "action": "mix",
+      "requires": [
+        "oil"
+      ]
+    },
+    {
+      "text": "Serve at room temperature.",
+      "action": "serve"
+    }
+  ],
+  "toddlerTips": [
+    "Add yogurt or a splash of milk to loosen it; it thickens in the fridge.",
+    "Skip salt for toddlers and leave out the dried chili and green chili.",
+    "Grated, not chopped, veg melts into the rice for wary eaters."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.indianhealthyrecipes.com/curd-rice-recipe/",
+      "title": "Curd Rice Recipe",
+      "author": "Swasthi Shreekanth (Swasthi's Recipes)"
+    },
+    {
+      "platform": "family",
+      "url": "https://www.mumsnet.com/talk/south-asian-mumsnetters/5102049-south-asian-weaning-recipes",
+      "title": "South Asian weaning recipes (Mumsnet thread)"
+    }
+  ],
+  "popularity": 0.7
+}

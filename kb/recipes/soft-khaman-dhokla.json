@@ -1,0 +1,191 @@
+{
+  "id": "soft-khaman-dhokla",
+  "title": "Soft Khaman Dhokla",
+  "summary": "Fluffy steamed chickpea-flour squares with a light mustard-seed tempering. Easy to hold.",
+  "cuisine": "indian",
+  "meals": [
+    "snack",
+    "breakfast"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 15,
+  "cookMinutes": 20,
+  "yield": 8,
+  "difficulty": "medium",
+  "tags": [
+    "finger-food",
+    "lunchbox",
+    "savory",
+    "protein-packed"
+  ],
+  "allergens": [],
+  "ingredients": [
+    {
+      "id": "besan",
+      "name": "besan (chickpea flour)",
+      "qty": 1,
+      "unit": "cup"
+    },
+    {
+      "id": "rava",
+      "name": "fine semolina",
+      "qty": 1,
+      "unit": "tbsp",
+      "optional": true
+    },
+    {
+      "id": "turmeric",
+      "name": "turmeric",
+      "qty": 0.125,
+      "unit": "tsp"
+    },
+    {
+      "id": "water",
+      "name": "water",
+      "qty": 0.6,
+      "unit": "cup"
+    },
+    {
+      "id": "lemon",
+      "name": "lemon juice",
+      "qty": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "sugar",
+      "name": "sugar",
+      "qty": 1,
+      "unit": "tsp",
+      "note": "the original uses much more",
+      "optional": true
+    },
+    {
+      "id": "ginger",
+      "name": "ginger",
+      "qty": 1,
+      "unit": "tsp",
+      "note": "finely grated"
+    },
+    {
+      "id": "oil",
+      "name": "oil",
+      "qty": 1,
+      "unit": "tbsp",
+      "note": "plus more to grease the pan"
+    },
+    {
+      "id": "eno",
+      "name": "Eno fruit salt",
+      "qty": 0.75,
+      "unit": "tsp",
+      "substitutes": [
+        {
+          "name": "baking soda",
+          "qty": 0.5,
+          "unit": "tsp"
+        }
+      ]
+    },
+    {
+      "id": "mustard",
+      "name": "mustard seeds",
+      "qty": 0.5,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "curry",
+      "name": "curry leaves",
+      "qty": 6,
+      "unit": "",
+      "optional": true
+    },
+    {
+      "id": "temper-water",
+      "name": "water for the tempering",
+      "qty": 0.33,
+      "unit": "cup",
+      "optional": true
+    },
+    {
+      "id": "coconut",
+      "name": "grated coconut",
+      "qty": 1,
+      "unit": "tbsp",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Grease a 6 inch cake pan or steel tin and bring water to a boil in a large pot with a rack.",
+      "action": "boil"
+    },
+    {
+      "text": "Whisk {list:water,lemon,sugar,ginger,rava} with half the {oil} in a bowl.",
+      "action": "mix"
+    },
+    {
+      "text": "Sift in {list:besan,turmeric} and whisk hard in one direction until smooth and airy. Rest it.",
+      "action": "mix",
+      "minutes": 10
+    },
+    {
+      "text": "Stir in {eno} until the batter foams, then pour it into the pan at once.",
+      "action": "mix",
+      "tip": "Do not wait; the bubbles make it fluffy."
+    },
+    {
+      "text": "Steam until a toothpick comes out clean.",
+      "action": "steam",
+      "minutes": 15
+    },
+    {
+      "text": "Cool on a rack, then turn out and cut into small squares.",
+      "action": "chop"
+    },
+    {
+      "text": "Warm the rest of the oil and fry {list:mustard,curry} until they splutter. Add {temper-water} and boil.",
+      "action": "fry",
+      "requires": [
+        "mustard",
+        "curry",
+        "temper-water"
+      ]
+    },
+    {
+      "text": "Spoon the tempering over the squares.",
+      "action": "add",
+      "requires": [
+        "mustard",
+        "curry",
+        "temper-water"
+      ]
+    },
+    {
+      "text": "Sprinkle with {coconut}.",
+      "action": "add",
+      "requires": [
+        "coconut"
+      ]
+    },
+    {
+      "text": "Serve warm or at room temperature.",
+      "action": "serve"
+    }
+  ],
+  "toddlerTips": [
+    "We halve the recipe and cut the sugar to a teaspoon; it still rises well.",
+    "Leave out the green chilies and salt for toddlers.",
+    "Cut into fingers. Dhokla is light and spongy and dissolves easily, so it suits new chewers.",
+    "Gram flour is a legume flour. Most children with peanut allergy tolerate it, but ask your doctor if unsure."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.indianhealthyrecipes.com/khaman-dhokla/",
+      "title": "Khaman Dhokla Recipe (Fluffy and Soft)",
+      "author": "Swasthi Shreekanth (Swasthi's Recipes)"
+    }
+  ],
+  "popularity": 0.7
+}

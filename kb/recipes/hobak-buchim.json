@@ -1,0 +1,143 @@
+{
+  "id": "hobak-buchim",
+  "title": "Hobak Buchim Zucchini Pancakes",
+  "summary": "Thin Korean pancakes of zucchini matchsticks in a light batter, crisp at the edges.",
+  "cuisine": "korean",
+  "meals": [
+    "breakfast",
+    "lunch",
+    "snack"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 15,
+  "cookMinutes": 10,
+  "yield": 4,
+  "difficulty": "easy",
+  "tags": [
+    "finger-food",
+    "hidden-veg",
+    "quick",
+    "lunchbox",
+    "savory"
+  ],
+  "allergens": [
+    "wheat",
+    "gluten",
+    "egg",
+    "soy"
+  ],
+  "ingredients": [
+    {
+      "id": "zucchini",
+      "name": "zucchini",
+      "qty": 1,
+      "unit": "",
+      "note": "medium, cut into thin matchsticks"
+    },
+    {
+      "id": "onion",
+      "name": "sweet onion",
+      "qty": 0.25,
+      "unit": "",
+      "note": "thinly sliced",
+      "optional": true
+    },
+    {
+      "id": "flour",
+      "name": "all-purpose flour",
+      "qty": 0.5,
+      "unit": "cup",
+      "substitutes": [
+        {
+          "name": "Korean pancake mix (buchim garu)"
+        },
+        {
+          "name": "rice flour",
+          "note": "gluten-free"
+        }
+      ]
+    },
+    {
+      "id": "egg",
+      "name": "egg",
+      "qty": 1,
+      "unit": "",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "water",
+          "qty": 2,
+          "unit": "tbsp",
+          "note": "egg-free"
+        }
+      ]
+    },
+    {
+      "id": "oil",
+      "name": "vegetable oil",
+      "qty": 2,
+      "unit": "tbsp",
+      "note": "for the pan"
+    },
+    {
+      "id": "soy",
+      "name": "low-sodium soy sauce",
+      "qty": 1,
+      "unit": "tbsp",
+      "note": "for dipping",
+      "optional": true
+    },
+    {
+      "id": "vinegar",
+      "name": "rice vinegar",
+      "qty": 1,
+      "unit": "tsp",
+      "note": "for dipping",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Put {zucchini} in a bowl, leave it 10 minutes to soften, then squeeze out the liquid into a cup and keep it.",
+      "action": "prep",
+      "minutes": 10,
+      "tip": "A tiny pinch of salt speeds this up, but it is not needed."
+    },
+    {
+      "text": "Mix {list:zucchini,onion,flour,egg} with 2 to 3 tablespoons of the saved zucchini liquid into a thick batter.",
+      "action": "mix",
+      "tip": "Do not overmix; a few lumps are fine."
+    },
+    {
+      "text": "Heat {oil} in a skillet and spread 2 heaped tablespoons of batter into a thin round.",
+      "action": "fry"
+    },
+    {
+      "text": "Cook until golden on both sides and cooked through.",
+      "action": "fry",
+      "minutes": 4
+    },
+    {
+      "text": "Stir {soy} with {vinegar} and a splash of water for dipping.",
+      "action": "mix"
+    },
+    {
+      "text": "Cut the pancakes into strips and serve warm.",
+      "action": "serve"
+    }
+  ],
+  "toddlerTips": [
+    "Make the pancakes thin so the middle cooks through, then cut into finger strips.",
+    "Leave out the chili and gochugaru that grown-up versions use.",
+    "Offer the dipping sauce only in a tiny amount; it is the saltiest part."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.koreanbapsang.com/hobak-buchim-zucchini-pancakes/",
+      "title": "Hobak Buchim (Zucchini Pancakes)",
+      "author": "Hyosun (Korean Bapsang)"
+    }
+  ],
+  "popularity": 0.65
+}

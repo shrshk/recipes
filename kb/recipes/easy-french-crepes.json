@@ -1,0 +1,143 @@
+{
+  "id": "easy-french-crepes",
+  "title": "Easy French Crêpes",
+  "summary": "Thin, soft crêpes to roll around mashed berries or banana and cut into pinwheels.",
+  "cuisine": "french",
+  "meals": [
+    "breakfast",
+    "snack"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "yield": 8,
+  "difficulty": "medium",
+  "tags": [
+    "sweet",
+    "finger-food",
+    "freezer-friendly"
+  ],
+  "allergens": [
+    "egg",
+    "dairy",
+    "gluten",
+    "wheat"
+  ],
+  "ingredients": [
+    {
+      "id": "flour",
+      "name": "plain flour",
+      "qty": 0.75,
+      "unit": "cup",
+      "substitutes": [
+        {
+          "name": "gluten-free flour blend"
+        }
+      ]
+    },
+    {
+      "id": "sugar",
+      "name": "caster sugar",
+      "qty": 1,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "eggs",
+      "name": "eggs",
+      "qty": 2,
+      "unit": ""
+    },
+    {
+      "id": "milk",
+      "name": "whole milk",
+      "qty": 1,
+      "unit": "cup",
+      "substitutes": [
+        {
+          "name": "unsweetened oat milk"
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "name": "water",
+      "qty": 3,
+      "unit": "tbsp"
+    },
+    {
+      "id": "oil",
+      "name": "neutral oil",
+      "qty": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "butter",
+      "name": "butter",
+      "qty": 1,
+      "unit": "tbsp",
+      "note": "for the pan",
+      "substitutes": [
+        {
+          "name": "oil"
+        }
+      ]
+    },
+    {
+      "id": "filling",
+      "name": "mashed berries or banana",
+      "qty": 0.5,
+      "unit": "cup",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Whisk {list:flour,sugar} in a bowl and make a well in the middle.",
+      "action": "mix"
+    },
+    {
+      "text": "Add the {eggs} and mix into a thick paste with a little of the flour.",
+      "action": "mix"
+    },
+    {
+      "text": "Whisk in the {milk} a little at a time, then the {water} and {oil}, until smooth and pourable.",
+      "action": "mix"
+    },
+    {
+      "text": "Cover and rest the batter.",
+      "action": "prep",
+      "minutes": 30
+    },
+    {
+      "text": "Wipe a hot non-stick pan with a little {butter}, add a small ladle of batter and swirl it thin.",
+      "action": "fry"
+    },
+    {
+      "text": "Cook until lightly golden underneath, flip and cook the other side briefly.",
+      "action": "fry",
+      "minutes": 1.5
+    },
+    {
+      "text": "Spread with {filling}, roll up and cut into pinwheels.",
+      "action": "shape",
+      "requires": [
+        "filling"
+      ]
+    }
+  ],
+  "toddlerTips": [
+    "Keep crêpes soft, not crisp at the edges.",
+    "The original uses more sugar and salt; a teaspoon of sugar or none is plenty.",
+    "Stack with baking paper between and freeze; warm for a few seconds."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.recipetineats.com/crepes/",
+      "title": "Crêpes",
+      "author": "RecipeTin Eats (Chef JB)"
+    }
+  ],
+  "popularity": 0.62
+}

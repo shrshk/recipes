@@ -1,0 +1,157 @@
+{
+  "id": "chicken-rice-paper-rolls",
+  "title": "Chicken Rice Paper Rolls",
+  "summary": "Fresh Vietnamese rolls of chicken, soft noodles and lettuce, sliced into toddler bites.",
+  "cuisine": "vietnamese",
+  "meals": [
+    "lunch",
+    "snack"
+  ],
+  "minAgeMonths": 24,
+  "prepMinutes": 25,
+  "cookMinutes": 3,
+  "yield": 6,
+  "difficulty": "medium",
+  "tags": [
+    "no-cook",
+    "lunchbox",
+    "finger-food",
+    "protein-packed"
+  ],
+  "allergens": [
+    "peanut",
+    "soy",
+    "wheat",
+    "gluten"
+  ],
+  "ingredients": [
+    {
+      "id": "noodles",
+      "name": "dried rice vermicelli",
+      "qty": 1.5,
+      "unit": "oz"
+    },
+    {
+      "id": "rice-paper",
+      "name": "rice paper",
+      "qty": 6,
+      "unit": "sheets",
+      "note": "8-inch rounds"
+    },
+    {
+      "id": "chicken",
+      "name": "cooked chicken",
+      "qty": 1,
+      "unit": "cup",
+      "note": "finely shredded",
+      "substitutes": [
+        {
+          "name": "cooked shrimp",
+          "note": "halved; shellfish; contains shellfish"
+        },
+        {
+          "name": "firm tofu",
+          "note": "thin strips"
+        }
+      ]
+    },
+    {
+      "id": "lettuce",
+      "name": "soft butter lettuce",
+      "qty": 6,
+      "unit": "",
+      "note": "leaves, core removed"
+    },
+    {
+      "id": "avocado",
+      "name": "ripe avocado",
+      "qty": 0.5,
+      "unit": "",
+      "note": "sliced",
+      "optional": true
+    },
+    {
+      "id": "mint",
+      "name": "mint leaves",
+      "qty": 12,
+      "unit": "",
+      "optional": true
+    },
+    {
+      "id": "hoisin",
+      "name": "hoisin sauce",
+      "qty": 2,
+      "unit": "tbsp",
+      "note": "for dipping"
+    },
+    {
+      "id": "pb",
+      "name": "smooth peanut butter",
+      "qty": 1,
+      "unit": "tbsp",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "sunflower seed butter",
+          "note": "peanut-free"
+        }
+      ]
+    },
+    {
+      "id": "lime",
+      "name": "lime juice",
+      "qty": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "water",
+      "name": "water",
+      "qty": 0.33,
+      "unit": "cup",
+      "note": "for the sauce"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Soak {noodles} in warm water until soft, then drain and snip into short lengths.",
+      "action": "rinse",
+      "minutes": 2
+    },
+    {
+      "text": "Mix {list:hoisin,pb,lime,water} into a smooth dipping sauce.",
+      "action": "mix",
+      "tip": "Warm it for a few seconds if the peanut butter is stiff."
+    },
+    {
+      "text": "Dip one sheet of {rice-paper} in warm water for 2 seconds and lay it flat on a board.",
+      "action": "rinse"
+    },
+    {
+      "text": "Lay {list:lettuce,noodles,chicken,avocado,mint} across the lower third.",
+      "action": "prep"
+    },
+    {
+      "text": "Fold in the sides, then roll up firmly from the bottom. Repeat with the rest.",
+      "action": "shape",
+      "tip": "Toddlers love dipping the rice paper and adding fillings."
+    },
+    {
+      "text": "Slice each roll into 1-inch pieces and serve with the sauce.",
+      "action": "serve"
+    }
+  ],
+  "toddlerTips": [
+    "Rice paper is chewy and sticky: slice into short pieces and stay close while they eat.",
+    "Snip noodles short and shred lettuce finely.",
+    "Hoisin is salty and sweet; offer a small amount of dip."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.recipetineats.com/vietnamese-rice-paper-rolls-spring-rolls/",
+      "title": "Vietnamese Rice Paper Rolls (Spring Rolls)",
+      "author": "Nagi (RecipeTin Eats)"
+    }
+  ],
+  "popularity": 0.7
+}

@@ -1,0 +1,186 @@
+{
+  "id": "toddler-fish-pie",
+  "title": "Toddler Fish Pie",
+  "summary": "Creamy fish, peas and sweetcorn under soft mash; bake in ramekins and freeze extras.",
+  "cuisine": "british",
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 15,
+  "cookMinutes": 45,
+  "yield": 6,
+  "difficulty": "easy",
+  "tags": [
+    "freezer-friendly",
+    "family-meal",
+    "batch-cook",
+    "protein-packed",
+    "hidden-veg"
+  ],
+  "allergens": [
+    "fish",
+    "dairy",
+    "gluten",
+    "wheat"
+  ],
+  "ingredients": [
+    {
+      "id": "potatoes",
+      "name": "floury potatoes",
+      "qty": 500,
+      "unit": "g",
+      "note": "peeled and halved"
+    },
+    {
+      "id": "milk",
+      "name": "milk",
+      "qty": 220,
+      "unit": "ml",
+      "note": "plus a splash for the mash",
+      "substitutes": [
+        {
+          "name": "unsweetened oat milk"
+        }
+      ]
+    },
+    {
+      "id": "butter",
+      "name": "butter",
+      "qty": 20,
+      "unit": "g",
+      "note": "plus a knob for the mash",
+      "substitutes": [
+        {
+          "name": "olive oil spread"
+        }
+      ]
+    },
+    {
+      "id": "flour",
+      "name": "plain flour",
+      "qty": 15,
+      "unit": "g",
+      "substitutes": [
+        {
+          "name": "cornflour",
+          "qty": 1,
+          "unit": "tbsp",
+          "note": "gluten-free; mix with a little cold milk first"
+        }
+      ]
+    },
+    {
+      "id": "spring-onions",
+      "name": "spring onions",
+      "qty": 2,
+      "unit": "",
+      "note": "finely sliced"
+    },
+    {
+      "id": "fish",
+      "name": "fish pie mix (cod, salmon, haddock)",
+      "qty": 200,
+      "unit": "g",
+      "note": "skinless, boneless, bite-size",
+      "substitutes": [
+        {
+          "name": "skinless salmon fillet",
+          "note": "cut into small chunks"
+        }
+      ]
+    },
+    {
+      "id": "mustard",
+      "name": "mild mustard",
+      "qty": 0.5,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "chives",
+      "name": "chives",
+      "qty": 1,
+      "unit": "tbsp",
+      "note": "snipped",
+      "optional": true
+    },
+    {
+      "id": "sweetcorn",
+      "name": "frozen sweetcorn",
+      "qty": 3,
+      "unit": "tbsp",
+      "optional": true
+    },
+    {
+      "id": "peas",
+      "name": "frozen peas",
+      "qty": 3,
+      "unit": "tbsp",
+      "optional": true
+    },
+    {
+      "id": "cheese",
+      "name": "grated cheddar",
+      "qty": 30,
+      "unit": "g",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat the oven to 200C (180C fan)."
+    },
+    {
+      "text": "Boil the {potatoes} until soft.",
+      "minutes": 15
+    },
+    {
+      "text": "Drain and mash with a splash of {milk} and a knob of {butter}.",
+      "action": "mash"
+    },
+    {
+      "text": "In another pan, melt the rest of the {butter} with {list:flour,spring-onions} and stir for a minute or two.",
+      "action": "fry",
+      "minutes": 2
+    },
+    {
+      "text": "Whisk in the rest of the {milk} a little at a time and cook, stirring, until the sauce is thick.",
+      "action": "boil",
+      "minutes": 4
+    },
+    {
+      "text": "Take the pan off the heat and stir in {list:fish,mustard,chives,sweetcorn,peas}.",
+      "action": "mix"
+    },
+    {
+      "text": "Spoon into a dish or small ramekins and cover with the mash.",
+      "action": "add"
+    },
+    {
+      "text": "Scatter {cheese} over the top.",
+      "action": "add",
+      "requires": [
+        "cheese"
+      ]
+    },
+    {
+      "text": "Bake until golden and bubbling at the edges.",
+      "minutes": 25
+    }
+  ],
+  "toddlerTips": [
+    "Feel through the fish with your fingers for any small bones before it goes in.",
+    "Fish pie mix often has smoked haddock, which is salty; use unsmoked fish for under-2s.",
+    "Freeze the ramekins before baking; bake from thawed until piping hot, then cool to warm."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.bbcgoodfood.com/recipes/family-meals-easy-fish-pie-recipe",
+      "title": "Family meals: Easy fish pie recipe (BBC Good Food)"
+    }
+  ],
+  "popularity": 0.8
+}

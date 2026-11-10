@@ -1,0 +1,147 @@
+{
+  "id": "greek-lamb-orzo",
+  "title": "Greek Lamb Orzo (Giouvetsi)",
+  "summary": "Slow-baked lamb with cinnamon and tomato; orzo cooks in the same dish until soft.",
+  "cuisine": "greek",
+  "meals": [
+    "dinner"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 15,
+  "cookMinutes": 150,
+  "yield": 8,
+  "difficulty": "easy",
+  "tags": [
+    "one-pot",
+    "iron-rich",
+    "family-meal",
+    "freezer-friendly"
+  ],
+  "allergens": [
+    "gluten",
+    "wheat",
+    "dairy"
+  ],
+  "ingredients": [
+    {
+      "id": "lamb",
+      "name": "lamb shoulder",
+      "qty": 500,
+      "unit": "g",
+      "note": "cut into 3cm chunks",
+      "substitutes": [
+        {
+          "name": "beef stewing steak"
+        }
+      ]
+    },
+    {
+      "id": "onion",
+      "name": "onion",
+      "qty": 1,
+      "unit": "",
+      "note": "sliced"
+    },
+    {
+      "id": "oregano",
+      "name": "dried oregano",
+      "qty": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "id": "cinnamon",
+      "name": "ground cinnamon",
+      "qty": 0.25,
+      "unit": "tsp"
+    },
+    {
+      "id": "cinnamon-stick",
+      "name": "cinnamon stick",
+      "qty": 1,
+      "unit": "",
+      "optional": true
+    },
+    {
+      "id": "oil",
+      "name": "olive oil",
+      "qty": 1,
+      "unit": "tbsp"
+    },
+    {
+      "id": "tomatoes",
+      "name": "tinned chopped tomatoes",
+      "qty": 200,
+      "unit": "g"
+    },
+    {
+      "id": "stock",
+      "name": "hot low-salt stock",
+      "qty": 600,
+      "unit": "ml"
+    },
+    {
+      "id": "orzo",
+      "name": "orzo",
+      "qty": 200,
+      "unit": "g",
+      "substitutes": [
+        {
+          "name": "gluten-free small pasta"
+        }
+      ]
+    },
+    {
+      "id": "parmesan",
+      "name": "grated parmesan",
+      "qty": 2,
+      "unit": "tbsp",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "crumbled feta"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat the oven to 180C (160C fan)."
+    },
+    {
+      "text": "Mix {list:lamb,onion,oregano,cinnamon,cinnamon-stick,oil} in a wide casserole dish and bake uncovered.",
+      "action": "bake",
+      "minutes": 45
+    },
+    {
+      "text": "Add {list:tomatoes,stock}, cover tightly and bake until the lamb is very tender.",
+      "action": "bake",
+      "minutes": 90
+    },
+    {
+      "text": "Remove the cinnamon stick, stir in the {orzo}, cover and bake again, stirring halfway.",
+      "action": "bake",
+      "minutes": 20
+    },
+    {
+      "text": "Serve with {parmesan} on top.",
+      "action": "serve",
+      "requires": [
+        "parmesan"
+      ]
+    }
+  ],
+  "toddlerTips": [
+    "Shred the lamb with two forks; it should fall apart.",
+    "Take out the whole cinnamon stick before serving.",
+    "Freeze portions; add a splash of water when reheating."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.bbcgoodfood.com/recipes/greek-lamb-orzo",
+      "title": "Greek lamb with orzo (BBC Good Food)",
+      "author": "Mary Cadogan"
+    }
+  ],
+  "popularity": 0.74
+}

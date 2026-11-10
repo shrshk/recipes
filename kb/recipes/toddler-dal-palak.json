@@ -1,0 +1,180 @@
+{
+  "id": "toddler-dal-palak",
+  "title": "Dal Palak",
+  "summary": "Creamy yellow lentils with soft spinach and a gentle cumin tadka. Mash it over rice.",
+  "cuisine": "indian",
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "minAgeMonths": 9,
+  "prepMinutes": 10,
+  "cookMinutes": 25,
+  "yield": 6,
+  "difficulty": "easy",
+  "tags": [
+    "iron-rich",
+    "protein-packed",
+    "hidden-veg",
+    "freezer-friendly",
+    "batch-cook",
+    "one-pot"
+  ],
+  "allergens": [],
+  "ingredients": [
+    {
+      "id": "dal",
+      "name": "toor dal",
+      "qty": 0.5,
+      "unit": "cup",
+      "note": "rinsed",
+      "substitutes": [
+        {
+          "name": "red lentils (masoor dal)"
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "name": "water",
+      "qty": 1.75,
+      "unit": "cups",
+      "note": "plus more as needed"
+    },
+    {
+      "id": "tomato",
+      "name": "tomato",
+      "qty": 1,
+      "unit": "",
+      "note": "small, chopped",
+      "optional": true
+    },
+    {
+      "id": "spinach",
+      "name": "spinach",
+      "qty": 2,
+      "unit": "cups",
+      "note": "finely chopped (about 100 g)"
+    },
+    {
+      "id": "ghee",
+      "name": "ghee",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "substitutes": [
+        {
+          "name": "oil",
+          "note": "dairy-free"
+        }
+      ]
+    },
+    {
+      "id": "cumin",
+      "name": "cumin seeds",
+      "qty": 0.75,
+      "unit": "tsp"
+    },
+    {
+      "id": "ginger",
+      "name": "ginger",
+      "qty": 1,
+      "unit": "tsp",
+      "note": "finely chopped",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "garlic",
+          "qty": 1,
+          "unit": "clove"
+        }
+      ]
+    },
+    {
+      "id": "turmeric",
+      "name": "turmeric",
+      "qty": 0.25,
+      "unit": "tsp"
+    },
+    {
+      "id": "methi",
+      "name": "kasuri methi (dried fenugreek leaves)",
+      "qty": 0.5,
+      "unit": "tsp",
+      "note": "crushed",
+      "optional": true
+    },
+    {
+      "id": "lemon",
+      "name": "lemon juice",
+      "qty": 1,
+      "unit": "tsp",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Rinse {dal} three times.",
+      "action": "rinse"
+    },
+    {
+      "text": "Simmer the dal with {list:water,tomato} until very soft and mushy, adding water if it dries out.",
+      "action": "boil",
+      "minutes": 20,
+      "tip": "A pressure cooker takes 2 whistles."
+    },
+    {
+      "text": "Warm {ghee} in a pan and add {cumin}. Let it sizzle.",
+      "action": "fry"
+    },
+    {
+      "text": "Add {ginger} and fry for a minute.",
+      "action": "fry",
+      "minutes": 1,
+      "requires": [
+        "ginger"
+      ]
+    },
+    {
+      "text": "Add {spinach} and cook until wilted and soft.",
+      "action": "fry",
+      "minutes": 4
+    },
+    {
+      "text": "Pour in the cooked dal with {turmeric}. Stir, add hot water to loosen, and simmer.",
+      "action": "boil",
+      "minutes": 3
+    },
+    {
+      "text": "Stir in {list:methi,lemon}.",
+      "action": "mix",
+      "requires": [
+        "methi",
+        "lemon"
+      ]
+    },
+    {
+      "text": "Cool until warm before serving.",
+      "action": "serve"
+    }
+  ],
+  "toddlerTips": [
+    "Leave out the green and dried red chilies; it is still full of flavour.",
+    "Skip salt for toddlers. Add a pinch to the grown-ups' bowls.",
+    "Mash into soft rice with a drop of ghee, or offer with roti strips for dipping.",
+    "Lemon helps the body absorb the iron from lentils and spinach."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.indianhealthyrecipes.com/dal-palak-recipe/",
+      "title": "Dal Palak Recipe (Spinach Dal)",
+      "author": "Swasthi Shreekanth (Swasthi's Recipes)"
+    },
+    {
+      "platform": "reddit",
+      "url": "https://www.reddit.com/r/foodbutforbabies/comments/1alhonz/dont_see_much_nonwestern_food_posted_here_and/",
+      "title": "Don't see much non-western food posted here (r/foodbutforbabies)"
+    }
+  ],
+  "popularity": 0.8
+}

@@ -1,0 +1,164 @@
+{
+  "id": "mini-croque-monsieur",
+  "title": "Mini Croque Monsieur",
+  "summary": "French baked ham and cheese toasts with a quick white sauce, cut into soft fingers.",
+  "cuisine": "french",
+  "meals": [
+    "lunch"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "yield": 4,
+  "difficulty": "medium",
+  "tags": [
+    "finger-food",
+    "family-meal",
+    "savory"
+  ],
+  "allergens": [
+    "dairy",
+    "gluten",
+    "wheat"
+  ],
+  "ingredients": [
+    {
+      "id": "bread",
+      "name": "soft white or sourdough bread",
+      "qty": 4,
+      "unit": "slices",
+      "substitutes": [
+        {
+          "name": "gluten-free bread"
+        }
+      ]
+    },
+    {
+      "id": "butter",
+      "name": "butter",
+      "qty": 30,
+      "unit": "g",
+      "note": "20g melted for brushing, 10g for the sauce"
+    },
+    {
+      "id": "flour",
+      "name": "plain flour",
+      "qty": 10,
+      "unit": "g"
+    },
+    {
+      "id": "milk",
+      "name": "milk",
+      "qty": 125,
+      "unit": "ml",
+      "note": "warm"
+    },
+    {
+      "id": "nutmeg",
+      "name": "ground nutmeg",
+      "qty": 1,
+      "unit": "pinch",
+      "optional": true
+    },
+    {
+      "id": "mustard",
+      "name": "mild mustard",
+      "qty": 0.5,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "cheese",
+      "name": "grated gruyère",
+      "qty": 80,
+      "unit": "g",
+      "substitutes": [
+        {
+          "name": "grated mild cheddar"
+        }
+      ]
+    },
+    {
+      "id": "ham",
+      "name": "thin sliced ham",
+      "qty": 2,
+      "unit": "slices",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "thin slices of roast chicken"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Melt 10g of the {butter} in a small pan, stir in the {flour} and cook for a minute.",
+      "action": "fry",
+      "minutes": 1
+    },
+    {
+      "text": "Whisk in the {milk} bit by bit and simmer until thick.",
+      "action": "boil",
+      "minutes": 3
+    },
+    {
+      "text": "Grate in a little {nutmeg}.",
+      "action": "add",
+      "requires": [
+        "nutmeg"
+      ]
+    },
+    {
+      "text": "Brush one side of each {bread} slice with melted butter and toast that side under the grill.",
+      "action": "bake",
+      "minutes": 3
+    },
+    {
+      "text": "Heat the oven to 220C (200C fan)."
+    },
+    {
+      "text": "Spread the untoasted sides with {mustard}.",
+      "action": "add",
+      "requires": [
+        "mustard"
+      ]
+    },
+    {
+      "text": "Spread on a thin layer of sauce and scatter over half the {cheese}.",
+      "action": "add"
+    },
+    {
+      "text": "Lay the {ham} on top.",
+      "action": "add",
+      "requires": [
+        "ham"
+      ]
+    },
+    {
+      "text": "Close into two sandwiches, spread the last of the sauce on top and scatter over the rest of the cheese.",
+      "action": "add"
+    },
+    {
+      "text": "Bake until golden and bubbling.",
+      "minutes": 12
+    },
+    {
+      "text": "Cool for a few minutes and cut into fingers.",
+      "action": "chop"
+    }
+  ],
+  "toddlerTips": [
+    "The sauce stays very hot: cool fully to warm before serving.",
+    "Ham is salty; use one thin slice or roast chicken for under-2s.",
+    "Cut into fingers with crusts on; they are easier to hold."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.bbcgoodfood.com/recipes/croque-monsieur",
+      "title": "Croque monsieur (BBC Good Food)"
+    }
+  ],
+  "popularity": 0.6
+}

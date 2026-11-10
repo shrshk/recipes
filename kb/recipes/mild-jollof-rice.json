@@ -1,0 +1,150 @@
+{
+  "id": "mild-jollof-rice",
+  "title": "Mild Jollof Rice",
+  "summary": "West African tomato and pepper rice cooked in one pot; the chilli is optional.",
+  "cuisine": "african",
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 10,
+  "cookMinutes": 45,
+  "yield": 8,
+  "difficulty": "easy",
+  "tags": [
+    "one-pot",
+    "hidden-veg",
+    "family-meal",
+    "batch-cook"
+  ],
+  "allergens": [
+    "shellfish"
+  ],
+  "ingredients": [
+    {
+      "id": "tomatoes",
+      "name": "plum tomatoes",
+      "qty": 2,
+      "unit": "",
+      "note": "chopped"
+    },
+    {
+      "id": "pepper",
+      "name": "red bell pepper",
+      "qty": 1,
+      "unit": "",
+      "note": "chopped"
+    },
+    {
+      "id": "onion",
+      "name": "red onion",
+      "qty": 1,
+      "unit": "",
+      "note": "chopped"
+    },
+    {
+      "id": "garlic",
+      "name": "garlic cloves",
+      "qty": 3,
+      "unit": ""
+    },
+    {
+      "id": "ginger",
+      "name": "fresh ginger",
+      "qty": 1,
+      "unit": "tsp",
+      "note": "minced"
+    },
+    {
+      "id": "curry",
+      "name": "mild curry powder",
+      "qty": 1,
+      "unit": "tsp"
+    },
+    {
+      "id": "crayfish",
+      "name": "ground dried crayfish",
+      "qty": 0.5,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "chili",
+      "name": "habanero or scotch bonnet",
+      "qty": 0.25,
+      "unit": "",
+      "note": "deseeded",
+      "optional": true
+    },
+    {
+      "id": "oil",
+      "name": "red palm oil",
+      "qty": 1.5,
+      "unit": "tbsp",
+      "substitutes": [
+        {
+          "name": "vegetable oil"
+        }
+      ]
+    },
+    {
+      "id": "passata",
+      "name": "tomato passata",
+      "qty": 1,
+      "unit": "cup"
+    },
+    {
+      "id": "rice",
+      "name": "basmati rice",
+      "qty": 1.5,
+      "unit": "cups",
+      "note": "rinsed"
+    },
+    {
+      "id": "stock",
+      "name": "low-salt stock or water",
+      "qty": 2.25,
+      "unit": "cups"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Blend {list:tomatoes,pepper,onion,garlic,ginger,curry,crayfish,chili} until smooth.",
+      "action": "blend"
+    },
+    {
+      "text": "Heat the {oil} in a heavy pan, add the blended sauce and {passata}, and simmer until thick and sweet.",
+      "action": "boil",
+      "minutes": 20
+    },
+    {
+      "text": "Stir in the {rice} and cook for a few minutes so it soaks up the sauce.",
+      "action": "mix",
+      "minutes": 4
+    },
+    {
+      "text": "Pour in the {stock}, bring to the boil, then cover and cook on low until the rice is tender.",
+      "action": "boil",
+      "minutes": 22
+    },
+    {
+      "text": "Fluff with a fork and serve.",
+      "action": "serve"
+    }
+  ],
+  "toddlerTips": [
+    "Leave out the chilli for toddlers, or blend a tiny piece only for a family pot.",
+    "Use low-salt stock instead of bouillon cubes; they are very salty.",
+    "Crayfish is a shellfish; leave it out if shellfish is not yet introduced."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.tastingtable.com/cook/recipes/nigerian-jollof-rice-recipe",
+      "title": "Nigerian Jollof Rice",
+      "author": "Tasting Table"
+    }
+  ],
+  "popularity": 0.6
+}

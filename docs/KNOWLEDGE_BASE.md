@@ -11,6 +11,16 @@ MJ and Hungryman, Baby Foode, NHS Start for Life and others), so most `sources` 
 few recipes are common family dishes with no single source (`platform: "family"`).
 `popularity` is an estimate from how often a dish came up, not measured engagement.
 
+## The review bar (from recipe 47 on)
+
+Every recipe added after the first 46 has proof that many people made it and liked it:
+a recipe-card rating of 4.5 or more from at least 25 ratings, read from the page's structured
+data by `pnpm scrape` (BBC Good Food keeps its rating in a `userRatings` object instead). Social
+posts with comments like "my toddler ate it" are added to `sources` when they can be verified,
+but Reddit, YouTube, TikTok and Instagram cannot be read without API keys, so few recipes have them.
+The source recipe is then made toddler-safe: no added salt, chili optional, less sugar, choking
+hazards cut or mashed. Swaps that bring in an allergen say so in their `note`.
+
 ## Pulling from Reddit and YouTube with real numbers
 
 ```sh

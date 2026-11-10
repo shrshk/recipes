@@ -1,0 +1,178 @@
+{
+  "id": "baked-veg-cutlets",
+  "title": "Baked Veg Cutlets",
+  "summary": "Mashed potato, carrot, beans and peas patties with a crumb coat, baked golden. Great finger food.",
+  "cuisine": "indian",
+  "meals": [
+    "snack",
+    "lunch"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 25,
+  "cookMinutes": 30,
+  "yield": 13,
+  "difficulty": "medium",
+  "tags": [
+    "finger-food",
+    "hidden-veg",
+    "lunchbox",
+    "freezer-friendly",
+    "picky-eater"
+  ],
+  "allergens": [
+    "gluten",
+    "wheat"
+  ],
+  "ingredients": [
+    {
+      "id": "potato",
+      "name": "potatoes",
+      "qty": 2,
+      "unit": "cups",
+      "note": "peeled and cubed",
+      "substitutes": [
+        {
+          "name": "sweet potatoes"
+        }
+      ]
+    },
+    {
+      "id": "carrot",
+      "name": "carrot",
+      "qty": 1,
+      "unit": "cup",
+      "note": "diced"
+    },
+    {
+      "id": "beans",
+      "name": "green beans",
+      "qty": 0.5,
+      "unit": "cup",
+      "note": "chopped small",
+      "optional": true
+    },
+    {
+      "id": "peas",
+      "name": "green peas",
+      "qty": 0.5,
+      "unit": "cup"
+    },
+    {
+      "id": "ginger",
+      "name": "ginger",
+      "qty": 0.75,
+      "unit": "tsp",
+      "note": "grated",
+      "optional": true
+    },
+    {
+      "id": "garam",
+      "name": "garam masala",
+      "qty": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "id": "coriander",
+      "name": "fresh coriander",
+      "qty": 3,
+      "unit": "tbsp",
+      "note": "finely chopped",
+      "optional": true
+    },
+    {
+      "id": "crumbs",
+      "name": "breadcrumbs",
+      "qty": 6,
+      "unit": "tbsp",
+      "note": "for the mix",
+      "substitutes": [
+        {
+          "name": "powdered thick poha",
+          "note": "gluten-free"
+        }
+      ]
+    },
+    {
+      "id": "besan",
+      "name": "besan (chickpea flour)",
+      "qty": 2,
+      "unit": "tbsp",
+      "note": "for the coating batter",
+      "substitutes": [
+        {
+          "name": "rice flour"
+        }
+      ]
+    },
+    {
+      "id": "coat",
+      "name": "breadcrumbs for coating",
+      "qty": 0.5,
+      "unit": "cup",
+      "substitutes": [
+        {
+          "name": "powdered thick poha",
+          "note": "gluten-free"
+        }
+      ]
+    },
+    {
+      "id": "oil",
+      "name": "oil",
+      "qty": 2,
+      "unit": "tbsp",
+      "note": "to brush"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Steam {list:potato,carrot,beans,peas} until fork-tender.",
+      "action": "steam",
+      "minutes": 12
+    },
+    {
+      "text": "Mash the vegetables well and let them cool a little.",
+      "action": "mash"
+    },
+    {
+      "text": "Mix in {list:crumbs,ginger,garam,coriander} until the dough is not sticky.",
+      "action": "mix"
+    },
+    {
+      "text": "Shape into 13 small balls and flatten into thick patties.",
+      "action": "shape"
+    },
+    {
+      "text": "Whisk {besan} with a little water into a thin batter. Spread {coat} on a plate.",
+      "action": "mix"
+    },
+    {
+      "text": "Dip each patty in the batter, then press into the crumbs on both sides.",
+      "action": "shape"
+    },
+    {
+      "text": "Heat the oven to 180 C (360 F). Brush the patties with {oil} and bake, turning once, until golden.",
+      "action": "bake",
+      "minutes": 30,
+      "tip": "Or shallow-fry in a little oil for 3 minutes a side."
+    },
+    {
+      "text": "Cool until warm and serve.",
+      "action": "serve"
+    }
+  ],
+  "toddlerTips": [
+    "Leave out the green chilies and salt for toddlers.",
+    "Cut a patty into fingers for younger toddlers. Serve with yogurt or ketchup to dip.",
+    "Freeze shaped, uncooked cutlets on a tray, then bag them. Bake from frozen with a few extra minutes."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.indianhealthyrecipes.com/veg-cutlet-recipe/",
+      "title": "Veg Cutlet Recipe (Vegetable Cutlet)",
+      "author": "Swasthi Shreekanth (Swasthi's Recipes)"
+    }
+  ],
+  "popularity": 0.75
+}

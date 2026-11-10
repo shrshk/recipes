@@ -1,0 +1,143 @@
+{
+  "id": "chinese-chicken-corn-soup",
+  "title": "Chinese Chicken and Corn Soup",
+  "summary": "Sweet creamed-corn soup with shredded chicken and soft egg ribbons, ready in 15 minutes.",
+  "cuisine": "chinese",
+  "meals": [
+    "lunch",
+    "dinner"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 5,
+  "cookMinutes": 8,
+  "yield": 4,
+  "difficulty": "easy",
+  "tags": [
+    "quick",
+    "one-pot",
+    "protein-packed",
+    "picky-eater"
+  ],
+  "allergens": [
+    "egg",
+    "soy",
+    "wheat",
+    "gluten"
+  ],
+  "ingredients": [
+    {
+      "id": "stock",
+      "name": "low-sodium chicken stock",
+      "qty": 2,
+      "unit": "cups",
+      "substitutes": [
+        {
+          "name": "low-sodium vegetable stock"
+        }
+      ]
+    },
+    {
+      "id": "corn",
+      "name": "creamed corn",
+      "qty": 1,
+      "unit": "can",
+      "note": "15 oz"
+    },
+    {
+      "id": "soy",
+      "name": "low-sodium soy sauce",
+      "qty": 0.5,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "ginger",
+      "name": "fresh ginger",
+      "qty": 1,
+      "unit": "tsp",
+      "note": "grated"
+    },
+    {
+      "id": "garlic",
+      "name": "garlic",
+      "qty": 1,
+      "unit": "clove",
+      "note": "minced"
+    },
+    {
+      "id": "cornstarch",
+      "name": "cornstarch",
+      "qty": 1,
+      "unit": "tsp",
+      "note": "mixed with 1 tbsp cold water"
+    },
+    {
+      "id": "egg",
+      "name": "egg",
+      "qty": 1,
+      "unit": "",
+      "note": "beaten",
+      "optional": true
+    },
+    {
+      "id": "chicken",
+      "name": "cooked chicken",
+      "qty": 1,
+      "unit": "cup",
+      "note": "finely shredded"
+    },
+    {
+      "id": "scallion",
+      "name": "scallion",
+      "qty": 1,
+      "unit": "",
+      "note": "finely sliced",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Put {list:stock,corn,soy,ginger,garlic,cornstarch} in a saucepan and stir.",
+      "action": "add"
+    },
+    {
+      "text": "Bring to a boil, then simmer, stirring now and then, until slightly thick.",
+      "action": "boil",
+      "minutes": 5
+    },
+    {
+      "text": "Turn off the heat and slowly stir in {egg} so it sets in thin ribbons.",
+      "action": "mix"
+    },
+    {
+      "text": "Stir in {chicken} and warm through.",
+      "action": "add",
+      "minutes": 1
+    },
+    {
+      "text": "Sprinkle over {scallion}.",
+      "requires": [
+        "scallion"
+      ],
+      "action": "add"
+    },
+    {
+      "text": "Cool to warm and serve.",
+      "action": "serve"
+    }
+  ],
+  "toddlerTips": [
+    "Shred the chicken very finely; it should fall apart with a spoon.",
+    "Skip added salt; stock and creamed corn already carry plenty.",
+    "Check that the egg ribbons are fully set before serving."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.recipetineats.com/chinese-chicken-corn-soup/",
+      "title": "Chinese Chicken and Corn Soup",
+      "author": "Nagi (RecipeTin Eats)"
+    }
+  ],
+  "popularity": 0.75
+}

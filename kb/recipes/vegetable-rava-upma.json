@@ -1,0 +1,199 @@
+{
+  "id": "vegetable-rava-upma",
+  "title": "Vegetable Rava Upma",
+  "summary": "Soft savoury semolina porridge with carrot, beans and peas, ready in 20 minutes.",
+  "cuisine": "indian",
+  "meals": [
+    "breakfast"
+  ],
+  "minAgeMonths": 12,
+  "prepMinutes": 5,
+  "cookMinutes": 15,
+  "yield": 4,
+  "difficulty": "easy",
+  "tags": [
+    "quick",
+    "savory",
+    "hidden-veg"
+  ],
+  "allergens": [
+    "gluten",
+    "wheat"
+  ],
+  "ingredients": [
+    {
+      "id": "rava",
+      "name": "fine semolina (rava / sooji)",
+      "qty": 1,
+      "unit": "cup"
+    },
+    {
+      "id": "oil",
+      "name": "oil",
+      "qty": 2,
+      "unit": "tbsp",
+      "substitutes": [
+        {
+          "name": "ghee",
+          "note": "contains dairy"
+        }
+      ]
+    },
+    {
+      "id": "mustard",
+      "name": "mustard seeds",
+      "qty": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "id": "cumin",
+      "name": "cumin seeds",
+      "qty": 0.5,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "urad",
+      "name": "split urad dal",
+      "qty": 1,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "curry",
+      "name": "curry leaves",
+      "qty": 6,
+      "unit": "",
+      "note": "torn small",
+      "optional": true
+    },
+    {
+      "id": "ginger",
+      "name": "ginger",
+      "qty": 0.5,
+      "unit": "tsp",
+      "note": "grated",
+      "optional": true
+    },
+    {
+      "id": "onion",
+      "name": "onion",
+      "qty": 0.25,
+      "unit": "cup",
+      "note": "finely chopped"
+    },
+    {
+      "id": "chili",
+      "name": "green chili",
+      "qty": 0.5,
+      "unit": "",
+      "note": "seeded and minced; for grown-up heat",
+      "optional": true
+    },
+    {
+      "id": "veg",
+      "name": "mixed carrot, green beans and peas",
+      "qty": 0.5,
+      "unit": "cup",
+      "note": "finely chopped"
+    },
+    {
+      "id": "water",
+      "name": "water",
+      "qty": 3,
+      "unit": "cups"
+    },
+    {
+      "id": "ghee",
+      "name": "ghee",
+      "qty": 2,
+      "unit": "tsp",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "oil",
+          "note": "dairy-free"
+        }
+      ]
+    },
+    {
+      "id": "lemon",
+      "name": "lemon juice",
+      "qty": 1,
+      "unit": "tsp",
+      "optional": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "Dry roast {rava} in a pan on medium heat, stirring, until it smells toasty but is not brown. Tip into a bowl.",
+      "action": "fry",
+      "minutes": 5
+    },
+    {
+      "text": "Warm {oil} in the same pan and add {list:mustard,cumin,urad}. Fry until they sizzle and turn light golden.",
+      "action": "fry"
+    },
+    {
+      "text": "Add {list:curry,ginger,chili,onion} and cook until the onion is soft.",
+      "action": "fry",
+      "minutes": 2
+    },
+    {
+      "text": "Add {veg}, cover and cook until just tender.",
+      "action": "fry",
+      "minutes": 4
+    },
+    {
+      "text": "Pour in {water} and bring to a rolling boil.",
+      "action": "boil"
+    },
+    {
+      "text": "Turn the heat to low. Pour in the roasted rava in a thin stream while you stir fast, so no lumps form.",
+      "action": "mix"
+    },
+    {
+      "text": "Cover and cook on the lowest heat until the water is absorbed.",
+      "action": "steam",
+      "minutes": 3
+    },
+    {
+      "text": "Stir in {ghee}, cover and rest.",
+      "action": "mix",
+      "minutes": 5,
+      "requires": [
+        "ghee"
+      ]
+    },
+    {
+      "text": "Stir in {lemon}.",
+      "action": "mix",
+      "requires": [
+        "lemon"
+      ]
+    },
+    {
+      "text": "Cool until warm before serving.",
+      "action": "serve"
+    }
+  ],
+  "toddlerTips": [
+    "Make it a little softer for toddlers by adding a quarter cup more water.",
+    "Skip salt, or add a tiny pinch for the grown-ups.",
+    "Leave out the usual peanut and cashew garnish for under-fives, or grind it fine."
+  ],
+  "sources": [
+    {
+      "platform": "blog",
+      "url": "https://www.indianhealthyrecipes.com/upma-recipe/",
+      "title": "Upma Recipe (Rava Upma)",
+      "author": "Swasthi Shreekanth (Swasthi's Recipes)"
+    },
+    {
+      "platform": "family",
+      "url": "https://www.mumsnet.com/talk/south-asian-mumsnetters/5102049-south-asian-weaning-recipes",
+      "title": "South Asian weaning recipes (Mumsnet thread)"
+    }
+  ],
+  "popularity": 0.75
+}
