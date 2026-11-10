@@ -105,5 +105,11 @@
     }
   ],
   "popularity": 0.45,
-  "yield": 5
+  "yield": 5,
+  "photo": {
+    "file": "peanut-sweet-potato-stew.webp",
+    "author": "Marshiayers",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Mafe.malien.jpg"
+  }
 }

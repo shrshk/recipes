@@ -5,7 +5,8 @@ import type { Answers, Recommendation, SkillContext } from "../../engine/types";
 import type { Recipe } from "../../kb/schema";
 import { skills } from "../../skills";
 import { go } from "../../state/router";
-import { cuisineLabel, cuisineNames, dishEmoji, dishGradient, totalMinutes } from "../look";
+import { cuisineLabel, cuisineNames, totalMinutes } from "../look";
+import { DishArt } from "../components/DishArt";
 import { Page } from "../components/Page";
 import { TopBar } from "../components/TopBar";
 
@@ -69,10 +70,9 @@ function Cards({ picks, customIds }: { picks: Recommendation[]; customIds: Reado
           whileTap={{ scale: 0.98 }}
           onClick={() => go({ name: "recipe", id: recipe.id })}
         >
-          <div className="card-art" style={{ background: dishGradient(recipe) }}>
-            <motion.span whileHover={{ rotate: [0, -8, 8, 0] }}>{dishEmoji(recipe)}</motion.span>
+          <DishArt recipe={recipe} className="card-art" emojiMotion={{ whileHover: { rotate: [0, -8, 8, 0] } }}>
             {customIds.has(recipe.id) && <span className="badge custom-badge">⭐ Your recipe</span>}
-          </div>
+          </DishArt>
           <div className="card-body">
             <h3>{recipe.title}</h3>
             <p className="muted" style={{ fontSize: 15 }}>{recipe.summary}</p>

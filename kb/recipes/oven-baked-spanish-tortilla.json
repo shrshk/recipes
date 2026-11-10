@@ -103,5 +103,11 @@
     }
   ],
   "popularity": 0.5,
-  "yield": 6
+  "yield": 6,
+  "photo": {
+    "file": "oven-baked-spanish-tortilla.webp",
+    "author": "Kent Wang",
+    "license": "CC BY-SA 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Tortilla_de_patata_-_San_Sebasti%C3%A1n.jpg"
+  }
 }

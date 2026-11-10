@@ -120,5 +120,11 @@
     }
   ],
   "popularity": 0.75,
-  "yield": 4
+  "yield": 4,
+  "photo": {
+    "file": "veggie-besan-chilla.webp",
+    "author": "Ryallabandi at en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Pesarattu.jpg"
+  }
 }

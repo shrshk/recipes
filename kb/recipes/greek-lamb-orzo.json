@@ -143,5 +143,11 @@
       "author": "Mary Cadogan"
     }
   ],
-  "popularity": 0.74
+  "popularity": 0.74,
+  "photo": {
+    "file": "greek-lamb-orzo.webp",
+    "author": "Robert Kindermann",
+    "license": "CC BY-SA 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:Giouvetsi.JPG"
+  }
 }

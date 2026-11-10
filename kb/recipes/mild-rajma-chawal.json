@@ -196,5 +196,11 @@
       "title": "Don't see much non-western food posted here (r/foodbutforbabies)"
     }
   ],
-  "popularity": 0.8
+  "popularity": 0.8,
+  "photo": {
+    "file": "mild-rajma-chawal.webp",
+    "author": "Gaurav Nemade",
+    "license": "CC BY-SA 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Rajma_Masala_(32081557778).jpg"
+  }
 }

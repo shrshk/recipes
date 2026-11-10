@@ -101,5 +101,11 @@
       "author": "Frugal and Thriving"
     }
   ],
-  "popularity": 0.8
+  "popularity": 0.8,
+  "photo": {
+    "file": "hidden-veg-chicken-nuggets.webp",
+    "author": "James Palinsad",
+    "license": "CC BY-SA 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Chicken_Nuggets.jpg"
+  }
 }

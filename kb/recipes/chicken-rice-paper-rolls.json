@@ -153,5 +153,11 @@
       "author": "Nagi (RecipeTin Eats)"
     }
   ],
-  "popularity": 0.7
+  "popularity": 0.7,
+  "photo": {
+    "file": "chicken-rice-paper-rolls.webp",
+    "author": "pelican from Tokyo, Japan",
+    "license": "CC BY-SA 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Homemade_spring_rolls_(7010969349).jpg"
+  }
 }

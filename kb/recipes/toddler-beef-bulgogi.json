@@ -147,5 +147,11 @@
       "author": "Hyosun (Korean Bapsang)"
     }
   ],
-  "popularity": 0.75
+  "popularity": 0.75,
+  "photo": {
+    "file": "toddler-beef-bulgogi.webp",
+    "author": "Debbie Tingzon",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Bulgogi_4.jpg"
+  }
 }

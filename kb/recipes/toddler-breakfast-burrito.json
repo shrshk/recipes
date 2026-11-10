@@ -137,5 +137,11 @@
       "author": "Sophie Godwin"
     }
   ],
-  "popularity": 0.62
+  "popularity": 0.62,
+  "photo": {
+    "file": "toddler-breakfast-burrito.webp",
+    "author": "Nurban",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:New_Mexican_breakfast_burrito.jpg"
+  }
 }

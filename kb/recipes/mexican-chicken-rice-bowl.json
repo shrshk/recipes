@@ -103,5 +103,11 @@
     }
   ],
   "popularity": 0.55,
-  "yield": 5
+  "yield": 5,
+  "photo": {
+    "file": "mexican-chicken-rice-bowl.webp",
+    "author": "Kobako",
+    "license": "CC BY-SA 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:Arroz-con-Pollo.jpg"
+  }
 }

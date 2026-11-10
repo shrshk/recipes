@@ -191,5 +191,11 @@
       "author": "Swasthi Shreekanth (Swasthi's Recipes)"
     }
   ],
-  "popularity": 0.8
+  "popularity": 0.8,
+  "photo": {
+    "file": "soft-aloo-gobi.webp",
+    "author": "Sapanabehl",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Aloo_Ghobi.jpg"
+  }
 }

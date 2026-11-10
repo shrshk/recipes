@@ -141,5 +141,11 @@
       "author": "Creative Nourish"
     }
   ],
-  "popularity": 0.85
+  "popularity": 0.85,
+  "photo": {
+    "file": "hidden-veggie-mini-meatballs.webp",
+    "author": "Juan Emilio Prades Bel",
+    "license": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Meatballs_with_tomato_sauce_(Spain).jpg"
+  }
 }

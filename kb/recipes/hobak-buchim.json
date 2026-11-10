@@ -139,5 +139,11 @@
       "author": "Hyosun (Korean Bapsang)"
     }
   ],
-  "popularity": 0.65
+  "popularity": 0.65,
+  "photo": {
+    "file": "hobak-buchim.webp",
+    "author": "hyun chun kim",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Hobak-jeon.jpg"
+  }
 }

@@ -176,5 +176,11 @@
       "title": "Don't see much non-western food posted here (r/foodbutforbabies)"
     }
   ],
-  "popularity": 0.8
+  "popularity": 0.8,
+  "photo": {
+    "file": "toddler-dal-palak.webp",
+    "author": "P1898",
+    "license": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Dal_palak_casserole.jpg"
+  }
 }

@@ -190,5 +190,11 @@
       "author": "Swasthi Shreekanth (Swasthi's Recipes)"
     }
   ],
-  "popularity": 0.7
+  "popularity": 0.7,
+  "photo": {
+    "file": "paneer-bhurji.webp",
+    "author": "Maskaravivek",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Homemade_Paneer_Bhurji.jpg"
+  }
 }

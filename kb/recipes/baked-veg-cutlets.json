@@ -174,5 +174,11 @@
       "author": "Swasthi Shreekanth (Swasthi's Recipes)"
     }
   ],
-  "popularity": 0.75
+  "popularity": 0.75,
+  "photo": {
+    "file": "baked-veg-cutlets.webp",
+    "author": "Ntarch",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Vegetable_Cutlet_From_India.jpg"
+  }
 }

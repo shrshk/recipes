@@ -111,5 +111,11 @@
     }
   ],
   "popularity": 0.6,
-  "yield": 4
+  "yield": 4,
+  "photo": {
+    "file": "sweet-potato-paneer-paratha.webp",
+    "author": "Nithyasrm",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Triangle_paratha_(cropped).JPG"
+  }
 }

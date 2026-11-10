@@ -165,5 +165,11 @@
       "title": "South Asian weaning recipes (Mumsnet thread)"
     }
   ],
-  "popularity": 0.7
+  "popularity": 0.7,
+  "photo": {
+    "file": "tadka-curd-rice.webp",
+    "author": "Sudharshan Shanmugasundaram",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Curd_Rice.jpg"
+  }
 }

@@ -105,5 +105,11 @@
       "author": "The Woks of Life"
     }
   ],
-  "popularity": 0.7
+  "popularity": 0.7,
+  "photo": {
+    "file": "tomato-egg-scramble.webp",
+    "author": "Huangdan2060",
+    "license": "CC BY 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Hunan_cuisine,_stir-fried_tomato_with_eggs.jpg"
+  }
 }

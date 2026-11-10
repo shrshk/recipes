@@ -8,7 +8,8 @@ import type { Recipe } from "../../kb/schema";
 import { skills } from "../../skills";
 import { go } from "../../state/router";
 import { ingredientEmoji } from "../ingredientEmoji";
-import { cuisineLabel, dishEmoji, dishGradient, totalMinutes } from "../look";
+import { cuisineLabel, totalMinutes } from "../look";
+import { DishArt, PhotoCredit } from "../components/DishArt";
 import { Page } from "../components/Page";
 import { TopBar } from "../components/TopBar";
 
@@ -60,10 +61,13 @@ export function RecipeScreen({ recipe, edits, setEdits, ctx, toggles, custom }: 
         {changed && <button className="btn ghost" onClick={() => setEdits(emptyEdits(recipe))}>Reset</button>}
       </TopBar>
 
-      <motion.div className="recipe-art" style={{ background: dishGradient(recipe) }} initial={{ scale: 0.94 }} animate={{ scale: 1 }}>
-        <motion.span initial={{ y: 30, rotate: -12 }} animate={{ y: 0, rotate: 0 }} transition={{ type: "spring", stiffness: 200, damping: 12 }}>
-          {dishEmoji(recipe)}
-        </motion.span>
+      <motion.div initial={{ scale: 0.94 }} animate={{ scale: 1 }}>
+        <DishArt
+          recipe={recipe}
+          className="recipe-art"
+          emojiMotion={{ initial: { y: 30, rotate: -12 }, animate: { y: 0, rotate: 0 }, transition: { type: "spring", stiffness: 200, damping: 12 } }}
+        />
+        <PhotoCredit recipe={recipe} />
       </motion.div>
 
       <div className="stack" style={{ marginTop: 20 }}>

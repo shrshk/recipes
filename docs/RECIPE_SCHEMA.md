@@ -50,7 +50,12 @@ time (`src/kb/schema.ts`), so a bad file fails `pnpm test`, not the app.
   "sources": [                            // where the idea came from; we paraphrase, we do not copy
     { "platform": "reddit", "url": "https://www.reddit.com/r/toddlerfood/...", "title": "...", "author": "u/..." }
   ],
-  "popularity": 0.7                       // 0..1, our estimate from upvotes/views/saves
+  "popularity": 0.7,                      // 0..1, our estimate from upvotes/views/saves
+  "photo": {                              // optional; a freely licensed photo in public/dishes/
+    "file": "palak-paneer-bites.webp",    // 800x600 webp
+    "author": "Jane Doe", "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:..."   // source page, shown as the credit link
+  }
 }
 ```
 

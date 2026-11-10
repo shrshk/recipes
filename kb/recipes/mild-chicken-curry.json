@@ -225,5 +225,11 @@
       "author": "Swasthi Shreekanth (Swasthi's Recipes)"
     }
   ],
-  "popularity": 0.85
+  "popularity": 0.85,
+  "photo": {
+    "file": "mild-chicken-curry.webp",
+    "author": "Missvain",
+    "license": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Chicken_tikka_masala_at_Yeti_in_Glen_Ellen_2015_-_Sarah_Stierch.jpg"
+  }
 }

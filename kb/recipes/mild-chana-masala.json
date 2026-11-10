@@ -199,5 +199,11 @@
       "author": "Swasthi Shreekanth (Swasthi's Recipes)"
     }
   ],
-  "popularity": 0.8
+  "popularity": 0.8,
+  "photo": {
+    "file": "mild-chana-masala.webp",
+    "author": "Simon Law (sfllaw) from Montréal, QC, Canada",
+    "license": "CC BY-SA 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Chana_masala.jpg"
+  }
 }

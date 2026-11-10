@@ -126,5 +126,11 @@
       "author": "Swasthi Shreekanth (Swasthi's Recipes)"
     }
   ],
-  "popularity": 0.85
+  "popularity": 0.85,
+  "photo": {
+    "file": "banana-ragi-porridge.webp",
+    "author": "DaCentaur at en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Ragi_Porridge.jpg"
+  }
 }

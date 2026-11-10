@@ -171,5 +171,11 @@
       "author": "Jane Hornby"
     }
   ],
-  "popularity": 0.88
+  "popularity": 0.88,
+  "photo": {
+    "file": "classic-british-scones.webp",
+    "author": "User:Dave souza",
+    "license": "CC BY-SA 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:Scone_varieties.jpg"
+  }
 }

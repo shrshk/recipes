@@ -137,5 +137,11 @@
     }
   ],
   "popularity": 0.8,
-  "yield": 4
+  "yield": 4,
+  "photo": {
+    "file": "moong-dal-veggie-khichdi.webp",
+    "author": "Rpande",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Dall_Khichdi.jpg"
+  }
 }

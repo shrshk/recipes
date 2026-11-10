@@ -195,5 +195,11 @@
       "title": "South Asian weaning recipes (Mumsnet thread)"
     }
   ],
-  "popularity": 0.75
+  "popularity": 0.75,
+  "photo": {
+    "file": "vegetable-rava-upma.webp",
+    "author": "Thamizhpparithi Maari",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:A_photo_of_Upma.jpg"
+  }
 }

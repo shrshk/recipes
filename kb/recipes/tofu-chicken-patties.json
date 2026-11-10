@@ -95,5 +95,11 @@
       "author": "Tiny Tot in Tokyo"
     }
   ],
-  "popularity": 0.65
+  "popularity": 0.65,
+  "photo": {
+    "file": "tofu-chicken-patties.webp",
+    "author": "Arnold Gatilao from Oakland, CA, USA",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Tsukune_(chicken_meatballs)_(16065642291).jpg"
+  }
 }

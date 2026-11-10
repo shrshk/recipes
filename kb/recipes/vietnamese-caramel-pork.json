@@ -146,5 +146,11 @@
       "author": "Nagi (RecipeTin Eats)"
     }
   ],
-  "popularity": 0.75
+  "popularity": 0.75,
+  "photo": {
+    "file": "vietnamese-caramel-pork.webp",
+    "author": "Baoothersks",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Th%E1%BB%8Bt_kho_h%E1%BB%99t_v%E1%BB%8Bt.jpg"
+  }
 }

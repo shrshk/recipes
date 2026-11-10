@@ -83,5 +83,11 @@
       "title": "Korean toddler food for young learners"
     }
   ],
-  "popularity": 0.7
+  "popularity": 0.7,
+  "photo": {
+    "file": "gyeran-mari.webp",
+    "author": "Hyeon-Jeong Suk",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Gyeran-mari.jpg"
+  }
 }

@@ -75,5 +75,11 @@
     }
   ],
   "popularity": 0.4,
-  "yield": 3
+  "yield": 3,
+  "photo": {
+    "file": "sweet-plantain-fingers.webp",
+    "author": "AMartiniouk",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Tostones.JPG"
+  }
 }

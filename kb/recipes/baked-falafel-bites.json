@@ -121,5 +121,11 @@
     }
   ],
   "popularity": 0.7,
-  "yield": 4
+  "yield": 4,
+  "photo": {
+    "file": "baked-falafel-bites.webp",
+    "author": "Popo le Chien",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Falafels_2.jpg"
+  }
 }

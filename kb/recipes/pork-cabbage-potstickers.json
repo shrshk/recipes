@@ -173,5 +173,11 @@
       "author": "Nagi (RecipeTin Eats)"
     }
   ],
-  "popularity": 0.65
+  "popularity": 0.65,
+  "photo": {
+    "file": "pork-cabbage-potstickers.webp",
+    "author": "Francesc Fort",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Jiaozi_-_Xiao_Ge_Zi.jpg"
+  }
 }

@@ -97,5 +97,11 @@
     }
   ],
   "popularity": 0.55,
-  "yield": 4
+  "yield": 4,
+  "photo": {
+    "file": "mini-paneer-uttapam.webp",
+    "author": "Ramesh NG",
+    "license": "CC BY-SA 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Mini_Uttappam.jpg"
+  }
 }

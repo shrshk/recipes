@@ -95,5 +95,11 @@
       "author": "Korean Bapsang"
     }
   ],
-  "popularity": 0.85
+  "popularity": 0.85,
+  "photo": {
+    "file": "gyeran-jjim.webp",
+    "author": "letter001",
+    "license": "CC BY 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:Gyeranjjim.jpg"
+  }
 }

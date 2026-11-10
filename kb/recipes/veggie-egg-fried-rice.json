@@ -121,5 +121,11 @@
       "title": "Egg Fried Rice with Veggies for Toddlers"
     }
   ],
-  "popularity": 0.85
+  "popularity": 0.85,
+  "photo": {
+    "file": "veggie-egg-fried-rice.webp",
+    "author": "Vyacheslav Argenberg",
+    "license": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Koh_Mak,_Thailand,_Fried_rice_with_seafood,_Thai_fried_rice.jpg"
+  }
 }

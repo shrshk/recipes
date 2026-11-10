@@ -122,5 +122,11 @@
       "author": "Yummy Toddler Food"
     }
   ],
-  "popularity": 0.9
+  "popularity": 0.9,
+  "photo": {
+    "file": "butternut-squash-mac-and-cheese.webp",
+    "author": "Texasfoodgawker",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Original_Mac_n_Cheese_.jpg"
+  }
 }

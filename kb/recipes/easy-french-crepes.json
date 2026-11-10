@@ -139,5 +139,11 @@
       "author": "RecipeTin Eats (Chef JB)"
     }
   ],
-  "popularity": 0.62
+  "popularity": 0.62,
+  "photo": {
+    "file": "easy-french-crepes.webp",
+    "author": "David Monniaux",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Crepes_dsc07085.jpg"
+  }
 }

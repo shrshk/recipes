@@ -102,5 +102,11 @@
       "author": "Yummy Toddler Food"
     }
   ],
-  "popularity": 0.7
+  "popularity": 0.7,
+  "photo": {
+    "file": "black-bean-quesadilla-strips.webp",
+    "author": "Cayobo",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Carnitas_and_Black_Bean_Quesadilla,_Key_West_Florida_2022.jpg"
+  }
 }

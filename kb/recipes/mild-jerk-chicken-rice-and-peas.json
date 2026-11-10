@@ -172,5 +172,11 @@
       "title": "Jerk chicken with rice & peas (BBC Good Food)"
     }
   ],
-  "popularity": 0.72
+  "popularity": 0.72,
+  "photo": {
+    "file": "mild-jerk-chicken-rice-and-peas.webp",
+    "author": "Whispyhistory",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Rice_and_Peas.jpg"
+  }
 }

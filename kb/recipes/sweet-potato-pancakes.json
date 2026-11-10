@@ -124,5 +124,11 @@
       "author": "My Kids Lick the Bowl"
     }
   ],
-  "popularity": 0.75
+  "popularity": 0.75,
+  "photo": {
+    "file": "sweet-potato-pancakes.webp",
+    "author": "Mae Mu",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Foodiesfeed.com_pouring-honey-on-pancakes-with-walnuts.jpg"
+  }
 }

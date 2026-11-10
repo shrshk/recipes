@@ -119,5 +119,11 @@
       "author": "Maangchi"
     }
   ],
-  "popularity": 0.6
+  "popularity": 0.6,
+  "photo": {
+    "file": "non-spicy-tofu-soup.webp",
+    "author": "행복한 초록개구리",
+    "license": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Sundubu-jjigae.jpg"
+  }
 }

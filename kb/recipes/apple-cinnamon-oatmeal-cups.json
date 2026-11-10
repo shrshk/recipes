@@ -123,5 +123,11 @@
       "author": "Countryside Cravings"
     }
   ],
-  "popularity": 0.65
+  "popularity": 0.65,
+  "photo": {
+    "file": "apple-cinnamon-oatmeal-cups.webp",
+    "author": "Caroline Hadilaksono",
+    "license": "CC BY-SA 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Vegan_oatmeal_chocolate_chip_muffins.jpg"
+  }
 }

@@ -144,5 +144,11 @@
       "author": "The Mummy Bubble"
     }
   ],
-  "popularity": 0.7
+  "popularity": 0.7,
+  "photo": {
+    "file": "hidden-veg-shepherds-pie.webp",
+    "author": "Oxfordian Kissuth",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Homerton_College_-_Shepherd%27s_pie_(cropped).jpg"
+  }
 }

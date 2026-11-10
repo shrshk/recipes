@@ -146,5 +146,11 @@
       "author": "Plant Based Folk"
     }
   ],
-  "popularity": 0.7
+  "popularity": 0.7,
+  "photo": {
+    "file": "lebanese-red-lentil-soup.webp",
+    "author": "Whoisjohngalt",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Bowl_of_lentil_soup_with_green_and_red_lentils.jpg"
+  }
 }

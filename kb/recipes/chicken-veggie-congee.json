@@ -109,5 +109,11 @@
       "title": "Congee for baby-led weaning"
     }
   ],
-  "popularity": 0.8
+  "popularity": 0.8,
+  "photo": {
+    "file": "chicken-veggie-congee.webp",
+    "author": "Daiju Azuma",
+    "license": "CC BY-SA 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:Chinese_rice_congee.jpg"
+  }
 }

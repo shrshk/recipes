@@ -95,5 +95,11 @@
     }
   ],
   "popularity": 0.85,
-  "yield": 4
+  "yield": 4,
+  "photo": {
+    "file": "black-bean-quesadilla-bites.webp",
+    "author": "nsaum75",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Empanada_flor_de_Calabaza.jpg"
+  }
 }

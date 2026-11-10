@@ -108,5 +108,11 @@
       "author": "Venison for Dinner"
     }
   ],
-  "popularity": 0.55
+  "popularity": 0.55,
+  "photo": {
+    "file": "kid-friendly-pad-thai.webp",
+    "author": "Takeaway",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Phat_Thai_kung_Chang_Khien_street_stall.jpg"
+  }
 }

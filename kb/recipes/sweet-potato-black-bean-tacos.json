@@ -101,5 +101,11 @@
     }
   ],
   "popularity": 0.6,
-  "yield": 4
+  "yield": 4,
+  "photo": {
+    "file": "sweet-potato-black-bean-tacos.webp",
+    "author": "Karen and Brad Emerson",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Roasted_sweet_potato_%2B_black_bean_tacos_(7784822910).jpg"
+  }
 }

@@ -100,5 +100,11 @@
       "title": "Okonomiyaki-Style Rice Flour & Chinese Cabbage Patties for Toddlers"
     }
   ],
-  "popularity": 0.6
+  "popularity": 0.6,
+  "photo": {
+    "file": "cabbage-okonomiyaki-bites.webp",
+    "author": "ume-y",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Okonomiyaki_001.jpg"
+  }
 }

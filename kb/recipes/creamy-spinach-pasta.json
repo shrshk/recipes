@@ -99,5 +99,11 @@
       "author": "Spice Kitchen UK"
     }
   ],
-  "popularity": 0.6
+  "popularity": 0.6,
+  "photo": {
+    "file": "creamy-spinach-pasta.webp",
+    "author": "Karen and Brad Emerson",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Spinach_pasta_(3383218355).jpg"
+  }
 }

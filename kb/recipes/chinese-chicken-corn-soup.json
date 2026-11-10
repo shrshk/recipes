@@ -139,5 +139,11 @@
       "author": "Nagi (RecipeTin Eats)"
     }
   ],
-  "popularity": 0.75
+  "popularity": 0.75,
+  "photo": {
+    "file": "chinese-chicken-corn-soup.webp",
+    "author": "Thamizhpparithi Maari",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Chicken_sweet_corn_soup.jpg"
+  }
 }

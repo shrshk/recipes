@@ -101,5 +101,11 @@
     }
   ],
   "popularity": 0.5,
-  "yield": 4
+  "yield": 4,
+  "photo": {
+    "file": "lemon-oregano-chicken-bites.webp",
+    "author": "Alpha from Melbourne, Australia",
+    "license": "CC BY-SA 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Lemon_Chicken_on_Rice.jpg"
+  }
 }

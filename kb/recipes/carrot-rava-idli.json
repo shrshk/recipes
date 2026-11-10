@@ -183,5 +183,11 @@
       "author": "Swasthi Shreekanth (Swasthi's Recipes)"
     }
   ],
-  "popularity": 0.75
+  "popularity": 0.75,
+  "photo": {
+    "file": "carrot-rava-idli.webp",
+    "author": "Upendra Kanda",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Rava_Idli_(6005561226).jpg"
+  }
 }

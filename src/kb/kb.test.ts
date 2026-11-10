@@ -1,3 +1,4 @@
+import { existsSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { loadKnowledgeBase } from ".";
 
@@ -11,6 +12,11 @@ describe("knowledge base", () => {
   it("has recipes for every meal", () => {
     for (const meal of ["breakfast", "lunch", "dinner", "snack"] as const)
       expect(recipes.filter((r) => r.meals.includes(meal)).length, meal).toBeGreaterThan(2);
+  });
+
+  it("every photo file exists in public/dishes", () => {
+    const missing = recipes.filter((r) => r.photo && !existsSync(`public/dishes/${r.photo.file}`)).map((r) => r.id);
+    expect(missing).toEqual([]);
   });
 
   it("rejects a step token that names no ingredient", () => {

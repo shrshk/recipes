@@ -123,5 +123,11 @@
       "author": "Yummy Toddler Food"
     }
   ],
-  "popularity": 0.8
+  "popularity": 0.8,
+  "photo": {
+    "file": "baked-french-toast-sticks.webp",
+    "author": "Ocdp",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:French_toast_001.jpg"
+  }
 }

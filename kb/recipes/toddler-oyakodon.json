@@ -158,5 +158,11 @@
       "author": "Namiko Hirasawa Chen (Just One Cookbook)"
     }
   ],
-  "popularity": 0.85
+  "popularity": 0.85,
+  "photo": {
+    "file": "toddler-oyakodon.webp",
+    "author": "Ocdp",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Oyakodon_003.jpg"
+  }
 }

@@ -133,5 +133,11 @@
       "author": "Nagi (RecipeTin Eats)"
     }
   ],
-  "popularity": 0.85
+  "popularity": 0.85,
+  "photo": {
+    "file": "coconut-chicken-satay-bites.webp",
+    "author": "Gunawan Kartapranata",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Sate_Udang.JPG"
+  }
 }

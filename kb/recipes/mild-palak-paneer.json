@@ -201,5 +201,11 @@
       "author": "Manali Singh (Cook with Manali)"
     }
   ],
-  "popularity": 0.7
+  "popularity": 0.7,
+  "photo": {
+    "file": "mild-palak-paneer.webp",
+    "author": "Lopanayak",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Palakpaneer_Rayagada_Odisha_0009.jpg"
+  }
 }

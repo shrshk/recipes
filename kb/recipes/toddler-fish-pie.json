@@ -182,5 +182,11 @@
       "title": "Family meals: Easy fish pie recipe (BBC Good Food)"
     }
   ],
-  "popularity": 0.8
+  "popularity": 0.8,
+  "photo": {
+    "file": "toddler-fish-pie.webp",
+    "author": "Atelier Joly",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Fish_Pie.jpg"
+  }
 }

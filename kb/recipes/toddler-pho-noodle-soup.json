@@ -93,5 +93,11 @@
       "author": "PBS KIDS for Parents"
     }
   ],
-  "popularity": 0.7
+  "popularity": 0.7,
+  "photo": {
+    "file": "toddler-pho-noodle-soup.webp",
+    "author": "SerraKnightz",
+    "license": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Bowl_of_Meatball_pho.jpg"
+  }
 }

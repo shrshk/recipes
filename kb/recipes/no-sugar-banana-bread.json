@@ -139,5 +139,11 @@
       "author": "Elizabeth Moye (Hello Spoonful)"
     }
   ],
-  "popularity": 0.6
+  "popularity": 0.6,
+  "photo": {
+    "file": "no-sugar-banana-bread.webp",
+    "author": "Shisma",
+    "license": "CC BY 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Banana_bread_slices.jpg"
+  }
 }

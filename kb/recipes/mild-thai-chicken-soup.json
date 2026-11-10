@@ -111,5 +111,11 @@
       "author": "Annabel Karmel"
     }
   ],
-  "popularity": 0.55
+  "popularity": 0.55,
+  "photo": {
+    "file": "mild-thai-chicken-soup.webp",
+    "author": "Evan Joshua Swigart (TheCulinaryGeek) from Chicago, Illinois",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Flickr_preppybyday_4711943668--Tom_kha_gai.jpg"
+  }
 }

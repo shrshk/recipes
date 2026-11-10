@@ -146,5 +146,11 @@
       "author": "Tasting Table"
     }
   ],
-  "popularity": 0.6
+  "popularity": 0.6,
+  "photo": {
+    "file": "mild-jollof-rice.webp",
+    "author": "Noahalorwu",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Jollof_Rice_with_Stew.jpg"
+  }
 }

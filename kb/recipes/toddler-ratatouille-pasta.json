@@ -125,5 +125,11 @@
       "author": "NHS Start for Life"
     }
   ],
-  "popularity": 0.6
+  "popularity": 0.6,
+  "photo": {
+    "file": "toddler-ratatouille-pasta.webp",
+    "author": "Jack145945",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Ratatouille_home_cooked.jpg"
+  }
 }

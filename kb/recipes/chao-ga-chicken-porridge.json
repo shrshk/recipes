@@ -81,5 +81,11 @@
       "author": "Uyen Luu"
     }
   ],
-  "popularity": 0.6
+  "popularity": 0.6,
+  "photo": {
+    "file": "chao-ga-chicken-porridge.webp",
+    "author": "Phương Huy",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Ch%C3%A1o_g%C3%A0_nh%C3%A0_l%C3%A0m,_th%C3%A1ng_5_n%C4%83m_2020_(3).jpg"
+  }
 }

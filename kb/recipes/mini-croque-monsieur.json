@@ -160,5 +160,11 @@
       "title": "Croque monsieur (BBC Good Food)"
     }
   ],
-  "popularity": 0.6
+  "popularity": 0.6,
+  "photo": {
+    "file": "mini-croque-monsieur.webp",
+    "author": "Michael Brewer",
+    "license": "CC BY-SA 2.5",
+    "url": "https://commons.wikimedia.org/wiki/File:Croque_monsieur.jpg"
+  }
 }

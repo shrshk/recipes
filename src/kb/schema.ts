@@ -61,6 +61,14 @@ export const SourceSchema = z.object({
   author: z.string().optional(),
 });
 
+/** An openly licensed photo of the dish, stored in public/dishes/. Credit is shown in the app. */
+export const PhotoSchema = z.object({
+  file: z.string().regex(/^[a-z0-9-]+\.(jpg|webp)$/),
+  author: z.string(),
+  license: z.string(),
+  url: z.string().url(),
+});
+
 export const RecipeSchema = z.object({
   id: kebab,
   title: z.string().min(1),
@@ -82,6 +90,7 @@ export const RecipeSchema = z.object({
   popularity: z.number().min(0).max(1).default(0.5),
   /** For custom recipes: the id of the recipe this one was made from. */
   basedOn: kebab.optional(),
+  photo: PhotoSchema.optional(),
 });
 
 export type Cuisine = (typeof CUISINES)[number];

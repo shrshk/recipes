@@ -119,5 +119,11 @@
       "author": "Yummy Toddler Food"
     }
   ],
-  "popularity": 0.55
+  "popularity": 0.55,
+  "photo": {
+    "file": "lentil-fritters.webp",
+    "author": "Kay 2015",
+    "license": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Bengali_Dal_Pakora_RedLentilFritter.JPG"
+  }
 }

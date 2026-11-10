@@ -64,3 +64,8 @@ pediatrician about allergies, and always supervise toddlers while they eat.
 ## License
 
 MIT. Recipe sources are credited in each file; the steps are our own wording.
+
+Dish photos in `public/dishes/` are not covered by the MIT license. Each comes from Wikimedia
+Commons under its own license (CC0, CC BY or CC BY-SA), named with its author and source page in
+the recipe's `photo` field and shown in the app under the photo. They show the classic dish, not
+the toddler version. Recipes without a suitable free photo show an emoji instead.

@@ -137,5 +137,11 @@
       "title": "Easy risotto with bacon & peas (BBC Good Food)"
     }
   ],
-  "popularity": 0.78
+  "popularity": 0.78,
+  "photo": {
+    "file": "pea-and-bacon-risotto.webp",
+    "author": "Luca Nebuloni from Milan, Italy",
+    "license": "CC BY 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Risotto_with_speck_and_goat_cheese_(6101067436).jpg"
+  }
 }

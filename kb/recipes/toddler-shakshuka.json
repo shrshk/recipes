@@ -101,5 +101,11 @@
     }
   ],
   "popularity": 0.5,
-  "yield": 3
+  "yield": 3,
+  "photo": {
+    "file": "toddler-shakshuka.webp",
+    "author": "Calliopejen1",
+    "license": "CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Shakshuka_by_Calliopejen1.jpg"
+  }
 }

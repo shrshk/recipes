@@ -115,5 +115,11 @@
       "author": "Yummy Toddler Food"
     }
   ],
-  "popularity": 0.65
+  "popularity": 0.65,
+  "photo": {
+    "file": "zucchini-fritter-muffins.webp",
+    "author": "Nicole Bratt from Seattle, WA, USA",
+    "license": "CC BY-SA 2.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Zucchini_%26_feta_fritters_(7804257920).jpg"
+  }
 }

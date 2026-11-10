@@ -85,5 +85,11 @@
       "author": "Grantourismo"
     }
   ],
-  "popularity": 0.5
+  "popularity": 0.5,
+  "photo": {
+    "file": "mild-kai-jeow.webp",
+    "author": "Renee Comet (photographer)",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:FoodOmelete.jpg"
+  }
 }
