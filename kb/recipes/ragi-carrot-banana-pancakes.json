@@ -1,0 +1,175 @@
+{
+  "id": "ragi-carrot-banana-pancakes",
+  "title": "Ragi Carrot & Banana Pancakes",
+  "summary": "Small soft pancakes of banana, grated carrot and ragi flour. No sugar, one bowl, 15 minutes.",
+  "cuisine": "global",
+  "meals": [
+    "breakfast",
+    "snack"
+  ],
+  "minAgeMonths": 9,
+  "prepMinutes": 5,
+  "cookMinutes": 10,
+  "yield": 3,
+  "difficulty": "easy",
+  "tags": [
+    "finger-food",
+    "hidden-veg",
+    "freezer-friendly",
+    "iron-rich",
+    "sweet",
+    "quick"
+  ],
+  "allergens": [
+    "egg"
+  ],
+  "ingredients": [
+    {
+      "id": "banana",
+      "name": "ripe banana",
+      "qty": 1,
+      "unit": "",
+      "note": "small, well spotted"
+    },
+    {
+      "id": "carrot",
+      "name": "carrot",
+      "qty": 1,
+      "unit": "",
+      "note": "small, peeled and grated"
+    },
+    {
+      "id": "flour",
+      "name": "ragi flour (finger millet)",
+      "qty": 40,
+      "unit": "g",
+      "substitutes": [
+        {
+          "name": "white spelt flour",
+          "note": "the original recipe; contains gluten"
+        },
+        {
+          "name": "half ragi, half wheat flour",
+          "note": "holds together better; contains gluten"
+        },
+        {
+          "name": "oat flour",
+          "note": "use certified gluten-free oats if needed"
+        }
+      ]
+    },
+    {
+      "id": "egg",
+      "name": "egg",
+      "qty": 1,
+      "unit": "",
+      "substitutes": [
+        {
+          "name": "flax egg",
+          "qty": 1,
+          "unit": "tbsp",
+          "note": "ground flaxseed mixed with 3 tbsp water, rested 5 minutes; egg-free"
+        }
+      ]
+    },
+    {
+      "id": "baking-powder",
+      "name": "baking powder",
+      "qty": 0.5,
+      "unit": "tsp",
+      "optional": true
+    },
+    {
+      "id": "spice",
+      "name": "ground cinnamon",
+      "qty": 1,
+      "unit": "pinch",
+      "optional": true,
+      "substitutes": [
+        {
+          "name": "ground cardamom"
+        }
+      ]
+    },
+    {
+      "id": "milk",
+      "name": "milk",
+      "qty": 1,
+      "unit": "tbsp",
+      "optional": true,
+      "note": "only if the batter is too stiff",
+      "substitutes": [
+        {
+          "name": "oat milk",
+          "note": "dairy-free"
+        }
+      ]
+    },
+    {
+      "id": "butter",
+      "name": "unsalted butter",
+      "qty": 1,
+      "unit": "tsp",
+      "note": "for the pan",
+      "substitutes": [
+        {
+          "name": "coconut oil",
+          "note": "dairy-free"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "Mash {banana} in a bowl with a fork until smooth.",
+      "action": "mash"
+    },
+    {
+      "text": "Add {carrot}, {flour}, {egg}, {baking-powder} and {spice}, and mix until no dry flour is left.",
+      "action": "mix",
+      "tip": "Scrape the dry flour off the sides of the bowl into the batter."
+    },
+    {
+      "text": "Check the batter: it should drop slowly from a spoon. If it is stiff, stir in {milk}.",
+      "action": "mix",
+      "requires": [
+        "milk"
+      ]
+    },
+    {
+      "text": "Heat a nonstick pan on medium-low heat and wipe it with {butter}.",
+      "action": "fry"
+    },
+    {
+      "text": "Drop 1 tablespoon of batter per pancake into the pan and press each one to about 1 cm thick.",
+      "action": "add",
+      "tip": "Thick batter does not spread on its own."
+    },
+    {
+      "text": "Cook until the edges look dry, then flip and cook the other side.",
+      "action": "fry",
+      "minutes": 4,
+      "tip": "Ragi batter is already dark, so judge by the edges, not the colour. Break the first one open to check the middle is cooked."
+    },
+    {
+      "text": "Cool a little, then serve whole or in strips.",
+      "action": "serve"
+    }
+  ],
+  "toddlerTips": [
+    "No sugar needed: the banana sweetens it. No honey under 12 months.",
+    "For 2-year-olds, grate the carrot on the medium side and serve with plain yogurt to dip and halved blueberries.",
+    "Toddlers can mash the banana and stir the batter. Keep them away from the pan.",
+    "Fridge up to 3 days. To freeze, lay them on a tray, then move to a bag. Reheat in a pan or microwave.",
+    "Tested at home with ragi flour in place of spelt: the banana, egg and carrot gave enough liquid, so no milk was needed."
+  ],
+  "sources": [
+    {
+      "platform": "youtube",
+      "url": "https://www.youtube.com/shorts/Wkm3k1IpkX8",
+      "title": "Carrot & Banana Pancakes",
+      "author": "Yummy Little Belly"
+    }
+  ],
+  "popularity": 0.9
+}
